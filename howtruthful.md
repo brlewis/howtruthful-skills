@@ -1,3 +1,0 @@
-- The sky is blue.
-  - +3 The sky looks blue.
-  - -3 The sky is gray because clouds make the sky look gray.

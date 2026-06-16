@@ -34,9 +34,16 @@ Output rules:
   would likely infer from the text. Anchor each implied claim in specific
   wording from the input, and do not add background facts or speculative claims.
 - Each list item should be self-contained and not rely on its parent for
-  context. For example, "People would drive slower" is not self-contained
-  evidence for "Lower speed limits would make us safer". A self-contained
-  wording would be "Lower speed limits lead to people driving slower."
+  context, conditions, timing, or causal setup. Do not write child evidence that
+  only makes sense if the reader mentally imports the parent claim. For example,
+  "People would drive slower" is not self-contained evidence for "Lower speed
+  limits would make us safer". A self-contained wording would be "Lower speed
+  limits lead to people driving slower." Likewise, "More people can more often
+  see through misinformation" is not self-contained evidence for "Upgrading
+  information scrutiny can be infectious", because it relies on the parent for
+  the condition that information scrutiny has been upgraded. A self-contained
+  wording would be "Upgrading information scrutiny can lead more people to see
+  through misinformation more often."
 - Each list item must be a complete standalone sentence. Avoid pronouns or
   references that depend on a parent item, such as "this", "that", "it", "they",
   "he", "she", or "the above".

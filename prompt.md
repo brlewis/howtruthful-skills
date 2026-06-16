@@ -19,6 +19,20 @@ Output rules:
   `-3`.
 - Evidence supporting or opposing an evidential statement may be nested under
   that evidential statement, also using `+3` or `-3`.
+- Each child item must directly argue for or against its immediate parent. It is
+  not enough for a child item to be related to the same topic, appear nearby in
+  the source text, share vocabulary with the parent, or support a sibling.
+  Before nesting an item, check whether a reasonable reader would see the child
+  as a reason to believe or disbelieve the exact parent sentence. Use this test
+  for supporting evidence: "Because [child], therefore [parent]." Use this test
+  for opposing evidence: "Because [child], therefore not [parent]." If the
+  relevant test is weak, confusing, or invalid, make the item a sibling, nest it
+  under a different claim, or promote it to a top-level claim.
+- Do not nest a statement under a parent when it supports or opposes a different
+  conclusion than the parent. For example, "People can only hope to win by
+  coincidence unless people use asymmetric weapons" does not support "Logical
+  debate is an asymmetric weapon." It supports a claim like "People should use
+  asymmetric weapons" or "Asymmetric weapons are valuable for truth-seeking."
 - Split causal statements into separate list items. For a statement of the form
   "X because Y", output "X" as the claim or evidence item, then nest "Y" under
   it as supporting evidence with `+3`. For example, "The sky is gray because it

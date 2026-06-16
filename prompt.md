@@ -9,7 +9,7 @@ Output rules:
 - Output only markdown. Do not add explanation, commentary, code fences, or a
   title.
 - Use a recursive unordered list.
-- Each top-level list item should be a debatable claim.
+- Each top-level list item should be a debatable claim, prefixed with `3`.
 - Prefer one top-level claim when the input is centered on one question or
   proposition. Use multiple top-level claims only when the input clearly
   contains separate debates.
@@ -33,9 +33,13 @@ Output rules:
   depends on the implication. Include only implications that a careful reader
   would likely infer from the text. Anchor each implied claim in specific
   wording from the input, and do not add background facts or speculative claims.
+- Each list item should be self-contained and not rely on its parent for
+  context. For example, "People would drive slower" is not self-contained
+  evidence for "Lower speed limits would make us safer". A self-contained
+  wording would be "Lower speed limits lead to people driving slower."
 - Each list item must be a complete standalone sentence. Avoid pronouns or
-  references that depend on a parent item, such as "this", "that", "it",
-  "they", "he", "she", or "the above".
+  references that depend on a parent item, such as "this", "that", "it", "they",
+  "he", "she", or "the above".
 - Preserve the meaning of the input, but rewrite claims and evidence for
   clarity, brevity, and standalone readability.
 - Do not invent evidence or claims that are not present in or strongly implied

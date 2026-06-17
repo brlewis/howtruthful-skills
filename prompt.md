@@ -22,17 +22,27 @@ Output rules:
 - Each child item must directly argue for or against its immediate parent. It is
   not enough for a child item to be related to the same topic, appear nearby in
   the source text, share vocabulary with the parent, or support a sibling.
-  Before nesting an item, check whether a reasonable reader would see the child
-  as a reason to believe or disbelieve the exact parent sentence. Use this test
-  for supporting evidence: "Because [child], therefore [parent]." Use this test
-  for opposing evidence: "Because [child], therefore not [parent]." If the
-  relevant test is weak, confusing, or invalid, make the item a sibling, nest it
-  under a different claim, or promote it to a top-level claim.
-- Do not nest a statement under a parent when it supports or opposes a different
-  conclusion than the parent. For example, "People can only hope to win by
-  coincidence unless people use asymmetric weapons" does not support "Logical
-  debate is an asymmetric weapon." It supports a claim like "People should use
-  asymmetric weapons" or "Asymmetric weapons are valuable for truth-seeking."
+  Judge nesting by argumentative relevance, not by whether the child is true,
+  decisive, or strong evidence. Include weak, uncertain, dubious, or false
+  claims when they are presented or implied by the input as arguments for or
+  against the parent. A child may be a bad argument, but it still belongs under
+  the parent if, assuming the child were true, it would count for or against the
+  parent.
+- Use these relevance tests before nesting a child item: for `+3`, ask "If
+  [child] were true, would it be a reason to believe [parent]?" For `-3`, ask
+  "If [child] were true, would it be a reason to disbelieve [parent]?" If the
+  relevant test does not make sense as an argument about the parent, make the
+  item a sibling, nest it under a different claim, or promote it to a top-level
+  claim.
+- Do not nest a statement under a parent when, even if true, it argues mainly
+  for or against a different conclusion than the parent. For example, "People
+  can only hope to win by coincidence unless people use asymmetric weapons" does
+  not support "Logical debate is an asymmetric weapon." It supports a claim like
+  "People should use asymmetric weapons" or "Asymmetric weapons are valuable for
+  truth-seeking." By contrast, "The witness has lied before" may be weak or
+  unfair evidence against "The witness is telling the truth now", but it is
+  still relevant `-3` evidence because, if true, it counts against the parent's
+  credibility claim.
 - Split causal statements into separate list items. For a statement of the form
   "X because Y", output "X" as the claim or evidence item, then nest "Y" under
   it as supporting evidence with `+3`. For example, "The sky is gray because it

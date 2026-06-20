@@ -47,5 +47,20 @@ claude -p "$(cat prompt.md)" < whatever.md > howtruthful.md
 codex exec "$(cat prompt.md)" < whatever.md -o howtruthful.md
 ```
 
+### Using the agent skill
+
+This repository also includes an agent skill at
+`.agents/skills/howtruthful-ingestion/SKILL.md`. If your agent supports local
+skills, make that skill available to the agent and ask it to convert a source
+file into HowTruthful markdown. For example:
+
+```
+Use the howtruthful-ingestion skill to convert whatever.md into howtruthful.md.
+```
+
+The skill is intended to use the repository context in `AGENTS.md`, including
+the meaning of context-independent statements, the initial truthfulness rating
+of `3`, and the HowTruthful import format.
+
 Then [import](https://www.howtruthful.com/private/import) the howtruthful
 markdown.

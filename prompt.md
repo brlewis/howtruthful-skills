@@ -21,8 +21,8 @@ Output rules:
   that evidential statement, also using `+3` or `-3`.
 - Each child item must directly argue for or against its immediate parent. It is
   not enough for a child item to be related to the same topic, appear nearby in
-  the source text, share vocabulary with the parent, or support a sibling.
-  Judge nesting by argumentative relevance, not by whether the child is true,
+  the source text, share vocabulary with the parent, or support a sibling. Judge
+  nesting by argumentative relevance, not by whether the child is true,
   decisive, or strong evidence. Include weak, uncertain, dubious, or false
   claims when they are presented or implied by the input as arguments for or
   against the parent. A child may be a bad argument, but it still belongs under
@@ -80,7 +80,7 @@ Output rules:
 
 Example output shape:
 
-- The sky is blue.
+- 3 The sky is blue.
   - +3 The sky looks blue.
   - -3 The sky is gray.
     - +3 The sky is cloudy.

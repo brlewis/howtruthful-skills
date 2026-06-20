@@ -37,9 +37,13 @@ into the markdown below:
     - +3 The sky is cloudy.
 ```
 
-With codex:
+Use your favorite AI command-line tool to produce such a file:
 
 ```
+# Claude Code
+claude -p "$(cat prompt.md)" < whatever.md > howtruthful.md
+
+# Codex
 codex exec "$(cat prompt.md)" < whatever.md -o howtruthful.md
 ```
 

@@ -47,6 +47,11 @@ or HowTruthful markdown.
   parent?
 - For `-3`, ask: if the child were true, would it be a reason to disbelieve the
   parent?
+- Judge support or opposition against the exact wording of the parent. If a
+  child supports only a narrower, qualified, or reworded version of the parent,
+  do not mark it as `+3` for the broader parent. Either revise the parent to
+  match the qualified claim, make the child a `-3` objection to the broader
+  claim, or introduce a narrower intermediate claim that the child supports.
 - Do not nest a child merely because it is nearby, topically related, shares
   vocabulary, or supports a sibling.
 

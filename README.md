@@ -7,7 +7,9 @@ This is a repository of tooling and techniques to help people navigate complex
 debatable statements. External to this repository,
 [HowTruthful](https://www.howtruthful.com/) lets one navigate through an
 argument map via hypertext, in a simpler and more information-dense format than
-the usual lines and circles.
+the usual lines and circles. You may want to go there and construct arguments
+manually before using this repo so that later you know how to quickly and easily
+edit AI-generated arguments.
 
 Within this repository, tooling supports the techniques below.
 
@@ -21,46 +23,21 @@ Joe: The sky is blue because it looks blue.
 Carl: The sky is gray because it's cloudy.
 ```
 
-You will use your favorite AI agent to transform this free-form text into a
-structured markdown recursive list. The top level of the list will contain
-ideally one (sometimes necessarily more than one) top-level idea that's being
-debated. Evidence for a statement is nested underneath, prepended with `+3`, and
-evidence against is nested underneath, prepended with `-3`. Each evidential
-statement should be worded in a way that stands on its own, not with pronouns
-that refer to the statement above it. The above example might be transformed
-into the markdown below:
-
-```
-- The sky is blue.
-  - +3 The sky looks blue.
-  - -3 The sky is gray.
-    - +3 The sky is cloudy.
-```
-
-Use your favorite AI command-line tool to produce such a file:
-
-```
-# Claude Code
-claude -p "$(cat prompt.md)" < whatever.md > howtruthful.md
-
-# Codex
-codex exec "$(cat prompt.md)" < whatever.md -o howtruthful.md
-```
-
-### Using the agent skill
-
-This repository also includes an agent skill at
-`.agents/skills/howtruthful-ingestion/SKILL.md`. If your agent supports local
-skills, make that skill available to the agent and ask it to convert a source
-file into HowTruthful markdown. For example:
+This repository includes an agent skill at
+`.agents/skills/howtruthful-ingestion/SKILL.md`. With most command-line AI
+agents, you should be able to do something like this:
 
 ```
 Use the howtruthful-ingestion skill to convert whatever.md into howtruthful.md.
 ```
 
-The skill is intended to use the repository context in `AGENTS.md`, including
-the meaning of context-independent statements, the initial truthfulness rating
-of `3`, and the HowTruthful import format.
+You can also ask the agent to create a new debate from a short topic description
+and write it directly to a markdown file:
+
+```
+Use the howtruthful-ingestion skill to discuss why AI should and shouldn't be
+used to assess what's true, then put the result into ht4-test.md.
+```
 
 Then [import](https://www.howtruthful.com/private/import) the howtruthful
-markdown.
+markdown. Reword, rearrange, and rate the statements as you see fit.

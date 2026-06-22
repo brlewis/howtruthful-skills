@@ -23,9 +23,12 @@ or HowTruthful markdown.
    if one is true then the other must be false, and vice versa, and an argument
    for one is an argument against the other. Keep the most clearly worded or
    shorter one.
-1. Split causal statements such as `X because Y` into `X` and `Y`. Remember
-   later to use Y as a pro argument for X, or as a con argument against the
-   opposite of X.
+1. Split causal, consequential, and logic-derived statements (e.g. containing
+   'because', 'so', 'therefore', 'since', 'implying', 'meaning that', 'which
+   leads to') into a conclusion/claim (parent) and a premise/evidence (child),
+   regardless of their order of appearance in the sentence. For example:
+   - For "X because Y": X is the parent, Y is the child.
+   - For "Y, so X" or "Since Y, X": X is the parent, Y is the child.
 1. Identify the statements that are top-level, i.e. they aren't being used to
    argue for or against other statements in the debate. In the case of circular
    reasoning, choose a statement that makes sense as a debate title or entry
@@ -65,6 +68,7 @@ Before returning final output, silently check each child item:
 - Does it argue for or against the immediate parent, rather than a sibling or a
   different conclusion?
 - Does the prefix match the direction of support or opposition?
+- Are there any unsplit causal, consequential, or reasoning clauses (e.g. phrases containing 'because', 'so', 'therefore', 'since', 'implying', 'meaning that')?
 - Has any meaningful causal phrase, metaphor, or implied intermediate claim been
   flattened away?
 - Has anything been invented beyond what is present in or strongly implied by

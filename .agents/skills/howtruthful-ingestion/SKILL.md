@@ -12,7 +12,9 @@ or HowTruthful markdown.
 ## Conversion Workflow
 
 1. Convert the freeform text into a collection of context-independent
-   statements.
+   statements. Statements must stand alone logically and syntactically. Do not
+   use concessive or conditional clauses that reference the parent's context
+   (e.g., 'Even if X', 'Although Y', 'Because of this').
 1. Preserve meaningful metaphors, quoted phrases, and terms of art when they
    carry argumentative meaning.
 1. If any of these statements have identical meaning, keep the most clearly
@@ -59,7 +61,7 @@ or HowTruthful markdown.
 
 Before returning final output, silently check each child item:
 
-- Is the item context-independent?
+- Is the item context-independent? (Can it be read and understood in isolation without any reference to its parent or siblings? Does it avoid pronouns or logical connectives like 'Even if', 'Although', or 'Therefore' that link it to parent statements?)
 - Does it argue for or against the immediate parent, rather than a sibling or a
   different conclusion?
 - Does the prefix match the direction of support or opposition?

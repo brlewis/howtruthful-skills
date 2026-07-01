@@ -94,8 +94,8 @@ If you've made it this far, you're good at reading instructions. You probably
 absorbed the directions about scrutinizing each statement in isolation, not in
 the context of whatever it's arguing for or against. This is to combat a human
 tendency called "motivated reasoning." This is important, and HowTruthful is
-intended to be used primarily this way. You don't usually look at arguments in
-outline form.
+intended to be used primarily this way. HowTruthful doesn't usually show you
+arguments in outline form.
 
 However, when you're editing the argument map, sometimes an argument might be on
 the wrong level, and you want to drag it to a different level. This can only be
@@ -104,3 +104,9 @@ a statement, e.g. (6+, 3-) is clickable. It expands the pros and cons for that
 statement inline, and you can then drag statements in or out. Drag to a specific
 place to move them. Drag to the "Pro" or "Con" header to "copy" them. "Copy" is
 in scare quotes because it's actually a link to the same statement, not a copy.
+
+Whenever statements are identical (word for word, letter for letter, punctuation
+mark for punctuation mark), they lead to the same page, with the same
+truthfulness rating, and the same pro and con arguments. This encourages
+consistency of thought, and also lets you build up your own encyclopedia of
+thoughts. Enjoy!

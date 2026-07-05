@@ -64,17 +64,37 @@ or HowTruthful markdown.
 
 Before returning final output, silently check each child item:
 
-- Is the item context-independent? (Can it be read and understood in isolation without any reference to its parent or siblings? Does it avoid pronouns or logical connectives like 'Even if', 'Although', or 'Therefore' that link it to parent statements?)
+- Is the item context-independent? (Can it be read and understood in isolation
+  without any reference to its parent or siblings? Does it avoid pronouns or
+  logical connectives like 'Even if', 'Although', or 'Therefore' that link it to
+  parent statements?)
 - Does it argue for or against the immediate parent, rather than a sibling or a
   different conclusion?
 - Does the prefix match the direction of support or opposition?
-- Are there any unsplit causal, consequential, or reasoning clauses (e.g. phrases containing 'because', 'so', 'therefore', 'since', 'implying', 'meaning that')?
+- Are there any unsplit causal, consequential, or reasoning clauses (e.g.
+  phrases containing 'because', 'so', 'therefore', 'since', 'implying', 'meaning
+  that')?
 - Has any meaningful causal phrase, metaphor, or implied intermediate claim been
   flattened away?
 - Has anything been invented beyond what is present in or strongly implied by
   the input?
 
 Revise the markdown until these checks pass.
+
+## Import if asked
+
+Once the markdown has been written, only if the user also asked it to be
+imported, use the following command, substituting the markdown file written for
+`file.md`.
+
+```bash
+.agents/skills/howtruthful-ingestion/scripts/howtruthful_import.ts < file.md
+```
+
+The script outputs the import URL to stdout. The agent must then open this URL
+in the user's browser by running `python3 -m webbrowser URL`. If browser
+launching fails, the agent must print the URL to the user in a non-wrapped code
+block.
 
 ## Example
 

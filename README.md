@@ -15,6 +15,22 @@ Within this repository, tooling supports the techniques below.
 
 ## Ingestion
 
+### Prerequisite
+
+If you don't
+[install deno](https://docs.deno.com/runtime/getting_started/installation/),
+then for the examples below, you will need to select all the markdown in the
+generated file, visit the import page linked below the examples, paste the
+markdown in, then scroll down and click the "Import" button.
+
+But if you _do_
+[install deno](https://docs.deno.com/runtime/getting_started/installation/) and
+python3, you can append "Then import" to the examples below, and your agent will
+open the import page for you, prefilled. You only need to scroll down and click
+Import.
+
+### Examples
+
 Suppose you have a `whatever.md` file that's any freeform text. For example:
 
 ```

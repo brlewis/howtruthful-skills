@@ -48,3 +48,8 @@ prepended with a minus sign and their truthfulness rating. Here's an example:
   - -3 The sky is gray.
     - +3 The sky is cloudy.
 ```
+
+## Sandboxed environments
+
+Some agent workflows (e.g., importing into HowTruthful) require opening a browser window on the host machine. In environments running with terminal sandboxing (such as Antigravity), the browser-open command (e.g. `python3 -m webbrowser URL`) must be run outside the terminal sandbox (using "unsandboxed" execution privileges). Note: `xdg-open` and bare `firefox URL` silently fail when Firefox is already running on Linux; `python3 -m webbrowser` works reliably across platforms and browsers. If browser launching fails, the agent must print the URL to the user in a non-wrapped code block.
+

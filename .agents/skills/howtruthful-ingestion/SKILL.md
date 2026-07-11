@@ -15,6 +15,11 @@ or HowTruthful markdown.
    statements. Statements must stand alone logically and syntactically. Do not
    use concessive or conditional clauses that reference the parent's context
    (e.g., 'Even if X', 'Although Y', 'Because of this').
+1. Discard speaker/source attribution (e.g., 'Joe:', 'Carl:') by default, in
+   order to reduce politicized, personal, or motivated reasoning. Only add
+   attribution back in, as a child leaf of the statement it attaches to, if the
+   user specifically asks for it: 'with attribution' in the initial request, or
+   'add attribution' in a subsequent request. See Example below.
 1. Preserve meaningful metaphors, quoted phrases, and terms of art when they
    carry argumentative meaning.
 1. If any of these statements have identical meaning, keep the most clearly
@@ -59,6 +64,12 @@ or HowTruthful markdown.
   claim, or introduce a narrower intermediate claim that the child supports.
 - Do not nest a child merely because it is nearby, topically related, shares
   vocabulary, or supports a sibling.
+- A child's content is normally a context-independent statement. The one
+  exception is a source-citation child (see attribution in Conversion
+  Workflow above): its entire content may instead be a bare URL, e.g.
+  `https://example.com/post/123`, with no surrounding prose. HowTruthful
+  renders a child that starts with `http` or `https` as a clickable link, so
+  do not wrap it in a sentence like "According to https://...".
 
 ## Review Pass
 
@@ -67,7 +78,7 @@ Before returning final output, silently check each child item:
 - Is the item context-independent? (Can it be read and understood in isolation
   without any reference to its parent or siblings? Does it avoid pronouns or
   logical connectives like 'Even if', 'Although', or 'Therefore' that link it to
-  parent statements?)
+  parent statements?) Skip this check for a bare-URL source-citation child.
 - Does it argue for or against the immediate parent, rather than a sibling or a
   different conclusion?
 - Does the prefix match the direction of support or opposition?
@@ -113,4 +124,23 @@ Output:
   - +3 The sky looks blue.
   - -3 The sky is gray.
     - +3 The sky is cloudy.
+```
+
+When attribution is requested (see Conversion Workflow above), the output would be as follows:
+
+```markdown
+- 3 The sky is blue.
+  - +3 The sky looks blue.
+    - +3 Joe said the sky looks blue.
+  - -3 The sky is gray.
+    - +3 The sky is cloudy.
+      - +3 Carl said the sky is cloudy.
+```
+
+Added attribution could also be raw URLs.
+
+```markdown
+- 3 HowTruthful is a tool for exploring arguments and reasoning.
+  - +3 Bruce Lewis said HowTruthful is a tool for exploring arguments and reasoning.
+    - +3 https://mastodon.social/@brlewis/115293039892074161
 ```

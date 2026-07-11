@@ -76,6 +76,28 @@ You should explore and refine this map.
   order to achieve a clean, modern look, HowTruthful subtly hides a lot of its
   features. You might not discover them without reading these tips.
 
+### Attribution
+
+Notice that the example above drops "Joe" and "Carl" entirely: the generated
+statements are unattributed. This is deliberate. FLF's own call for
+submissions asks tools to capture "who said what, when, in what context," but
+we've chosen to default to the opposite, for the same reason HowTruthful asks
+you to scrutinize each statement in isolation (see "More argument map
+refinement" below): once a reader knows *who* said something, they tend to
+judge the claim by the speaker's politics, personality, or track record
+instead of on its own merits. Stripping attribution by default is that same
+anti-motivated-reasoning principle applied to statements before they even
+reach the map.
+
+Attribution isn't discarded from the tool, only from the default. Ask for it
+("with attribution" in the initial request, or "add attribution" later) and
+the skill adds it back as its own child statement, e.g. "Joe said the sky
+looks blue," underneath the claim it supports. Framed this way, attribution
+becomes an ordinary, independently-assessable argument (a citation or an
+appeal to authority) that a reader can weigh, downgrade, or ignore, rather
+than context that silently colors the parent statement for every reader who
+sees it.
+
 ## Assessment
 
 You may have noticed when following the above steps that every statement has a

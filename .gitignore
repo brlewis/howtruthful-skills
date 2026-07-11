@@ -8,3 +8,6 @@
 # Output files
 howtruthful*.md
 ht*.md
+
+# Personal Claude Code settings
+.claude/settings.local.json

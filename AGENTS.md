@@ -27,6 +27,18 @@ second statement needs to be reworded in a context-independent way: "John Doe
 didn't arrive at the Smith Museum until 2pm on June 18, 2005". Thus the second
 statement can have its own web page where it can be scrutinized in isolation.
 
+### Statements one might make when arguing
+
+Evidence and counterevidence are the most obvious types of statement one might make when arguing. They affect the truthfulness of the main statement according to how true they are.
+
+The Con section contains only counterevidence statements. The Pro section may contain evidence, disambiguation, examples, or citations.
+
+Disambiguation is when someone argues for an ambiguous statement by stating a possible meaning. For example, "A COVID lockdown would be a bad idea" might have a Pro statement of "A COVID lockdown's likely costs would outweigh its likely benefits." The ambiguous statement keeps its "3 - debatable" assessment regardless of the truthfulness of the disambiguation.
+
+Examples are when statements themselves are examples of the main statement. "There are differing opinions about the color of the sky" might have as a Pro statement "The sky is green." Such statements lend truth to the main statement by their existence, regardless of how truthful they are.
+
+Citations lend truth to the main statement only in combination with statements about the reliability of the source.
+
 ## Graph statements first, assess truthfulness later.
 
 HowTruthful lets humans rate statements' truthfulness on a simple 5-point scale,
@@ -48,6 +60,11 @@ prepended with a minus sign and their truthfulness rating. Here's an example:
   - -3 The sky is gray.
     - +3 The sky is cloudy.
 ```
+
+Children of a node of the graph are only included the first time that
+node appears in markdown. Distinct nodes never have the exact same
+statement. This allows cycles in the graph without requiring cycles in
+the markdown.
 
 ## Citing a source with a bare URL
 

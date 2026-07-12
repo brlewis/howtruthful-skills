@@ -62,6 +62,13 @@ or HowTruthful markdown.
   do not mark it as `+3` for the broader parent. Either revise the parent to
   match the qualified claim, make the child a `-3` objection to the broader
   claim, or introduce a narrower intermediate claim that the child supports.
+  - Disambiguation: if the parent is genuinely ambiguous (has more than one
+    plausible meaning) and the child is stating one specific meaning, always
+    use the intermediate-claim option, not the other two. Revising the parent
+    would silently discard its other readings; marking the child `-3` makes no
+    sense when it isn't opposing anything. The child's own wording, unchanged,
+    becomes the intermediate claim itself (no separate node needed above it),
+    nested directly under the ambiguous parent.
 - Do not nest a child merely because it is nearby, topically related, shares
   vocabulary, or supports a sibling.
 - A child's content is normally a context-independent statement. The one

@@ -1,0 +1,22 @@
+- 3 The Large Hadron Collider will not create a black hole that destroys the Earth.
+  - +3 Cosmic rays with energies far exceeding the LHC's collision energy have struck Earth, the Moon, and other astronomical bodies for billions of years without producing any observed catastrophe.
+    - +3 https://arxiv.org/abs/0806.3381
+    - -3 A black hole produced by a fast-moving cosmic ray could pass through Earth and escape before absorbing much matter, while one produced by the LHC could be captured and remain nearby, slowly gaining mass, so cosmic ray collisions do not fully rule out danger from LHC collisions.
+      - +3 https://arxiv.org/abs/0806.3381
+      - +3 Some white dwarf stars are dense enough that a stable black hole produced by a cosmic ray collision inside them would be captured rather than escape, and the continued existence of these white dwarfs after billions of years of cosmic ray bombardment shows such captured black holes either do not form or do not cause damage.
+        - +3 https://arxiv.org/abs/0806.3381
+  - +3 Any microscopic black hole produced at the LHC would evaporate via Hawking radiation far faster than it could grow by absorbing surrounding matter.
+    - +3 https://en.wikipedia.org/wiki/Hawking_radiation
+    - -3 Hawking radiation has never been directly observed in an astrophysical black hole; its existence rests on theoretical calculations combining general relativity and quantum field theory, not direct experimental confirmation.
+      - +3 https://www.syfy.com/syfy-wire/has-hawking-radiation-ever-been-observed
+  - +3 The LHC's collision energies are many orders of magnitude below the Planck scale, the energy scale at which quantum gravitational effects strong enough to produce a black hole are expected under standard four-dimensional general relativity.
+    - +3 https://en.wikipedia.org/wiki/Safety_of_high-energy_particle_collision_experiments
+    - -3 Some theoretical models with large extra spatial dimensions predict the effective Planck scale could be as low as a few TeV, potentially within reach of LHC collision energies.
+      - +3 https://en.wikipedia.org/wiki/Large_extra_dimensions
+      - -3 Searches by the ATLAS and CMS experiments at the LHC have found no evidence of large extra dimensions, excluding the relevant Planck-scale range up to several TeV.
+        - +3 https://www.sciencedirect.com/science/article/pii/S2405601415005696
+  - +3 A dedicated safety review by CERN's LHC Safety Assessment Group, made up of physicists not involved in the LHC experiments and endorsed by CERN's Scientific Policy Committee and three professional physics societies, concluded the LHC poses no danger.
+    - +3 https://arxiv.org/abs/0806.3414
+  - +3 Lawsuits attempting to halt LHC operations on black-hole safety grounds were filed in United States and European courts and were dismissed.
+    - +3 https://arxiv.org/abs/0912.5480
+    - -3 A court dismissing a safety lawsuit reflects a legal judgment about jurisdiction and evidentiary standards, not an independent scientific re-assessment of the underlying physics risk.

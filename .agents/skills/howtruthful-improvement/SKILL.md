@@ -33,8 +33,18 @@ outside the source. Every statement it adds must be backed by a citation.
      lacks the standard methodological objection for that type.
    - A predictor of variation the debate implies but doesn't state (e.g.
      "what predicts whether this differs by person?").
+   - A popular, notable, or historically significant claim related to the
+     debate that isn't captured yet — including one you know or suspect is
+     false. HowTruthful lays out what people are actually saying before
+     assessing truth, so a well-known false claim is a gap just as much as a
+     missing true one.
 2. Research each gap and write one context-independent, unambiguous
-   statement per gap. Never add a hedge or a vague qualifier.
+   statement per gap, worded per the claim-wording rule in the
+   howtruthful-ingestion skill's SKILL.md: state the claim directly, as
+   someone asserting it would, even when it's false — never wrap it in a
+   reporting frame like "X argues that" or "a popular belief holds that."
+   The `+3`/`-3` sign already marks it as contested; put attribution, if it
+   matters, in its own child instead. Never add a hedge or a vague qualifier.
 3. Nest each new statement as a `+3` or `-3` child of the specific existing
    node it actually supports or objects to — not at the root, and not on a
    node it doesn't bear on.

@@ -3,7 +3,7 @@
     - +3 https://arxiv.org/abs/0806.3381
     - -3 A black hole produced by a fast-moving cosmic ray could pass through Earth and escape before absorbing much matter, while one produced by the LHC could be captured and remain nearby, slowly gaining mass, so cosmic ray collisions do not fully rule out danger from LHC collisions.
       - +3 https://arxiv.org/abs/0806.3381
-      - +3 Some white dwarf stars are dense enough that a stable black hole produced by a cosmic ray collision inside them would be captured rather than escape, and the continued existence of these white dwarfs after billions of years of cosmic ray bombardment shows such captured black holes either do not form or do not cause damage.
+      - -3 Some white dwarf stars are dense enough that a stable black hole produced by a cosmic ray collision inside them would be captured rather than escape, and the continued existence of these white dwarfs after billions of years of cosmic ray bombardment shows such captured black holes either do not form or do not cause damage.
         - +3 https://arxiv.org/abs/0806.3381
   - +3 Any microscopic black hole produced at the LHC would evaporate via Hawking radiation far faster than it could grow by absorbing surrounding matter.
     - +3 https://en.wikipedia.org/wiki/Hawking_radiation
@@ -20,21 +20,25 @@
   - +3 Lawsuits attempting to halt LHC operations on black-hole safety grounds were filed in United States and European courts and were dismissed.
     - +3 https://arxiv.org/abs/0912.5480
     - -3 A court dismissing a safety lawsuit reflects a legal judgment about jurisdiction and evidentiary standards, not an independent scientific re-assessment of the underlying physics risk.
-  - -3 Otto Rössler argued that a micro black hole produced by the LHC would not evaporate via Hawking radiation and would instead grow by accreting surrounding matter until it consumed the Earth.
-    - +3 https://en.wikipedia.org/wiki/Safety_of_high-energy_particle_collision_experiments
-    - +3 Physicists Hermann Nicolai and Domenico Giulini found that Rössler's argument relies on general relativity concepts applied inconsistently and has no valid logical connection to the actual physics of LHC collisions.
+  - -3 A micro black hole produced by the LHC would not evaporate via Hawking radiation and would instead grow by accreting surrounding matter until it consumed the Earth.
+    - +3 Otto Rössler argued that a micro black hole produced by the LHC would grow by accreting matter and eventually consume the Earth.
       - +3 https://en.wikipedia.org/wiki/Safety_of_high-energy_particle_collision_experiments
-    - +3 The LHC began operating in 2009, and searches of its collision data have found no evidence of microscopic black hole production.
+    - -3 Physicists Hermann Nicolai and Domenico Giulini found that the argument that a micro black hole would grow and consume the Earth relies on general relativity concepts applied inconsistently and has no valid logical connection to the actual physics of LHC collisions.
+      - +3 https://en.wikipedia.org/wiki/Safety_of_high-energy_particle_collision_experiments
+    - -3 The LHC began operating in 2009, and searches of its collision data have found no evidence of microscopic black hole production.
       - +3 https://www.sciencedirect.com/science/article/pii/S0370269311001778
-  - -3 A popular belief holds that black holes exert unlimited or ever-growing gravitational pull that inevitably sucks in and consumes nearby matter, including anything created near a microscopic black hole at the LHC.
-    - +3 https://bigthink.com/starts-with-a-bang/black-hole-myth-suck/
-    - +3 A black hole's gravitational pull depends on its mass just like any other object; a microscopic black hole would have a correspondingly microscopic and extremely short-ranged gravitational influence, not an unlimited one.
+  - -3 Black holes exert unlimited or ever-growing gravitational pull that inevitably sucks in and consumes nearby matter, including anything created near a microscopic black hole at the LHC.
+    - +3 The belief that black holes exert unlimited gravitational pull that inevitably consumes nearby matter is a commonly held misconception.
       - +3 https://bigthink.com/starts-with-a-bang/black-hole-myth-suck/
-  - -3 Walter Wagner, a high-school physics teacher who sued in US federal court to halt LHC operations, publicly estimated the odds of the LHC destroying Earth at 50/50, reasoning that an event either happens or it doesn't.
-    - +3 https://astroengine.com/2009/05/03/chances-of-the-world-being-destroyed-by-the-lhc-is-5050-yes-walter-wagner-is-back/
-    - +3 Treating two possible outcomes as equally likely ignores the physical evidence and theory available to inform that estimate, rather than using 50/50 only as an uninformed starting point before considering such evidence.
+    - -3 A black hole's gravitational pull depends on its mass just like any other object; a microscopic black hole would have a correspondingly microscopic and extremely short-ranged gravitational influence, not an unlimited one.
+      - +3 https://bigthink.com/starts-with-a-bang/black-hole-myth-suck/
+  - -3 The odds of the LHC destroying Earth are 50/50.
+    - +3 Walter Wagner, a high-school physics teacher who sued in US federal court to halt LHC operations, publicly estimated the odds of the LHC destroying Earth at 50/50, reasoning that an event either happens or it doesn't.
+      - +3 https://astroengine.com/2009/05/03/chances-of-the-world-being-destroyed-by-the-lhc-is-5050-yes-walter-wagner-is-back/
+    - -3 Treating two possible outcomes as equally likely ignores the physical evidence and theory available to inform an estimate of the odds of the LHC destroying Earth, rather than using 50/50 only as an uninformed starting point before considering such evidence.
       - +3 https://scienceblogs.com/goodmath/2009/05/03/moronic-probability-and-stupid
-  - -3 Widely circulated 2008 news coverage, including headlines in major newspapers and a political party's public protest in Romania, asserted or implied that the LHC could end the world.
-    - +3 https://en.wikipedia.org/wiki/Safety_of_high-energy_particle_collision_experiments
-    - +3 Prominent physicists publicly dismissed these fears; Harvard physicist John Huth called them "baloney."
+  - -3 The LHC will end the world.
+    - +3 Widely circulated 2008 news coverage, including headlines in major newspapers, and a political party's public protest in Romania, asserted or implied that the LHC would end the world.
+      - +3 https://en.wikipedia.org/wiki/Safety_of_high-energy_particle_collision_experiments
+    - -3 Prominent physicists publicly dismissed fears that the LHC would end the world; Harvard physicist John Huth called them "baloney."
       - +3 https://en.wikipedia.org/wiki/Safety_of_high-energy_particle_collision_experiments

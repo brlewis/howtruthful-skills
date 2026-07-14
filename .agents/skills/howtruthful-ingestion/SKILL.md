@@ -57,6 +57,11 @@ or HowTruthful markdown.
   parent?
 - For `-3`, ask: if the child were true, would it be a reason to disbelieve the
   parent?
+- When nesting a child under a `-3` parent, re-apply this test strictly
+  against that parent's own wording, not against your overall stance on the
+  top-level claim. A rebuttal that restores confidence in the top-level claim
+  is still `-3` relative to the `-3` concern it rebuts — sign is always
+  relative to the immediate parent, never to the debate as a whole.
 - Judge support or opposition against the exact wording of the parent. If a
   child supports only a narrower, qualified, or reworded version of the parent,
   do not mark it as `+3` for the broader parent. Either revise the parent to
@@ -82,6 +87,20 @@ or HowTruthful markdown.
   `https://example.com/post/123`, with no surrounding prose. HowTruthful
   renders a child that starts with `http` or `https` as a clickable link, so
   do not wrap it in a sentence like "According to https://...".
+- State each claim directly, in the wording someone asserting it would use —
+  even when it is false or contested. Do not wrap it in a reporting frame
+  like "X argues that," "a popular belief holds that," or "critics claim
+  that." The `+3`/`-3` sign and the claim's position in the tree already mark
+  it as contested; a reporting frame turns the claim into a different, often
+  trivially true, statement about the belief's existence rather than the
+  belief itself. If who holds the claim matters, add it as a separate
+  attribution child (see attribution in Conversion Workflow above) instead of
+  folding it into the claim's own wording.
+  - An attribution child is still a statement and must independently pass
+    the context-independence check below — restate the claim (e.g., "Otto
+    Rössler argued that a micro black hole produced by the LHC would grow
+    and consume the Earth"), don't refer back to it as "this claim" or "this
+    argument."
 
 ## Review Pass
 

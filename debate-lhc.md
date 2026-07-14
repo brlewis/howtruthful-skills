@@ -7,8 +7,16 @@
         - +3 https://arxiv.org/abs/0806.3381
   - +3 Any microscopic black hole produced at the LHC would evaporate via Hawking radiation far faster than it could grow by absorbing surrounding matter.
     - +3 https://en.wikipedia.org/wiki/Hawking_radiation
+    - +3 A black hole's event horizon radius is given by the Schwarzschild radius, r = 2GM/c², so a black hole's size is directly proportional to its mass.
+      - +3 https://en.wikipedia.org/wiki/Schwarzschild_radius
     - +3 A black hole's Hawking radiation temperature is inversely proportional to its mass, so a microscopic black hole would be far hotter, and would evaporate far faster, than an astrophysical black hole.
       - +3 https://en.wikipedia.org/wiki/Hawking_radiation
+      - +3 A black hole's surface gravity and event horizon area are formally analogous to temperature and entropy in the laws of thermodynamics, a correspondence known as the four laws of black hole mechanics.
+        - +3 https://link.springer.com/article/10.1007/BF01645742
+        - +3 A black hole's entropy is proportional to its horizon area, given by the Bekenstein-Hawking formula S = kc³A/4Gℏ.
+          - +3 http://www.scholarpedia.org/article/Bekenstein-Hawking_entropy
+      - +3 Because the power a black hole radiates via Hawking radiation scales as the inverse square of its mass, its evaporation lifetime scales as the cube of its mass, so a TeV-scale black hole would evaporate in roughly 10⁻²⁷ seconds rather than over cosmological timescales.
+        - +3 https://en.wikipedia.org/wiki/Micro_black_hole
     - -3 Hawking radiation has never been directly observed in an astrophysical black hole; its existence rests on theoretical calculations combining general relativity and quantum field theory, not direct experimental confirmation.
       - +3 https://www.syfy.com/syfy-wire/has-hawking-radiation-ever-been-observed
       - -3 A laboratory analogue experiment using a Bose-Einstein condensate has observed thermal, quantum-entangled Hawking-radiation-like emission from an artificial sonic event horizon, providing indirect experimental support for the Hawking radiation mechanism.

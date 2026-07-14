@@ -16,6 +16,24 @@ statement to go to its own page, where it is the main statement and other
 statements argue for or against it. Because HowTruthful is intended to be able
 to express any reasoning, circular reasoning is allowed.
 
+Unlike a formal debate organized around one central resolution, where every
+argument is ultimately for or against that one resolution, HowTruthful has no
+privileged top-level page. Every statement, no matter how deep in a chain of
+reasoning, is itself a main statement on its own page, with its own
+independent Pro and Con sections. A statement's Pro or Con status is only
+ever relative to whichever statement's page it appears on — never to some
+other statement higher up the chain, and never to whether it makes a reader
+more or less confident about the topic as a whole.
+
+When deciding whether a statement belongs in the Pro or Con section of
+another, imagine you have navigated to that other statement's own page and
+forgotten everything else in the chain, including the original top-level
+claim. Ask only: on this page, with this statement as the main statement,
+does the candidate argue that it's true or that it's false? If your
+reasoning ever appeals to "this supports the overall conclusion" instead of
+"this argues for or against what's on this specific page," that's a sign
+you're answering the wrong question.
+
 ### Context-independent statements
 
 Because each statement gets its own web page that can be linked to from

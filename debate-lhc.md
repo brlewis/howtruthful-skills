@@ -7,8 +7,18 @@
         - +3 https://arxiv.org/abs/0806.3381
   - +3 Any microscopic black hole produced at the LHC would evaporate via Hawking radiation far faster than it could grow by absorbing surrounding matter.
     - +3 https://en.wikipedia.org/wiki/Hawking_radiation
+    - +3 A black hole's Hawking radiation temperature is inversely proportional to its mass, so a microscopic black hole would be far hotter, and would evaporate far faster, than an astrophysical black hole.
+      - +3 https://en.wikipedia.org/wiki/Hawking_radiation
     - -3 Hawking radiation has never been directly observed in an astrophysical black hole; its existence rests on theoretical calculations combining general relativity and quantum field theory, not direct experimental confirmation.
       - +3 https://www.syfy.com/syfy-wire/has-hawking-radiation-ever-been-observed
+      - -3 A laboratory analogue experiment using a Bose-Einstein condensate has observed thermal, quantum-entangled Hawking-radiation-like emission from an artificial sonic event horizon, providing indirect experimental support for the Hawking radiation mechanism.
+        - +3 https://arxiv.org/abs/1510.00621
+        - -3 Other physicists have disputed whether the 2016 Bose-Einstein-condensate analogue black hole experiment reporting quantum-entangled Hawking radiation actually demonstrates that entanglement signature, arguing the data does not establish it.
+          - +3 https://arxiv.org/abs/1609.03803
+    - -3 The semiclassical calculation underlying Hawking radiation is expected to break down once a black hole's mass approaches the Planck mass, requiring a full theory of quantum gravity to describe what happens next.
+      - +3 https://arxiv.org/abs/gr-qc/9312015
+      - +3 A microscopic black hole hypothetically produced at the LHC would have a mass close to the effective Planck scale in the extra-dimension scenarios where it could form at all, making it a non-thermal "quantum black hole" rather than a thermal one, which would not necessarily decay via the standard Hawking-temperature mechanism.
+        - +3 https://arxiv.org/abs/1005.1805
   - +3 The LHC's collision energies are many orders of magnitude below the Planck scale, the energy scale at which quantum gravitational effects strong enough to produce a black hole are expected under standard four-dimensional general relativity.
     - +3 https://en.wikipedia.org/wiki/Safety_of_high-energy_particle_collision_experiments
     - -3 Some theoretical models with large extra spatial dimensions predict the effective Planck scale could be as low as a few TeV, potentially within reach of LHC collision energies.

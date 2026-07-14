@@ -57,11 +57,11 @@ or HowTruthful markdown.
   parent?
 - For `-3`, ask: if the child were true, would it be a reason to disbelieve the
   parent?
-- When nesting a child under a `-3` parent, re-apply this test strictly
-  against that parent's own wording, not against your overall stance on the
-  top-level claim. A rebuttal that restores confidence in the top-level claim
-  is still `-3` relative to the `-3` concern it rebuts — sign is always
-  relative to the immediate parent, never to the debate as a whole.
+- When nesting a child under a `-3` parent, imagine you've navigated to that
+  parent's own page (see AGENTS.md's page model) — nothing there shows the
+  top-level claim or your overall stance on it. Test the child only against
+  what's on that page. A rebuttal that restores confidence in the top-level
+  claim is still `-3` relative to the `-3` concern it rebuts.
 - Judge support or opposition against the exact wording of the parent. If a
   child supports only a narrower, qualified, or reworded version of the parent,
   do not mark it as `+3` for the broader parent. Either revise the parent to
@@ -112,7 +112,10 @@ Before returning final output, silently check each child item:
   parent statements?) Skip this check for a bare-URL source-citation child.
 - Does it argue for or against the immediate parent, rather than a sibling or a
   different conclusion?
-- Does the prefix match the direction of support or opposition?
+- Does the prefix match the direction of support or opposition? Would a
+  reader who only ever sees the parent's own page — never the top-level
+  claim, never your overall stance on the topic — place this item in Pro or
+  Con on that page?
 - Are there any unsplit causal, consequential, or reasoning clauses (e.g.
   phrases containing 'because', 'so', 'therefore', 'since', 'implying', 'meaning
   that')?

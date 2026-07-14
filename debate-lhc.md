@@ -1,0 +1,62 @@
+- 3 The Large Hadron Collider will not create a black hole that destroys the Earth.
+  - +3 Cosmic rays with energies far exceeding the LHC's collision energy have struck Earth, the Moon, and other astronomical bodies for billions of years without producing any observed catastrophe.
+    - +3 https://arxiv.org/abs/0806.3381
+    - -3 A black hole produced by a fast-moving cosmic ray could pass through Earth and escape before absorbing much matter, while one produced by the LHC could be captured and remain nearby, slowly gaining mass, so cosmic ray collisions do not fully rule out danger from LHC collisions.
+      - +3 https://arxiv.org/abs/0806.3381
+      - -3 Some white dwarf stars are dense enough that a stable black hole produced by a cosmic ray collision inside them would be captured rather than escape, and the continued existence of these white dwarfs after billions of years of cosmic ray bombardment shows such captured black holes either do not form or do not cause damage.
+        - +3 https://arxiv.org/abs/0806.3381
+  - +3 Any microscopic black hole produced at the LHC would evaporate via Hawking radiation far faster than it could grow by absorbing surrounding matter.
+    - +3 https://en.wikipedia.org/wiki/Hawking_radiation
+    - +3 A black hole's event horizon radius is given by the Schwarzschild radius, r = 2GM/c², so a black hole's size is directly proportional to its mass.
+      - +3 https://en.wikipedia.org/wiki/Schwarzschild_radius
+    - +3 A black hole's Hawking radiation temperature is inversely proportional to its mass, so a microscopic black hole would be far hotter, and would evaporate far faster, than an astrophysical black hole.
+      - +3 https://en.wikipedia.org/wiki/Hawking_radiation
+      - +3 A black hole's surface gravity and event horizon area are formally analogous to temperature and entropy in the laws of thermodynamics, a correspondence known as the four laws of black hole mechanics.
+        - +3 https://link.springer.com/article/10.1007/BF01645742
+        - +3 A black hole's entropy is proportional to its horizon area, given by the Bekenstein-Hawking formula S = kc³A/4Gℏ.
+          - +3 http://www.scholarpedia.org/article/Bekenstein-Hawking_entropy
+      - +3 Because the power a black hole radiates via Hawking radiation scales as the inverse square of its mass, its evaporation lifetime scales as the cube of its mass, so a TeV-scale black hole would evaporate in roughly 10⁻²⁷ seconds rather than over cosmological timescales.
+        - +3 https://en.wikipedia.org/wiki/Micro_black_hole
+    - -3 Hawking radiation has never been directly observed in an astrophysical black hole; its existence rests on theoretical calculations combining general relativity and quantum field theory, not direct experimental confirmation.
+      - +3 https://www.syfy.com/syfy-wire/has-hawking-radiation-ever-been-observed
+      - -3 A laboratory analogue experiment using a Bose-Einstein condensate has observed thermal, quantum-entangled Hawking-radiation-like emission from an artificial sonic event horizon, providing indirect experimental support for the Hawking radiation mechanism.
+        - +3 https://arxiv.org/abs/1510.00621
+        - -3 Other physicists have disputed whether the 2016 Bose-Einstein-condensate analogue black hole experiment reporting quantum-entangled Hawking radiation actually demonstrates that entanglement signature, arguing the data does not establish it.
+          - +3 https://arxiv.org/abs/1609.03803
+    - -3 The semiclassical calculation underlying Hawking radiation is expected to break down once a black hole's mass approaches the Planck mass, requiring a full theory of quantum gravity to describe what happens next.
+      - +3 https://arxiv.org/abs/gr-qc/9312015
+      - +3 A microscopic black hole hypothetically produced at the LHC would have a mass close to the effective Planck scale in the extra-dimension scenarios where it could form at all, making it a non-thermal "quantum black hole" rather than a thermal one, which would not necessarily decay via the standard Hawking-temperature mechanism.
+        - +3 https://arxiv.org/abs/1005.1805
+  - +3 The LHC's collision energies are many orders of magnitude below the Planck scale, the energy scale at which quantum gravitational effects strong enough to produce a black hole are expected under standard four-dimensional general relativity.
+    - +3 https://en.wikipedia.org/wiki/Safety_of_high-energy_particle_collision_experiments
+    - -3 Some theoretical models with large extra spatial dimensions predict the effective Planck scale could be as low as a few TeV, potentially within reach of LHC collision energies.
+      - +3 https://en.wikipedia.org/wiki/Large_extra_dimensions
+      - -3 Searches by the ATLAS and CMS experiments at the LHC have found no evidence of large extra dimensions, excluding the relevant Planck-scale range up to several TeV.
+        - +3 https://www.sciencedirect.com/science/article/pii/S2405601415005696
+  - +3 A dedicated safety review by CERN's LHC Safety Assessment Group, made up of physicists not involved in the LHC experiments and endorsed by CERN's Scientific Policy Committee and three professional physics societies, concluded the LHC poses no danger.
+    - +3 https://arxiv.org/abs/0806.3414
+  - +3 Lawsuits attempting to halt LHC operations on black-hole safety grounds were filed in United States and European courts and were dismissed.
+    - +3 https://arxiv.org/abs/0912.5480
+    - -3 A court dismissing a safety lawsuit reflects a legal judgment about jurisdiction and evidentiary standards, not an independent scientific re-assessment of the underlying physics risk.
+  - -3 A micro black hole produced by the LHC would not evaporate via Hawking radiation and would instead grow by accreting surrounding matter until it consumed the Earth.
+    - +3 Otto Rössler argued that a micro black hole produced by the LHC would grow by accreting matter and eventually consume the Earth.
+      - +3 https://en.wikipedia.org/wiki/Safety_of_high-energy_particle_collision_experiments
+    - -3 Physicists Hermann Nicolai and Domenico Giulini found that the argument that a micro black hole would grow and consume the Earth relies on general relativity concepts applied inconsistently and has no valid logical connection to the actual physics of LHC collisions.
+      - +3 https://en.wikipedia.org/wiki/Safety_of_high-energy_particle_collision_experiments
+    - -3 The LHC began operating in 2009, and searches of its collision data have found no evidence of microscopic black hole production.
+      - +3 https://www.sciencedirect.com/science/article/pii/S0370269311001778
+  - -3 Black holes exert unlimited or ever-growing gravitational pull that inevitably sucks in and consumes nearby matter, including anything created near a microscopic black hole at the LHC.
+    - +3 The belief that black holes exert unlimited gravitational pull that inevitably consumes nearby matter is a commonly held misconception.
+      - +3 https://bigthink.com/starts-with-a-bang/black-hole-myth-suck/
+    - -3 A black hole's gravitational pull depends on its mass just like any other object; a microscopic black hole would have a correspondingly microscopic and extremely short-ranged gravitational influence, not an unlimited one.
+      - +3 https://bigthink.com/starts-with-a-bang/black-hole-myth-suck/
+  - -3 The odds of the LHC destroying Earth are 50/50.
+    - +3 Walter Wagner, a high-school physics teacher who sued in US federal court to halt LHC operations, publicly estimated the odds of the LHC destroying Earth at 50/50, reasoning that an event either happens or it doesn't.
+      - +3 https://astroengine.com/2009/05/03/chances-of-the-world-being-destroyed-by-the-lhc-is-5050-yes-walter-wagner-is-back/
+    - -3 Treating two possible outcomes as equally likely ignores the physical evidence and theory available to inform an estimate of the odds of the LHC destroying Earth, rather than using 50/50 only as an uninformed starting point before considering such evidence.
+      - +3 https://scienceblogs.com/goodmath/2009/05/03/moronic-probability-and-stupid
+  - -3 The LHC will end the world.
+    - +3 Widely circulated 2008 news coverage, including headlines in major newspapers, and a political party's public protest in Romania, asserted or implied that the LHC would end the world.
+      - +3 https://en.wikipedia.org/wiki/Safety_of_high-energy_particle_collision_experiments
+    - -3 Prominent physicists publicly dismissed fears that the LHC would end the world; Harvard physicist John Huth called them "baloney."
+      - +3 https://en.wikipedia.org/wiki/Safety_of_high-energy_particle_collision_experiments

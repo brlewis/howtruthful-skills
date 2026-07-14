@@ -69,6 +69,11 @@ or HowTruthful markdown.
     sense when it isn't opposing anything. The child's own wording, unchanged,
     becomes the intermediate claim itself (no separate node needed above it),
     nested directly under the ambiguous parent.
+  - Whenever a parent's wording is replaced or narrowed by an intermediate
+    claim, re-run this test on each of that parent's *existing* children
+    too, not just the new one — do not leave them in place by default. A
+    child that supported the old, broader wording may no longer support the
+    new, narrower one, and belongs back under the broader parent instead.
 - Do not nest a child merely because it is nearby, topically related, shares
   vocabulary, or supports a sibling.
 - A child's content is normally a context-independent statement. The one

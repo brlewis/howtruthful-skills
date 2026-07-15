@@ -1,6 +1,7 @@
 - 3 The earliest confirmed COVID-19 cases were centered on the Wuhan wet market rather than the Wuhan Institute of Virology.
   - +3 The first officially confirmed COVID-19 case, the next four cases, and half of the next 40 cases were connected to the Wuhan wet market.
     - -3 A specific patient, referred to as Mr. Chen, who had no wet-market connection, reportedly fell sick on December 8, before the first officially recognized wet-market case.
+      - +3 https://www.youtube.com/watch?v=KdORmvU8MLI&t=3680s
       - -3 Mr. Chen said in an interview that he was hospitalized for dental issues on December 8 and caught COVID in the hospital on December 16, after the first wet-market case, and had been erroneously reported as hospitalized for COVID on December 8.
         - -3 The claim that Mr. Chen was infected in the hospital on December 16, rather than earlier, rests on a single anonymous interview.
         - -3 No wet-market connection has been found for whoever infected Mr. Chen in the hospital, suggesting an unconnected transmission chain predating the officially recognized first wet-market case.
@@ -8,8 +9,10 @@
       - -3 The World Health Organization investigated these 92 unusual pneumonias and, after testing available samples with improved tests, found that none of them were actually COVID.
     - -3 Authorities screened and diagnosed COVID cases mainly among people with a wet-market connection, because they expected a zoonotic origin similar to SARS, biasing the observed cases toward the market.
       - +3 One of the few non-market-connected COVID cases detected in the early weeks of the outbreak was found only because a hospital worker recognized the symptoms in a relative and insisted on testing despite no wet-market connection.
+        - +3 https://www.youtube.com/watch?v=KdORmvU8MLI&t=3680s
       - -3 Authorities did not begin deliberately looking for wet-market connections until December 30, after the first 40 cases had already been identified, so that particular detection bias did not affect the earliest case count.
   - +3 A geographic heat map of early COVID-19 cases in Wuhan is centered on the wet market, not on the Wuhan Institute of Virology, roughly 6 miles away.
+    - +3 https://www.youtube.com/watch?v=Y1vaooTKHCM&t=2931s
     - +3 A map of positive COVID samples within the wet market itself is centered on the southwest corner, where most wildlife was sold.
       - +3 A stall selling raccoon-dogs — an animal commonly carrying coronaviruses and considered a plausible intermediate host between bats and humans — existed in that section of the market.
         - +3 The existence of the raccoon-dog stall, initially denied by Chinese authorities who refused to release information, was confirmed via a photograph a virologist had taken during a 2014 visit documenting unsanitary conditions there.
@@ -18,6 +21,7 @@
             - -3 A Chinese dataset recording a negative COVID sample from a mahjong table also noted nearby poultry, suggesting the sample may have come from a different mahjong table near a poultry stall elsewhere in the Wuhan wet market, rather than from the mahjong room that was the geographic center of positive samples.
               - -3 Based on the location stated in the Chinese sample dataset, the negative mahjong-table sample does correspond to the mahjong room that was the geographic center of positive samples, not a different location.
         - -3 A formal statistical analysis of which animals' DNA was found most often alongside COVID-positive samples ranked raccoon-dogs near the bottom, with wide-mouth bass — which cannot contract COVID — at the top, suggesting the raccoon-dog correlation reflects contamination rather than a genuine animal reservoir signal.
+          - +3 https://www.youtube.com/watch?v=KdORmvU8MLI&t=3874s
           - -3 Raccoon-dogs were sold in separate cages at various stalls with air gaps large enough to make transmission between them difficult, so many negative raccoon-dog samples are unsurprising and don't rule out a single infected raccoon-dog starting the outbreak; the raccoon-dog stall and its drain had among the highest positive sample rates, which is more informative than the aggregate statistical ranking, which even proponents of the ranking agree must be flawed since it implicates bass.
     - +3 It would be a surprising coincidence if a lab-leak pandemic first appeared at a wet market containing a plausible zoonotic reservoir animal, rather than near the laboratory it leaked from.
   - -3 A worker at the Wuhan Institute of Virology could have been infected by a lab-created coronavirus and spread it quietly among human contacts for weeks to months before an infected person triggered a super-spreader event at the wet market, which would explain why officially observed cases cluster there despite the true origin being the lab.

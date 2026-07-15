@@ -1,0 +1,11 @@
+- 3 Both independent judges in the Rootclaim COVID origins debate concluded that a zoonotic spillover at the Wuhan wet market was the most likely origin of COVID-19.
+  - +3 Will Van Treuren, a microbiologist, voted for the zoonotic-origin side, using both his own holistic judgment as a debater and Rootclaim's own preferred Bayesian framework.
+    - +3 https://www.youtube.com/watch?v=YlxTztAkdGQ
+  - +3 Eric Stansifer, an applied mathematician, concluded that COVID-19 most likely resulted from a zoonotic spillover at the wet market, based on close epidemiological proximity to a plausible animal source flagged as a spillover risk in 2014.
+    - +3 https://www.youtube.com/watch?v=OKwunTJ1b40
+    - +3 Eric Stansifer was not persuaded that COVID could have traveled from the Wuhan Institute of Virology to the market without leaving evidence.
+      - +3 https://www.youtube.com/watch?v=OKwunTJ1b40&t=54s
+    - +3 Eric Stansifer found the furin cleavage site's unusualness unpersuasive as evidence of a lab origin, since he expects any virus genome to have oddities by chance, and an even more unusual site occurs naturally in the coronavirus HKU1.
+      - +3 https://www.youtube.com/watch?v=OKwunTJ1b40&t=73s
+  - -3 Despite both judges reaching the same verdict, six independent Bayesian probability analyses of the same evidence and arguments, including Rootclaim's own, produced estimates spanning twenty-three orders of magnitude.
+    - +3 https://www.astralcodexten.com/p/practically-a-book-review-rootclaim

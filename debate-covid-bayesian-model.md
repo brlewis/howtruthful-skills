@@ -1,0 +1,19 @@
+- 3 Rootclaim's Bayesian model reliably estimates the probability of COVID's origin.
+  - +3 Rootclaim's probability model is a direct application of Bayes' theorem: once the input numbers are agreed on, there is only one correct output, with no additional algorithms or subjective judgment involved.
+    - +3 https://www.youtube.com/watch?v=KdORmvU8MLI&t=240s
+  - +3 Rootclaim's stated methodology is to include all available evidence and all hypotheses, explicitly account for dependencies between pieces of evidence, and steelman each hypothesis rather than assess its weakest form.
+    - +3 https://www.youtube.com/watch?v=KdORmvU8MLI&t=255s
+  - +3 Rootclaim's baseline probability for a zoonotic origin starts from a conservative comparison: East Asia, where COVID emerged, is home to a diverse bat population and was also the origin of the SARS-1 outbreak.
+    - +3 https://www.youtube.com/watch?v=KdORmvU8MLI&t=2074s
+  - -3 Pandemics and lab leaks are both too rare, with too little historical data, to construct statistically reliable priors for a Bayesian estimate.
+    - +3 https://www.youtube.com/watch?v=KdORmvU8MLI&t=1239s
+    - +3 Labs have only a limited number of documented leak cases, and there is limited data on the risks of emerging technologies such as gain-of-function research.
+      - +3 https://www.youtube.com/watch?v=KdORmvU8MLI&t=1251s
+  - -3 Integrating the probability of a natural spillover event causing a pandemic with the probability of a lab leak causing one is difficult, since the two rely on structurally different kinds of evidence.
+    - +3 https://www.youtube.com/watch?v=KdORmvU8MLI&t=1737s
+    - +3 Comparing the hundreds of documented lab-related infections to the millions of documented zoonotic infections can produce probability estimates inconsistent with independent estimates from other sources.
+      - +3 https://www.youtube.com/watch?v=KdORmvU8MLI&t=1748s
+  - -3 Searching a large dataset in hindsight for evidence matching a specific hypothesis is prone to a cherry-picking and multiple-comparisons bias, known in forensic science as "junk science."
+    - +3 https://www.youtube.com/watch?v=KdORmvU8MLI&t=3239s
+    - +3 This same forensic pattern-matching bias has previously produced wrongful convictions, in a blood-stain-matching case Rootclaim's presenters had discussed earlier in their analysis.
+      - +3 https://www.youtube.com/watch?v=KdORmvU8MLI&t=3265s

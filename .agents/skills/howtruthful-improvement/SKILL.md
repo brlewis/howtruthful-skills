@@ -61,4 +61,6 @@ Before returning, check each added statement: does it stand alone without
 needing its parent for context, does it directly bear on the specific node
 it's nested under, does it have a citation, and is it still rated 3? If a
 parent's wording was narrowed, also recheck its pre-existing children against
-the new wording, not just the statement you added.
+the new wording, not just the statement you added. Is the new statement
+(excluding any bare-URL citation) 255 characters or fewer — if not, split it
+per AGENTS.md's guidance rather than trimming content.

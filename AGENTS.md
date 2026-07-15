@@ -84,6 +84,12 @@ node appears in markdown. Distinct nodes never have the exact same
 statement. This allows cycles in the graph without requiring cycles in
 the markdown.
 
+A statement's text is limited to 255 characters. A statement that runs
+long usually has a claim and a reason bundled into one sentence — split
+it the same way as any other causal statement (see Conversion Workflow):
+the conclusion becomes the parent (or stays where the combined statement
+was), and the supporting reason becomes a child.
+
 ## Citing a source with a bare URL
 
 When a child statement is itself a source citation (e.g. an attribution leaf

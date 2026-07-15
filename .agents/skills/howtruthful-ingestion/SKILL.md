@@ -123,6 +123,8 @@ Before returning final output, silently check each child item:
   flattened away?
 - Has anything been invented beyond what is present in or strongly implied by
   the input?
+- Is every statement (excluding bare-URL citations) 255 characters or fewer?
+  Split an overlong one per AGENTS.md's guidance rather than trimming content.
 
 Revise the markdown until these checks pass.
 

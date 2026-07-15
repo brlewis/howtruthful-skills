@@ -50,6 +50,13 @@ outside the source. Every statement it adds must be backed by a citation.
    node it doesn't bear on.
 4. Give every new statement a bare-URL citation child. A statement this
    skill adds without a citation is a defect, not an oversight to fix later.
+   If the citation backs a specific interpretive or quantitative claim about
+   what the source found (a study's percentage, a paper's conclusion), use
+   the intermediate-statement pattern in the howtruthful-ingestion skill's
+   SKILL.md ("<Source> found/says <finding>") instead of citing directly —
+   this skill's whole job is bringing in outside claims, so misreading what
+   a source actually says is a real risk, and the intermediate is what makes
+   that risk visible and disputable rather than silently baked in.
 5. Keep every added statement, and any parent it's nested under, at rating
    3 — this skill adds structure, not truthfulness judgments.
 6. Write only markdown to the file itself; report what changed and why in
@@ -61,4 +68,6 @@ Before returning, check each added statement: does it stand alone without
 needing its parent for context, does it directly bear on the specific node
 it's nested under, does it have a citation, and is it still rated 3? If a
 parent's wording was narrowed, also recheck its pre-existing children against
-the new wording, not just the statement you added.
+the new wording, not just the statement you added. Is the new statement
+(excluding any bare-URL citation) 255 characters or fewer — if not, split it
+per AGENTS.md's guidance rather than trimming content.

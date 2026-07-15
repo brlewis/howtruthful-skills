@@ -1,0 +1,5 @@
+- 3 COVID-19 originated from a natural zoonotic spillover at the Wuhan wet market, rather than a lab leak from the Wuhan Institute of Virology.
+  - +3 The earliest confirmed COVID-19 cases were centered on the Wuhan wet market rather than the Wuhan Institute of Virology.
+  - +3 Lineage B, not the evolutionarily older Lineage A, was the first COVID lineage to spread among humans.
+  - +3 Both independent judges in the Rootclaim COVID origins debate concluded that a zoonotic spillover at the Wuhan wet market was the most likely origin of COVID-19.
+  - -3 COVID-19's furin cleavage site was inserted through gain-of-function research at the Wuhan Institute of Virology, which then leaked into the human population.

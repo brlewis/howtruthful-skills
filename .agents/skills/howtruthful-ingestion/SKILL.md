@@ -87,6 +87,18 @@ or HowTruthful markdown.
   `https://example.com/post/123`, with no surrounding prose. HowTruthful
   renders a child that starts with `http` or `https` as a clickable link, so
   do not wrap it in a sentence like "According to https://...".
+  - When a citation backs a specific interpretive, summarized, or
+    quantitative claim about what a source found (e.g. "over 90% odds,"
+    "found no correlation"), rather than a bare fact unlikely to be
+    mischaracterized, insert an intermediate statement between the claim
+    and the citation: "<Source> found/says <finding>," the same pattern as
+    attribution. This gives a reader a node to dispute whether the source
+    actually supports that specific characterization, independent of
+    whether the underlying claim is true — a mismatch between what's
+    claimed and what a source actually says is otherwise invisible in the
+    tree. Don't reach for this by reflex: a tree still needs actual leaf
+    nodes, so only add the intermediate where it gives a reader something
+    real to scrutinize, not for every citation.
 - State each claim directly, in the wording someone asserting it would use —
   even when it is false or contested. Do not wrap it in a reporting frame
   like "X argues that," "a popular belief holds that," or "critics claim
@@ -123,6 +135,8 @@ Before returning final output, silently check each child item:
   flattened away?
 - Has anything been invented beyond what is present in or strongly implied by
   the input?
+- Is every statement (excluding bare-URL citations) 255 characters or fewer?
+  Split an overlong one per AGENTS.md's guidance rather than trimming content.
 
 Revise the markdown until these checks pass.
 

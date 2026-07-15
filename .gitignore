@@ -9,5 +9,8 @@
 howtruthful*.md
 ht*.md
 
+# Downloaded video transcripts (scratch material for citation research)
+*.vtt
+
 # Personal Claude Code settings
 .claude/settings.local.json

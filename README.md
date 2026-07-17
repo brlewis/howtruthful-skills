@@ -55,6 +55,16 @@ Use the howtruthful-ingestion skill to discuss why AI should and shouldn't be
 used to assess what's true, then put the result into ht4-test.md.
 ```
 
+The source material can also be a YouTube video. If you
+[install yt-dlp](https://github.com/yt-dlp/yt-dlp#installation), the skill can
+fetch and cite the video's own transcript directly, with timestamped citation
+links pulled from the transcript itself rather than guessed:
+
+```
+Use the howtruthful-ingestion skill to convert
+https://www.youtube.com/watch?v=VIDEO_ID into video-debate.md.
+```
+
 Then [import](https://www.howtruthful.com/private/import) the howtruthful
 markdown.
 

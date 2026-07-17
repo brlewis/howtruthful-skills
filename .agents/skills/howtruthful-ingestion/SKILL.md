@@ -9,6 +9,32 @@ Convert freeform debate text into HowTruthful-compatible recursive markdown. Use
 this skill when the user asks to transform source material into an argument map
 or HowTruthful markdown.
 
+## YouTube Sources
+
+If the source material is a YouTube URL rather than text, first run:
+
+```bash
+.agents/skills/howtruthful-ingestion/scripts/fetch_youtube_transcript.ts <url>
+```
+
+This prints one line per caption fragment: a ready-to-use citation URL, a tab,
+then the text spoken at that timestamp. Treat this output as the freeform
+text input to the Conversion Workflow below, with one addition: every
+statement built from a line in this output gets a citation child whose entire
+content is that line's URL, copied verbatim.
+
+Never construct a `&t=` value by hand, adjust one to "round it out," or
+estimate a timestamp from context (e.g. "this was said a few minutes in").
+Copying the URL from the fragment containing the claim's key wording is the
+only correct way to produce a citation timestamp — a hand-computed one is a
+guess wearing a citation's clothes, and the discrepancy is invisible to a
+reader until they click it and land in the wrong place.
+
+If a claim's key wording spans more than one output line, cite the line
+where the claim's core assertion is completed, not where it starts — a
+reader clicking the link should immediately hear the statement being made,
+not have to wait through a run-up.
+
 ## Conversion Workflow
 
 1. Convert the freeform text into a collection of context-independent

@@ -103,6 +103,40 @@ it in a sentence loses that rendering and gains nothing: the parent statement
 already says who said what, so the URL child's only job is to let a reader
 verify the source in one click.
 
+## Rating a bare-URL citation
+
+"Graph statements first, assess truthfulness later" (above) means an agent
+should never assign truthfulness ratings to ordinary statements — that
+judgment is a human's to make, and defaulting every statement to 3 is what
+keeps the map neutral. A bare-URL citation child is a narrow, mechanical
+exception: an agent that actually attempted to fetch the URL has direct,
+first-hand evidence of one specific, non-debatable fact — whether the link
+resolves — and rating that fact isn't the same kind of judgment call the
+"assess truthfulness later" rule is protecting.
+
+If the agent did not attempt to fetch the citation, leave it at the default
+3. If it did attempt the fetch, rate the citation according to the outcome:
+
+- Successfully fetched (the content behind the link actually loaded) → 5,
+  true.
+- A clean 404, or other definitive confirmation the resource doesn't exist
+  at that address → 1, false.
+- An access barrier that could well be temporary or specific to the
+  fetching tool — a 403, a paywall, a login redirect, a timeout, a
+  rate limit — leave at 3, debatable. This doesn't mean the link is bad;
+  it means the agent couldn't tell either way, and 3 says exactly that.
+- 2, dubious, is for a citation that responds but not in a way that
+  inspires confidence it's the real resource — a redirect to an
+  unrelated page, a "soft 404" that returns success but has no real
+  content, a domain that's been repurposed. Use judgment; this is the one
+  rating in this rule that isn't mechanical.
+
+This rates the link itself, not the claim it's attached to, and not
+whether its content actually supports that claim — a citation can be a
+verified, reachable, perfectly real page (5) that still doesn't say what
+the statement above it claims. That's a separate question, covered by the
+howtruthful-improvement skill's citation audit.
+
 ## Sandboxed environments
 
 Some agent workflows (e.g., importing into HowTruthful) require opening a browser window on the host machine. In environments running with terminal sandboxing (such as Antigravity), the browser-open command (e.g. `python3 -m webbrowser URL`) must be run outside the terminal sandbox (using "unsandboxed" execution privileges). Note: `xdg-open` and bare `firefox URL` silently fail when Firefox is already running on Linux; `python3 -m webbrowser` works reliably across platforms and browsers. If browser launching fails, the agent must print the URL to the user in a non-wrapped code block.

@@ -17,3 +17,11 @@
     - +3 https://www.youtube.com/watch?v=KdORmvU8MLI&t=3239s
     - +3 This same forensic pattern-matching bias has previously produced wrongful convictions, in a blood-stain-matching case Rootclaim's presenters had discussed earlier in their analysis.
       - +3 https://www.youtube.com/watch?v=KdORmvU8MLI&t=3265s
+  - +3 Rootclaim argues that assigning an extreme conditional probability, such as a 1-in-10,000 chance for the outbreak's market location under a lab-leak scenario, is unjustifiable without ruling out all possible confounding factors.
+    - +3 https://blog.rootclaim.com/covid-origins-debate-response-to-scott-alexander/
+  - -3 Despite Rootclaim's Bayesian model concluding a lab leak was overwhelmingly likely, six independent Bayesian analyses of the same evidence, including Rootclaim's own, produced estimates spanning twenty-three orders of magnitude.
+    - +3 https://www.astralcodexten.com/p/practically-a-book-review-rootclaim
+  - -3 Physicist Michael Weissman's independent Bayesian analysis, while also favoring a lab-leak origin, estimated odds of only about 4-to-1, far more conservative than Rootclaim's estimate.
+    - +3 https://michaelweissman.substack.com/p/an-inconvenient-probability-v57
+  - -3 Rootclaim's own probability estimate for a lab-leak origin shifted to 94% after the debate, a large swing that hinges substantially on how one contested factor, the probability of an outbreak at a location like the Huanan Seafood Market, is weighted.
+    - +3 https://blog.rootclaim.com/covid-origins-debate-response-to-scott-alexander/

@@ -146,6 +146,18 @@ not have to wait through a run-up.
     Rössler argued that a micro black hole produced by the LHC would grow
     and consume the Earth"), don't refer back to it as "this claim" or "this
     argument."
+  - This applies just as much to a formal, first-person source — a written
+    decision, report, or expert opinion saying "I found that..." or "I
+    concluded..." — as it does to a casual dialogue. The formal register
+    makes the reporting frame read like substance rather than attribution to
+    strip, but the same collapse happens: a reader ends up rating whether
+    the person said it, not whether the underlying claim is true, and a
+    claim that would otherwise stand on its own gets an unearned pass from
+    the source's credentials. The exception is a claim that's genuinely
+    about the person's own reasoning process rather than a claim about the
+    world they happen to be reporting — "the judge weighted the location
+    evidence most heavily in reaching their decision" is irreducibly about
+    that judge and doesn't need de-attributing.
 
 ## Review Pass
 
@@ -161,6 +173,12 @@ Before returning final output, silently check each child item:
   reader who only ever sees the parent's own page — never the top-level
   claim, never your overall stance on the topic — place this item in Pro or
   Con on that page?
+- Is a reporting frame ("X found that," "X argues that," "X concluded that")
+  baked into a claim's own wording instead of demoted to a separate
+  attribution child? This is easy to miss when the source material is a
+  formal first-person document (a decision, report, or expert opinion)
+  rather than a casual dialogue, since the frame reads like part of the
+  substance rather than attribution to strip.
 - Are there any unsplit causal, consequential, or reasoning clauses (e.g.
   phrases containing 'because', 'so', 'therefore', 'since', 'implying', 'meaning
   that')?
@@ -226,4 +244,23 @@ Added attribution could also be raw URLs.
 - 3 HowTruthful is a tool for exploring arguments and reasoning.
   - +3 Bruce Lewis said HowTruthful is a tool for exploring arguments and reasoning.
     - +3 https://mastodon.social/@brlewis/115293039892074161
+```
+
+A formal, first-person source gets the same treatment as Joe and Carl above:
+extract the direct, object-level claim, and demote the "I found/concluded"
+framing to an attribution child rather than letting it become the node's own
+wording.
+
+Input:
+
+```text
+Judge's decision: I found that the lab-leak side's evidence contained
+several internal inconsistencies.
+```
+
+Output:
+
+```markdown
+- 3 The lab-leak side's evidence contained several internal inconsistencies.
+  - +3 The judge said the lab-leak side's evidence contained several internal inconsistencies.
 ```

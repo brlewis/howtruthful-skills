@@ -1,11 +1,54 @@
 - 3 Both independent judges in the Rootclaim COVID origins debate concluded that a zoonotic spillover at the Wuhan wet market was the most likely origin of COVID-19.
-  - +3 Will Van Treuren, a microbiologist, voted for the zoonotic-origin side, using both his own holistic judgment as a debater and Rootclaim's own preferred Bayesian framework.
-    - +3 https://www.youtube.com/watch?v=YlxTztAkdGQ
-  - +3 Eric Stansifer, an applied mathematician, concluded that COVID-19 most likely resulted from a zoonotic spillover at the wet market, based on close epidemiological proximity to a plausible animal source flagged as a spillover risk in 2014.
-    - +3 https://www.youtube.com/watch?v=OKwunTJ1b40
-    - +3 Eric Stansifer was not persuaded that COVID could have traveled from the Wuhan Institute of Virology to the market without leaving evidence.
-      - +3 https://www.youtube.com/watch?v=OKwunTJ1b40&t=54s
-    - +3 Eric Stansifer found the furin cleavage site's unusualness unpersuasive as evidence of a lab origin, since he expects any virus genome to have oddities by chance, and an even more unusual site occurs naturally in the coronavirus HKU1.
-      - +3 https://www.youtube.com/watch?v=OKwunTJ1b40&t=73s
-  - -3 Despite both judges reaching the same verdict, six independent Bayesian probability analyses of the same evidence and arguments, including Rootclaim's own, produced estimates spanning twenty-three orders of magnitude.
-    - +3 https://www.astralcodexten.com/p/practically-a-book-review-rootclaim
+  - +3 SARS-CoV-2 is substantially more likely to have a zoonotic origin than to be a product of intentional genetic engineering.
+    - +3 Will Van Treuren, a microbiologist with a PhD from Stanford, concluded that SARS-CoV-2 is substantially more likely to have a zoonotic origin than to be a product of intentional genetic engineering.
+      - +3 https://drive.google.com/file/d/1YhmkYB32RpGsXvQTsX4xZ0Yul1wiwh8Z/view
+    - +3 The Huanan Seafood Market was by far the most likely place in Wuhan for a zoonotic outbreak to emerge, and its physical properties were not uniquely suited to a lab-leak superspreading event.
+      - +3 https://drive.google.com/file/d/1YhmkYB32RpGsXvQTsX4xZ0Yul1wiwh8Z/view
+    - +3 The Wuhan Institute of Virology is not known to have possessed an undisclosed viral backbone close enough to have produced SARS-CoV-2 through gain-of-function research.
+      - +3 https://drive.google.com/file/d/1YhmkYB32RpGsXvQTsX4xZ0Yul1wiwh8Z/view
+    - +3 Retrospective blood bank samples from before December 2019 showed no COVID antibody-positive results, arguing against undetected pre-market circulation.
+      - +3 https://drive.google.com/file/d/1YhmkYB32RpGsXvQTsX4xZ0Yul1wiwh8Z/view
+    - +3 Retrospective throat swabs collected from October 2019 through January 2020 showed no COVID-positive results before December, arguing against undetected pre-market circulation.
+      - +3 https://drive.google.com/file/d/1YhmkYB32RpGsXvQTsX4xZ0Yul1wiwh8Z/view
+    - +3 The lab-leak side's presentation contained repeated internal inconsistencies and citations that did not support the specific claims they were used for.
+      - +3 https://drive.google.com/file/d/1YhmkYB32RpGsXvQTsX4xZ0Yul1wiwh8Z/view
+    - -3 There is no evidence of multiple independent zoonotic spillovers of SARS-CoV-2, or of infections closer to its likely wildlife source than the Huanan Seafood Market.
+      - +3 https://drive.google.com/file/d/1YhmkYB32RpGsXvQTsX4xZ0Yul1wiwh8Z/view
+  - +3 The evidence from the debate strongly favors a zoonotic spillover at the Huanan Seafood Market over a gain-of-function lab leak at the Wuhan Institute of Virology.
+    - +3 Eric Stansifer, an applied mathematician, concluded that the evidence from the debate strongly favors a zoonotic spillover at the Huanan Seafood Market over a gain-of-function lab leak at the Wuhan Institute of Virology.
+      - +3 https://drive.google.com/file/d/1aHlhPd-16EOabzXhiajT5PBm3uVCAG3T/view
+    - +3 The epidemiological proximity of the earliest indicators of COVID to a plausible animal source, rather than to a potential laboratory source, is the most important basis for concluding zoonotic spillover.
+      - +3 https://drive.google.com/file/d/1aHlhPd-16EOabzXhiajT5PBm3uVCAG3T/view
+    - +3 The COVID-19 outbreak began at the Huanan Seafood Market, the same wildlife market that virologist Eddie Holmes and the Wuhan CDC had already photographed in 2014 as a site of concern for a future zoonotic spillover.
+      - +3 https://drive.google.com/file/d/1aHlhPd-16EOabzXhiajT5PBm3uVCAG3T/view
+    - +3 Rootclaim's Bayesian calculation contained factors, including the outbreak's location at the Huanan Seafood Market, that were computed in methodologically flawed ways.
+      - +3 https://drive.google.com/file/d/1aHlhPd-16EOabzXhiajT5PBm3uVCAG3T/view
+      - -3 Rootclaim argues that assigning an extreme conditional probability, such as a 1-in-10,000 chance for the outbreak's market location under a lab-leak scenario, is unjustifiable without ruling out all possible confounding factors.
+        - +3 https://blog.rootclaim.com/covid-origins-debate-response-to-scott-alexander/
+    - -3 The genetic evidence, including Project DEFUSE and the furin cleavage site, weakly favors the lab-leak hypothesis, even though it is not enough to outweigh the location evidence.
+      - +3 https://drive.google.com/file/d/1aHlhPd-16EOabzXhiajT5PBm3uVCAG3T/view
+    - -3 Rootclaim's Bayesian model reliably estimates the probability of COVID's origin.
+      - +3 Rootclaim's probability model is a direct application of Bayes' theorem: once the input numbers are agreed on, there is only one correct output, with no additional algorithms or subjective judgment involved.
+        - +3 https://www.youtube.com/watch?v=KdORmvU8MLI&t=240s
+      - +3 Rootclaim's stated methodology is to include all available evidence and all hypotheses, explicitly account for dependencies between pieces of evidence, and steelman each hypothesis rather than assess its weakest form.
+        - +3 https://www.youtube.com/watch?v=KdORmvU8MLI&t=255s
+      - +3 Rootclaim's baseline probability for a zoonotic origin starts from a conservative comparison: East Asia, where COVID emerged, is home to a diverse bat population and was also the origin of the SARS-1 outbreak.
+        - +3 https://www.youtube.com/watch?v=KdORmvU8MLI&t=2074s
+      - -3 Pandemics and lab leaks are both too rare, with too little historical data, to construct statistically reliable priors for a Bayesian estimate.
+        - +3 https://www.youtube.com/watch?v=KdORmvU8MLI&t=1239s
+        - +3 Labs have only a limited number of documented leak cases, and there is limited data on the risks of emerging technologies such as gain-of-function research.
+          - +3 https://www.youtube.com/watch?v=KdORmvU8MLI&t=1251s
+      - -3 Integrating the probability of a natural spillover event causing a pandemic with the probability of a lab leak causing one is difficult, since the two rely on structurally different kinds of evidence.
+        - +3 https://www.youtube.com/watch?v=KdORmvU8MLI&t=1737s
+        - +3 Comparing the hundreds of documented lab-related infections to the millions of documented zoonotic infections can produce probability estimates inconsistent with independent estimates from other sources.
+          - +3 https://www.youtube.com/watch?v=KdORmvU8MLI&t=1748s
+      - -3 Searching a large dataset in hindsight for evidence matching a specific hypothesis is prone to a cherry-picking and multiple-comparisons bias, known in forensic science as "junk science."
+        - +3 https://www.youtube.com/watch?v=KdORmvU8MLI&t=3239s
+        - +3 This same forensic pattern-matching bias has previously produced wrongful convictions, in a blood-stain-matching case Rootclaim's presenters had discussed earlier in their analysis.
+          - +3 https://www.youtube.com/watch?v=KdORmvU8MLI&t=3265s
+      - -3 Despite Rootclaim's Bayesian model concluding a lab leak was overwhelmingly likely, six independent Bayesian analyses of the same evidence, including Rootclaim's own, produced estimates spanning twenty-three orders of magnitude.
+        - +3 https://www.astralcodexten.com/p/practically-a-book-review-rootclaim
+      - -3 Physicist Michael Weissman's independent Bayesian analysis, while also favoring a lab-leak origin, estimated odds of only about 4-to-1, far more conservative than Rootclaim's estimate.
+        - +3 https://michaelweissman.substack.com/p/an-inconvenient-probability-v57
+      - -3 Rootclaim's own probability estimate for a lab-leak origin shifted to 94% after the debate, a large swing that hinges substantially on how one contested factor, the probability of an outbreak at a location like the Huanan Seafood Market, is weighted.
+        - +3 https://blog.rootclaim.com/covid-origins-debate-response-to-scott-alexander/

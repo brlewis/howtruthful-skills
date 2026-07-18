@@ -1,0 +1,7 @@
+- 3 Drinking coffee in moderation is good for health.
+  - +3 Moderate coffee consumption is associated with a lower risk of type 2 diabetes.
+    - +3 A 2014 cohort study found a statistically significant reduction in type 2 diabetes risk among regular coffee drinkers.
+      - +3 https://example.com/coffee-diabetes-study
+  - +3 Coffee contains antioxidants that reduce cellular oxidative stress.
+  - -3 Coffee can disrupt sleep if consumed within six hours of bedtime.
+    - +3 Coffee's sleep-disrupting effect is primarily caused by caffeine blocking adenosine receptors in the brain.

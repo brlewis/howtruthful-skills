@@ -55,6 +55,8 @@ Disambiguation is when someone argues for an ambiguous statement by stating a po
 
 Examples are when statements themselves are examples of the main statement. "There are differing opinions about the color of the sky" might have as a Pro statement "The sky is green." Such statements lend truth to the main statement by their existence, regardless of how truthful they are.
 
+When a general claim is really several examples bundled into one sentence (e.g. "X, Y, and Z have all shown this"), split each example into its own child statement with its own citation, rather than one statement citing several sources for several different examples at once. A citation only earns the trust a bare URL asks for if a reader can check it against one claim at a time — a statement backed by multiple citations for multiple bundled examples forces a reader to work out which source supports which example before they can check any of them.
+
 Citations lend truth to the main statement only in combination with statements about the reliability of the source.
 
 ## Graph statements first, assess truthfulness later.

@@ -1,19 +1,26 @@
 - 3 COVID-19's furin cleavage site was inserted through gain-of-function research at the Wuhan Institute of Virology, which then leaked into the human population.
   - +3 Two years before COVID emerged, scientists at the Wuhan Institute of Virology and the University of North Carolina submitted a grant proposal, DEFUSE, to collect bat coronaviruses and insert furin cleavage sites into them to make them more infectious.
     - +3 https://theintercept.com/2021/09/23/coronavirus-research-grant-darpa/
-    - -3 The DEFUSE grant proposal was rejected, and it assigned all gain-of-function research to the University of North Carolina rather than the Wuhan Institute of Virology, which mostly lacked experience with this kind of research.
+    - -3 The DEFUSE grant proposal was rejected, and it assigned the gain-of-function research to the University of North Carolina rather than the Wuhan Institute of Virology.
       - +3 https://theintercept.com/2021/09/23/coronavirus-research-grant-darpa/
+      - +3 The Wuhan Institute of Virology mostly lacked experience with the kind of gain-of-function research described in the DEFUSE proposal.
+        - -3 The Wuhan Institute of Virology had already engaged in some of the genetic-engineering work described in the DEFUSE proposal before it was submitted.
+          - +3 https://theintercept.com/2021/09/23/coronavirus-research-grant-darpa/
   - +3 COVID otherwise closely resembles the bat virus BANAL-52 with only scattered single-point mutations, except for twelve new nucleotides forming a fully-formed furin cleavage site with no comparable precedent among the 1,500 known sarbecoviruses.
     - +3 https://pmc.ncbi.nlm.nih.gov/articles/PMC10664542/
     - +3 COVID's furin cleavage site uses the codon CGG twice to encode arginine, the way higher animals commonly encode arginine, which is rare in viruses.
       - +3 https://pmc.ncbi.nlm.nih.gov/articles/PMC10664542/
-  - +3 The Wuhan Institute of Virology conducted this kind of coronavirus research at BSL-2, a medium biosafety level, rather than the BSL-3 or BSL-4 level normally used for potentially dangerous coronaviruses, and researchers were not required to wear masks.
+  - +3 The Wuhan Institute of Virology conducted this kind of coronavirus research at BSL-2, a medium biosafety level, rather than the BSL-3 or BSL-4 level normally used for potentially dangerous coronaviruses.
     - +3 https://usrtk.org/risky-research/wuhans-lower-biosafety-level-labs-posed-greater-risk-for-coronavirus-lab-leak/
+    - +3 Researchers conducting this research at the Wuhan Institute of Virology were not required to wear masks.
   - +3 COVID appeared unusually well-adapted to infecting human cells compared to other tested animal species, and kept a constant mutation rate in humans from the start of the pandemic rather than an adaptive burst typical of a recent host jump.
     - +3 https://www.biorxiv.org/content/10.1101/2020.05.01.073262v1
     - -3 The study finding COVID uniquely adapted to humans measured animal suitability by each species' genetic difference from humans on the relevant receptor, a methodology that makes humans rank first by construction.
-    - -3 COVID did not show a burst of adaptive mutations when it later spread to deer or mink either, suggesting a mutation burst is not a reliable sign of a recent host jump for this virus.
+    - -3 COVID did not show a burst of adaptive mutations when it later spread to mink, suggesting a mutation burst is not a reliable sign of a recent host jump for this virus.
       - +3 https://elifesciences.org/articles/83685
+    - -3 COVID did not show a burst of adaptive mutations when it later spread to deer, suggesting a mutation burst is not a reliable sign of a recent host jump for this virus.
+      - -3 COVID showed substantially more adaptive mutations than expected when it spread to deer, making deer an important reservoir of novel SARS-CoV-2 mutations.
+        - +3 https://elifesciences.org/articles/83685
   - -3 The Wuhan Institute of Virology did not have BANAL-52 or any sufficiently close relative of it; their closest known virus, RaTG13, is too genetically distant from COVID to have produced it even with a furin cleavage site added.
     - +3 BANAL-52 itself was not discovered until after the COVID pandemic began, when scientists specifically searched the region for close relatives of COVID.
       - +3 https://www.nature.com/articles/s41586-022-04532-4

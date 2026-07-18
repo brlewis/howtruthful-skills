@@ -1,7 +1,8 @@
 - 3 Lineage B, not the evolutionarily older Lineage A, was the first COVID lineage to spread among humans.
   - +3 Both lineages spread at the same rate, so a consistent 2-to-1 ratio of cases between them implies Lineage B began spreading among humans a few days before Lineage A.
     - +3 Lineage B accounted for roughly two-thirds of early COVID cases and Lineage A for about one-third, throughout the early pandemic until the D614G variant drove other strains extinct.
-      - +3 https://pmc.ncbi.nlm.nih.gov/articles/PMC8662801/
+      - +3 There's a paper that says something about the relative prevalence of the D614 and G614 SARS-CoV-2 strains between December 2019 and June 2020.
+        - +3 https://pmc.ncbi.nlm.nih.gov/articles/PMC8662801/
   - +3 Lineage B's greater internal genetic diversity than Lineage A is further evidence it began spreading among humans first, since older viruses generally accumulate more genetic diversity over time.
     - +3 Two independent analyses, Pekar et al. 2022 and Pipes et al. 2021, using known parameters for spread rate and genetic diversity, find over 90% odds that Lineage B was the first lineage to spread among humans.
       - +3 Pekar et al. 2022 found Lineage B likely emerged around November 18, 2019, with Lineage A following within weeks.

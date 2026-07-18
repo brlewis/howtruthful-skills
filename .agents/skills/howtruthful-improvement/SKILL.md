@@ -93,6 +93,12 @@ statement contains.
    - The source discusses a different specific case (a different
      mechanism, population, or object) than the one named in the
      statement, even though both fall under the same broad topic.
+   - The source is only tangentially related — close enough on topic to
+     have been picked up in the first place, but not close enough to
+     confidently say it agrees, disagrees, or covers a different specific
+     case. This is different from the previous case: there, you know
+     enough to say what the source is actually about; here, you don't know
+     enough to characterize it with confidence at all.
 3. When a citation only partly supports its statement, or supports a
    different statement than the one it's attached to, report the mismatch
    to the user with the specific source text that reveals the gap, and
@@ -108,6 +114,16 @@ statement contains.
      different specific case than the one named, the fix is narrowing the
      statement to what the citation actually supports or replacing the
      citation with one that covers the full claim as worded.
+   - For a source that's only tangentially related, don't guess at a
+     stronger characterization than you can back up. Insert a deliberately
+     weak, underspecified intermediate claim describing only the narrowest
+     topic the source verifiably covers — "There's a paper that says
+     something about <narrowest topic>" — with the citation beneath it.
+     The vagueness is the point: a precise-sounding characterization
+     invites a reader to trust it at a glance, while an openly weak one
+     signals it needs checking, and gives a reader who does check
+     something concrete to strengthen if the source turns out to deserve
+     more confident wording.
    This skill only applies the fix once the user confirms which one they
    want — auditing checks content that's already in the tree, and unlike
    adding a brand-new statement, changing existing wording isn't this

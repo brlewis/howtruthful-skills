@@ -1,5 +1,8 @@
 - 3 The Large Hadron Collider will not create a black hole that destroys the Earth.
-  - +3 Cosmic rays with energies far exceeding the LHC's collision energy have struck Earth, the Moon, and other astronomical bodies for billions of years without producing any observed catastrophe.
+  - +3 RHIC, a particle collider that faced similar exotic-physics safety concerns before it began operating, has run for years without producing any observed catastrophe.
+    - +3 https://en.wikipedia.org/wiki/Safety_of_high-energy_particle_collision_experiments
+  - +3 Cosmic rays with energies far exceeding the LHC's collision energy have struck Earth and other astronomical bodies for billions of years without producing any observed catastrophe.
+    - +3 https://arxiv.org/abs/0806.3414
     - +3 https://arxiv.org/abs/0806.3381
     - -3 Cosmic ray collisions do not fully rule out danger from LHC collisions.
       - +3 A black hole produced by a fast-moving cosmic ray could pass through Earth and escape before absorbing much matter, while one produced by the LHC could be captured and remain nearby, slowly gaining mass.
@@ -32,6 +35,8 @@
         - +3 https://arxiv.org/abs/1005.1805
         - +3 In the extra-dimension scenarios where a microscopic black hole could form at the LHC at all, its mass would be close to the effective Planck scale.
   - +3 The LHC's collision energies are many orders of magnitude below the Planck scale, the energy scale at which quantum gravitational effects strong enough to produce a black hole are expected under standard four-dimensional general relativity.
+    - +3 The LHC's maximum collision energy of about 13.6 TeV is roughly fifteen orders of magnitude below the Planck energy of about 1.22×10^19 GeV.
+      - +3 https://en.wikipedia.org/wiki/Planck_units
     - +3 https://en.wikipedia.org/wiki/Safety_of_high-energy_particle_collision_experiments
     - -3 Some theoretical models with large extra spatial dimensions predict the effective Planck scale could be as low as a few TeV, potentially within reach of LHC collision energies.
       - +3 https://en.wikipedia.org/wiki/Large_extra_dimensions
@@ -39,6 +44,8 @@
         - +3 https://www.sciencedirect.com/science/article/pii/S2405601415005696
   - +3 A dedicated safety review by CERN's LHC Safety Assessment Group, made up of physicists not involved in the LHC experiments and endorsed by CERN's Scientific Policy Committee and three professional physics societies, concluded the LHC poses no danger.
     - +3 https://arxiv.org/abs/0806.3414
+    - -3 Legal scholar Eric Johnson argued that physicists qualified to assess a particle collider's risks are inherently biased toward viewing their own field's experiments favorably, given their professional investment in the field.
+      - +3 https://en.wikipedia.org/wiki/Safety_of_high-energy_particle_collision_experiments
   - +3 Lawsuits attempting to halt LHC operations on black-hole safety grounds were filed in United States and European courts and were dismissed.
     - +3 https://arxiv.org/abs/0912.5480
     - -3 A court dismissing a safety lawsuit reflects a legal judgment about jurisdiction and evidentiary standards, not an independent scientific re-assessment of the underlying physics risk.
@@ -50,6 +57,8 @@
       - +3 The argument that a micro black hole would grow and consume the Earth relies on general relativity concepts applied inconsistently, according to Nicolai and Giulini's analysis.
     - -3 The LHC began operating in 2009, and searches of its collision data have found no evidence of microscopic black hole production.
       - +3 https://www.sciencedirect.com/science/article/pii/S0370269311001778
+      - -3 These LHC searches set model-dependent lower mass limits on microscopic black hole production rather than excluding it under every possible theoretical assumption.
+        - +3 https://arxiv.org/abs/1308.4075
   - -3 Black holes exert unlimited or ever-growing gravitational pull that inevitably sucks in and consumes nearby matter, including anything created near a microscopic black hole at the LHC.
     - +3 The belief that black holes exert unlimited gravitational pull that inevitably consumes nearby matter is a commonly held misconception.
       - +3 https://bigthink.com/starts-with-a-bang/black-hole-myth-suck/

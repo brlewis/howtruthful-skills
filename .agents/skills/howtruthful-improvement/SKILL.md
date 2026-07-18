@@ -81,6 +81,13 @@ statement contains.
    just confounding in general — a plausible-sounding example bundled into
    an otherwise-supported sentence is easy to miss without checking each
    piece separately.
+   - This fetch is also the trigger for AGENTS.md's bare-URL rating
+     exception: since the fetch was attempted, set the citation's own
+     rating (the number after its `+`/`-`) from 3 to whatever the fetch
+     outcome warrants, independently of whatever the content-fidelity
+     check below finds. A citation can be a verified, reachable page (5)
+     that still doesn't support its parent statement — those are separate
+     questions.
 2. Watch especially for these mismatch patterns, since they read as
    support at a glance:
    - The source supports the statement's general claim but not a specific

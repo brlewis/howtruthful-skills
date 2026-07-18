@@ -23,6 +23,11 @@ text input to the Conversion Workflow below, with one addition: every
 statement built from a line in this output gets a citation child whose entire
 content is that line's URL, copied verbatim.
 
+The script's own successful fetch of the transcript is the trigger for
+AGENTS.md's bare-URL rating exception — rate each of these citation
+children 5 rather than the default 3, since the video was already
+confirmed reachable in the course of producing this output.
+
 Never construct a `&t=` value by hand, adjust one to "round it out," or
 estimate a timestamp from context (e.g. "this was said a few minutes in").
 Copying the URL from the fragment containing the claim's key wording is the

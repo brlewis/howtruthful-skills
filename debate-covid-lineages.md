@@ -4,13 +4,13 @@
       - +3 There's a paper that says something about the relative prevalence of the D614 and G614 SARS-CoV-2 strains between December 2019 and June 2020.
         - +5 https://pmc.ncbi.nlm.nih.gov/articles/PMC8662801/
   - +3 Lineage B's greater internal genetic diversity than Lineage A is further evidence it began spreading among humans first, since older viruses generally accumulate more genetic diversity over time.
-    - +3 Two independent analyses, Pekar et al. 2022 and Pipes et al. 2021, using known parameters for spread rate and genetic diversity, find over 90% odds that Lineage B was the first lineage to spread among humans.
-      - +3 Pekar et al. 2022 found Lineage B likely emerged around November 18, 2019, with Lineage A following within weeks.
-        - +3 https://www.science.org/doi/10.1126/science.abp8337
-      - +3 Pipes et al. 2021 assessed which lineage is ancestral to the other.
-        - +5 https://pmc.ncbi.nlm.nih.gov/articles/PMC7798932/
-      - -3 Pipes et al. 2021's own results are method-dependent: molecular-clock-based methods place the root in Lineage B, while outgroup-rooting methods place it in Lineage A, not a clean 90%-plus verdict for B.
-        - +5 https://pmc.ncbi.nlm.nih.gov/articles/PMC7798932/
+  - +3 Two independent analyses, Pekar et al. 2022 and Pipes et al. 2021, using known parameters for spread rate and genetic diversity, find over 90% odds that Lineage B was the first lineage to spread among humans.
+    - +3 Pekar et al. 2022 found Lineage B likely emerged around November 18, 2019, with Lineage A following within weeks.
+      - +3 https://www.science.org/doi/10.1126/science.abp8337
+    - +3 Pipes et al. 2021 assessed which lineage is ancestral to the other.
+      - +5 https://pmc.ncbi.nlm.nih.gov/articles/PMC7798932/
+    - -3 Pipes et al. 2021's own results are method-dependent: molecular-clock-based methods place the root in Lineage B, while outgroup-rooting methods place it in Lineage A, not a clean 90%-plus verdict for B.
+      - +5 https://pmc.ncbi.nlm.nih.gov/articles/PMC7798932/
   - +3 Raccoon-dogs carrying both Lineage A and Lineage B separately reached the wet market for sale, after the virus first crossed from bats into raccoon-dogs at a farm outside Wuhan.
     - +3 The raccoon-dogs accumulated mutations at that farm, producing both the less-mutated Lineage A and the more-mutated Lineage B before being sold.
     - +3 Lineage A was first detected in a Wuhan neighborhood immediately next to the wet market, closer than 97% of Wuhan's population, matching a customer carrying it home rather than a vendor staying at the market.

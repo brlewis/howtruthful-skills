@@ -1,11 +1,11 @@
 - 3 COVID-19's furin cleavage site was inserted through gain-of-function research at the Wuhan Institute of Virology, which then leaked into the human population.
   - +3 Two years before COVID emerged, scientists at the Wuhan Institute of Virology and the University of North Carolina submitted a grant proposal, DEFUSE, to collect bat coronaviruses and insert furin cleavage sites into them to make them more infectious.
     - +5 https://theintercept.com/2021/09/23/coronavirus-research-grant-darpa/
-    - -3 The DEFUSE grant proposal was rejected, and it assigned the gain-of-function research to the University of North Carolina rather than the Wuhan Institute of Virology.
-      - +5 https://theintercept.com/2021/09/23/coronavirus-research-grant-darpa/
-      - +3 The Wuhan Institute of Virology mostly lacked experience with the kind of gain-of-function research described in the DEFUSE proposal.
-        - -3 The Wuhan Institute of Virology had already engaged in some of the genetic-engineering work described in the DEFUSE proposal before it was submitted.
-          - +5 https://theintercept.com/2021/09/23/coronavirus-research-grant-darpa/
+  - -3 The DEFUSE grant proposal was rejected, and it assigned the gain-of-function research to the University of North Carolina rather than the Wuhan Institute of Virology.
+    - +5 https://theintercept.com/2021/09/23/coronavirus-research-grant-darpa/
+    - +3 The Wuhan Institute of Virology mostly lacked experience with the kind of gain-of-function research described in the DEFUSE proposal.
+      - -3 The Wuhan Institute of Virology had already engaged in some of the genetic-engineering work described in the DEFUSE proposal before it was submitted.
+        - +5 https://theintercept.com/2021/09/23/coronavirus-research-grant-darpa/
   - +3 COVID otherwise closely resembles the bat virus BANAL-52 with only scattered single-point mutations, except for twelve new nucleotides forming a fully-formed furin cleavage site with no comparable precedent among the 1,500 known sarbecoviruses.
     - +5 https://pmc.ncbi.nlm.nih.gov/articles/PMC10664542/
     - +3 COVID's furin cleavage site uses the codon CGG twice to encode arginine, the way higher animals commonly encode arginine, which is rare in viruses.

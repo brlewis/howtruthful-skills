@@ -96,13 +96,22 @@ statement contains.
 3. When a citation only partly supports its statement, or supports a
    different statement than the one it's attached to, report the mismatch
    to the user with the specific source text that reveals the gap, and
-   propose a fix: narrowing the statement to what the citation actually
-   supports, replacing or adding a citation that covers the full claim, or
-   splitting the statement so supported and unsupported parts aren't
-   bundled together. This skill only applies the fix once the user
-   confirms which one they want — auditing checks content that's already
-   in the tree, and unlike adding a brand-new statement, changing existing
-   wording isn't this skill's call to make alone.
+   propose a fix matched to which mismatch pattern it is:
+   - For a statement bundling multiple examples where the citation only
+     covers some of them, the fix is splitting per AGENTS.md's Examples
+     rule — one sibling statement per example, each with its own citation
+     — not adding a second citation to the same combined statement. Two
+     citations under one statement still leaves a reader to work out which
+     one backs which example; splitting is what actually removes the
+     tedium, not just papers over the mismatch.
+   - For a source arguing the opposite of the statement, or covering a
+     different specific case than the one named, the fix is narrowing the
+     statement to what the citation actually supports or replacing the
+     citation with one that covers the full claim as worded.
+   This skill only applies the fix once the user confirms which one they
+   want — auditing checks content that's already in the tree, and unlike
+   adding a brand-new statement, changing existing wording isn't this
+   skill's call to make alone.
 
 ## Review Pass
 

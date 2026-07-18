@@ -60,6 +60,13 @@ not have to wait through a run-up.
    regardless of their order of appearance in the sentence. For example:
    - For "X because Y": X is the parent, Y is the child.
    - For "Y, so X" or "Since Y, X": X is the parent, Y is the child.
+1. Split a statement that bundles multiple examples into one sentence (e.g.
+   "X, Y, and Z have all shown this") into separate sibling example children
+   per AGENTS.md's Examples rule, one per item, each independently citable —
+   not a single statement naming all of them under one shared citation. This
+   applies even when a single citation happens to cover every example; the
+   point is letting each example be checked and rated on its own, not just
+   avoiding a citation mismatch.
 1. Identify the statements that are top-level, i.e. they aren't being used to
    argue for or against other statements in the debate. In the case of circular
    reasoning, choose a statement that makes sense as a debate title or entry
@@ -157,6 +164,8 @@ Before returning final output, silently check each child item:
 - Are there any unsplit causal, consequential, or reasoning clauses (e.g.
   phrases containing 'because', 'so', 'therefore', 'since', 'implying', 'meaning
   that')?
+- Does any statement still bundle multiple examples that should be separate,
+  independently citable siblings instead?
 - Has any meaningful causal phrase, metaphor, or implied intermediate claim been
   flattened away?
 - Has anything been invented beyond what is present in or strongly implied by

@@ -1,9 +1,11 @@
 - 3 The Large Hadron Collider will not create a black hole that destroys the Earth.
   - +3 RHIC, a particle collider that faced similar exotic-physics safety concerns before it began operating, has run for years without producing any observed catastrophe.
     - +3 https://en.wikipedia.org/wiki/Safety_of_high-energy_particle_collision_experiments
-  - +3 Cosmic rays with energies far exceeding the LHC's collision energy have struck Earth and other astronomical bodies for billions of years without producing any observed catastrophe.
-    - +3 https://arxiv.org/abs/0806.3414
-    - +3 https://arxiv.org/abs/0806.3381
+  - +3 Cosmic rays with energies far exceeding the LHC's collision energy have struck astronomical bodies for billions of years without producing any observed catastrophe.
+    - +3 Cosmic rays with energies far exceeding the LHC's collision energy have struck Earth for billions of years without producing any observed catastrophe.
+      - +3 https://arxiv.org/abs/0806.3414
+    - +3 Cosmic rays with energies far exceeding the LHC's collision energy have struck white dwarfs, neutron stars, and other dense astronomical bodies for billions of years without producing any observed catastrophe.
+      - +3 https://arxiv.org/abs/0806.3381
     - -3 Cosmic ray collisions do not fully rule out danger from LHC collisions.
       - +3 A black hole produced by a fast-moving cosmic ray could pass through Earth and escape before absorbing much matter, while one produced by the LHC could be captured and remain nearby, slowly gaining mass.
         - +3 https://arxiv.org/abs/0806.3381

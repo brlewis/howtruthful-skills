@@ -74,8 +74,12 @@ believe it. Why are you looking at it? You're looking at it in order to decide
 how truthful it is. Why else would you scrutinize it?
 
 Every statement on HowTruthful is accompanied by a colorful 1-5 rating scale.
-Everything starts out as a colorless 3, debatable. The ratings are always
-clickable, so changing your opinion is quick and easy.
+Everything starts out as a colorless 3, debatable. When there are debatable pros
+and cons, you click into _them_, until you reach a statement that's
+self-evidently true or false, or that has enough non-debatable pros and cons for
+you to decide its truth. Then a single click changes the colorless 3 into one of
+the colorful truth values. The process of navigating down through the argument
+map, and adding color on your way back up, is fun.
 
 For this reason, I've made no attempt in this submission to automate the
 assessment step with AI. If you really want to let an AI assess truthfulness in

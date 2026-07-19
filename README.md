@@ -2,6 +2,8 @@
 
 This is a response to
 [FLF's Epistemic Case Study Competition](https://flf.org/epistack-competition/).
+If you are judging this competition, your entry point is
+[epistack2026.md](epistack2026.md).
 
 This is a repository of tooling and techniques to help people navigate complex
 debatable statements. External to this repository,
@@ -89,24 +91,22 @@ You should explore and refine this map.
 ### Attribution
 
 Notice that the example above drops "Joe" and "Carl" entirely: the generated
-statements are unattributed. This is deliberate. FLF's own call for
-submissions asks tools to capture "who said what, when, in what context," but
-we've chosen to default to the opposite, for the same reason HowTruthful asks
-you to scrutinize each statement in isolation (see "More argument map
-refinement" below): once a reader knows *who* said something, they tend to
-judge the claim by the speaker's politics, personality, or track record
-instead of on its own merits. Stripping attribution by default is that same
-anti-motivated-reasoning principle applied to statements before they even
-reach the map.
+statements are unattributed. This is deliberate. FLF's own call for submissions
+asks tools to capture "who said what, when, in what context," but we've chosen
+to default to the opposite, for the same reason HowTruthful asks you to
+scrutinize each statement in isolation (see "More argument map refinement"
+below): once a reader knows _who_ said something, they tend to judge the claim
+by the speaker's politics, personality, or track record instead of on its own
+merits. Stripping attribution by default is that same anti-motivated-reasoning
+principle applied to statements before they even reach the map.
 
 Attribution isn't discarded from the tool, only from the default. Ask for it
-("with attribution" in the initial request, or "add attribution" later) and
-the skill adds it back as its own child statement, e.g. "Joe said the sky
-looks blue," underneath the claim it supports. Framed this way, attribution
-becomes an ordinary, independently-assessable argument (a citation or an
-appeal to authority) that a reader can weigh, downgrade, or ignore, rather
-than context that silently colors the parent statement for every reader who
-sees it.
+("with attribution" in the initial request, or "add attribution" later) and the
+skill adds it back as its own child statement, e.g. "Joe said the sky looks
+blue," underneath the claim it supports. Framed this way, attribution becomes an
+ordinary, independently-assessable argument (a citation or an appeal to
+authority) that a reader can weigh, downgrade, or ignore, rather than context
+that silently colors the parent statement for every reader who sees it.
 
 ## Assessment
 

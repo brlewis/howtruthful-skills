@@ -6,6 +6,8 @@ This is a submission to
 If you're not a contest judge and just want agent skills for ingesting and
 improving arguments, go to [README.md](README.md).
 
+This is about a 10-12 minute read.
+
 ## Judging this contest should be an easy job, and almost is
 
 The FLF has asked for tools and methodologies to make reasoning easy to
@@ -179,10 +181,96 @@ a collection of reusable knowledge.
 
 ### Small
 
+Now, for the delightlfully self-referential part I promised at the beginning. As
+a judge, you're asking, "Is Epistack-HowTruthful" a winner. As with any
+question, you can transform it into "How truthful is the statement,
+'Epistack-HowTruthful is a winner.'?" I already put that statement in
+HowTruthful. Then I added statements under the Pro section that, if true, would
+lend truth to the main statement. I copied those from
+[your judging criteria](https://docs.google.com/document/d/1wtKAjpvEiMWn-RpFDi_2Vqcvt5i3sCFPmUt3MtsKOjo/edit?tab=t.v8o9nnadfvtm).
+In turn, each of those statements got sub-statements copied from the same doc
+that, if true, would lend truth to them. Unlike prose, where we assume a default
+of "true", these all started out at the default rating of "debatable". This is a
+perfect starting point for answering complex questions like the one you're
+judging now.
+
+I navigated through this tree of statements. A few were self-evident, where I
+just changed the rating without adding any Pro or Con underneath them. For many
+I did add pros and cons, debating each statement before rating its truthfulness.
+I may be biased about this submission being a winner, but at least I know my
+reasoning is clear.
+
 As promised, you can go to
-[the import page prefilled with my reasoning for why this submission should win](https://www.howtruthful.com/private/import#0/XQAAIAAYIgAAAAAAAAAVCAMORhnWdKY-Pfdj67g-haQnpIg24YLqWZ9IBE-T7dkxqGPk6mnqsgrYAN0M9SUqRme9geK_MaNO9u_fHfwm9pbrYHjjepVTZtXr4VzUBrnFquiGHNhDj3qjZwzY_hUBgEV48lcLmxrKw8orO_8iA8YrWcsSsoT1su44eIPme2aVCJFSBQH6X82i1J3uz40f8QoRAbGlHOhoYwNuBbhGhI4jsV10ZBu3gSj-YU2JS3ePGSxtzbHV1rSkothl0DWlgqDEOOF0udyaciVZYazCqSLBA1MnuXUcwimFbisxhUgNkbRDMTYjog146f2p7cm1dyIif2vg6n3O8S6PAOQEX6e77oA2QaRpNhrJtV02kYTu8c0KH_j9lAoIa2KNk2P95HlE6DKbR_irpDJwyFhmwXbkZDto9KytRw0XqdGhCdrDNnMU8_mn1N3zvWCq9xpR1_mHbtnm1KKXEAm2NN5TsB0Wkk1DPHrXyqC71gwWINNiwf7x_XhIlcwMdvw8BU5LXh6lyP9B6_re0zJQwmqCwtxavtrZIPSrTixfJDTrOEbaoqy0M1h4QCdy5ID_dWfoA-cY7Pnx8luGAMYJK5aroagYC3VwpW6HwVKH1pbyYqWr9SQEXBZ_M7N_aTEGJv-MBUFYZk9icntF683qtAbRAym772uBbh3E2UB44EWhfSQ795uhGhz0w86G4A4rsmyWKZPhGY4w56ft0tgr6tp0Irg9djsijd3fnx1W-hzA8Q8VVzHq5MQIdzwRnaualEkXGQ96oX0SoMnt7xcK9EdmfyZsbfwtZi_uI-gewzpB-alCGTswMxvScufRJxmU2HHyes2TXa7pK1JAJBIi_hiBCMi9s_8AiHMKmiFj8D-T4qRRrWypsD-GsCGF3YMVpA0pIh4rhXZmcgrSmtWtBfLCwLOC2xqjTczNH6Bpvf8ZD7_wk24qA4bDpMlw5qUd0T8ZCOJPe2TslB74ixNscJQkwexn5iURi4Fj4lDZkQRMYj_824nL5oj4F46Z-fpsae3mLifq4v2qVBMyqqgYn4w_Tr3BHgRKZTmOr3lGqOuWY_bFU_pt80zYdTiVBWFf-Xs5nfwDKl5dKVP_FwkYlNKX-mYVN5zVXlRQ_dg6mXS1_yHakVGhK0mlagmz0uucw7tqPrJ7Xe0xHhClh861TnfiXiqhg-08wyhqnmUG6jYA7fcrwYOi-_ywi2WjxDvGaHkU2fqVuN3ZTPSPXx0tf7AuHyilTKbNnS5oaqFJ3JQ9s5LYLiMpWUZRwtigWkoEv0TTwsCVXXc9TJBoeb79PwVZJfnlW0FOXRiop7b_uyeco4gO7qlCPIh_510Iik2GFJVSjbtM996EZiYR1CarvMluQjmoq30agyqCQUSZlksgUmQVuPwXfmOJJcEKj8ZYxyEMcCu0XPSig7uzur508Q7xNcth202DM351tQhXC3HZbsenhnqcve4Jb5VUBqgJWf9f1JKQCRwzS4jAX97rBe2qJIxmZ7eajeROXTTgAvIeRqhiEac3BgCkrWvzVr4a3oSIGFlQ2wYEeqIag-jeBYOwkOUm-pxIDNKBQ6aWcYQF169l10BF-60cupWh8KfKOu-BRHdIL15B2hWv6ANms_vLHiwy3CzuYC2wZtAuWcaJs9fL0gV0eofAOLCnkYa1lHbblddk4pOT-Fx7cehFF8aAEuLxwKcZCiud79OzxV89Br7-VUlBHLHqfol2i4qg2qrEg1HHoyO7vUZv0UX32GLfRsp8jv3QLP1A8-HDGnDKXNyNKW1WCqwv-Rl51lBueSJAS-akxMtqzVXT6lXlQPZo3arvtc3N8kJhG3rj4j7rm8suWLAZrV74tDT2vvd5ZT0TWAWzOBXj40eaF9qh1EjK6V0qIR0zPwHLlrHUexgPAzIo-qIqySMZvqJ7rRep6U6JDObKJzJVDsPV_V5WR14kbzJFhOLxd2K80Ag62PgSJFCfUac7rirRlzpfUbrHnlhEGZ3SAi_M_7F6hfpEEqVgf2SaSD7jERRfKSs7hY7dLLvcvkviFQJuuuZNc7Dj7QWU2uLG0_G--Jr96-l5V4p9PywlEpUujxoraWkn1QJNK2WwxAA0OoOY8NhNHeL6ltbxckB7mLwplPN2EYuELRDZqev-fUDuaKF-l0bKrWkW4nvTZKmcvuK0yRrpsoxu7Vqp2wAcT2_eMijuroYz4h7sZLXuKEj_m0XbPs4qIJQ6mDihWOy4IoUH9Li4V8ZLQhrMrol4BOAaMTOWYhe8Tow1dQYg-eDz1QVoBjB5r91aCBfHtcBcCy3A2A5V4bvjHJIQjDTrFHVE1cFcu4ncQPX1I9l5TmIfz3uIoJPNQrpgC_4HqagLh0a9zylAz6toQr_WtD5yN2Q1duGl8AsNQDfywVT0js9hWhwFBi56di3TmakTLdwRrFh3EGMPHMv_OyCCI0DCMb8Bci-C0itFpzRsoZoqw5t54Z-JeXy2XTaEyXMI0sSN6Uhf7OYjT6vlroWsifyTljk7Mb-hHbhzY8HBIPH1fb4kFawy7FV-_HY3-v8M-Frn-ReGVqu-YfzuI4QUc8SRS3gurpIG4UcsUk4cXdRLkouUmyGq2vlF7ES8O7u3RsOaljkO8FI-iDvk0cfmXjc-hA9PdeZdhxfmjwr7_9vxEVENDHWRDRlRiJCS7_nPHy_7geAUeK5RkGnkRTN0EtNOlI9jcJKhGz-82zMUxVbm2PW5BZ5G24jSbLpaf9FmVeLYGGD-NwkS7JVYrziWtzjKBsLlha4ALmP8NZNjaPNXEKXjqFXPnjTpfUi9HVirbUzctZwoT00Oym79wZ36fo8hr-NYDuuEyJzMEVjDOgknyKoQoBUaUhvGTRFOlRwY5_dUYpGpJ9zy1v2G1IZLwnTMsUTXfcT_LKSxOHixbQJl7HXRHcA3gouYoMDWDfyfnDxqdKITDSfuMcZpyYKqw_lYjAfPLbXcdHPSYja2fGY8KhI_rx3Trs_pxXfItxBvzYXMzHmCQhRmoPE00HtF-qsdpoHAq7XxDT-GvSOCdaLu-fotLTM-Ftakn4ierJyUyR6CJm4oMIX12RX7WxygEesN7WZqkzmqEIMw7f8VOy-F2Iu59NDmuF_AoeChpmATArMWo5pLtJ78Quhbuaz71gVr0SymU50phNWnc7RYB8VnFY-y-9SuWZr8VoppxeWNSy9RHXSXOYYH0RYvk8sNXBfx5ByAEP79tINY1FgT9aBjwWduUoHghl6v90YhVT6KkT1-GWM4qlTEpx-Vs6XU-dUBv4PQSr9DChON0KOnJa8amihlMGM7j3ZaS9sUBOXu7g_LmjD1oVT6EMw33flgRhXgbufOmzbyZ84gBcKd2_cCJnRDrko78FWsGDUwDp9ypOvaEk7J8LZ8wwetF3pGVDFGt1cX_LTieNp0RxuDW5Oxdf_dF3Jij9ox4QoBNd8VRm0UydnlHpY7HJ1vSvPHJb7C4utFKGVQ7FYLnasFPqxai6-CFh-0gkGCR8HwWNVyUjAZI4l6HkYznY47YWB_zE0rjDAHnd5ikMiZQ9Wig0NqdQQhRGF-68TVTkVCopnjReuvwnf5w77gKuQQzJw8G0WhMUYAbGZVWI3JAw_unHxVM1CZ4C04WPMHoG2rqfpKiB6VT4GwZ5CTcvQlrHISM8p_FALY4oz27kvuF-HxALqWHzvh_3IKKgA=),
+[the import page prefilled with my reasoning](https://www.howtruthful.com/private/import#0/XQAAIAAYIgAAAAAAAAAVCAMORhnWdKY-Pfdj67g-haQnpIg24YLqWZ9IBE-T7dkxqGPk6mnqsgrYAN0M9SUqRme9geK_MaNO9u_fHfwm9pbrYHjjepVTZtXr4VzUBrnFquiGHNhDj3qjZwzY_hUBgEV48lcLmxrKw8orO_8iA8YrWcsSsoT1su44eIPme2aVCJFSBQH6X82i1J3uz40f8QoRAbGlHOhoYwNuBbhGhI4jsV10ZBu3gSj-YU2JS3ePGSxtzbHV1rSkothl0DWlgqDEOOF0udyaciVZYazCqSLBA1MnuXUcwimFbisxhUgNkbRDMTYjog146f2p7cm1dyIif2vg6n3O8S6PAOQEX6e77oA2QaRpNhrJtV02kYTu8c0KH_j9lAoIa2KNk2P95HlE6DKbR_irpDJwyFhmwXbkZDto9KytRw0XqdGhCdrDNnMU8_mn1N3zvWCq9xpR1_mHbtnm1KKXEAm2NN5TsB0Wkk1DPHrXyqC71gwWINNiwf7x_XhIlcwMdvw8BU5LXh6lyP9B6_re0zJQwmqCwtxavtrZIPSrTixfJDTrOEbaoqy0M1h4QCdy5ID_dWfoA-cY7Pnx8luGAMYJK5aroagYC3VwpW6HwVKH1pbyYqWr9SQEXBZ_M7N_aTEGJv-MBUFYZk9icntF683qtAbRAym772uBbh3E2UB44EWhfSQ795uhGhz0w86G4A4rsmyWKZPhGY4w56ft0tgr6tp0Irg9djsijd3fnx1W-hzA8Q8VVzHq5MQIdzwRnaualEkXGQ96oX0SoMnt7xcK9EdmfyZsbfwtZi_uI-gewzpB-alCGTswMxvScufRJxmU2HHyes2TXa7pK1JAJBIi_hiBCMi9s_8AiHMKmiFj8D-T4qRRrWypsD-GsCGF3YMVpA0pIh4rhXZmcgrSmtWtBfLCwLOC2xqjTczNH6Bpvf8ZD7_wk24qA4bDpMlw5qUd0T8ZCOJPe2TslB74ixNscJQkwexn5iURi4Fj4lDZkQRMYj_824nL5oj4F46Z-fpsae3mLifq4v2qVBMyqqgYn4w_Tr3BHgRKZTmOr3lGqOuWY_bFU_pt80zYdTiVBWFf-Xs5nfwDKl5dKVP_FwkYlNKX-mYVN5zVXlRQ_dg6mXS1_yHakVGhK0mlagmz0uucw7tqPrJ7Xe0xHhClh861TnfiXiqhg-08wyhqnmUG6jYA7fcrwYOi-_ywi2WjxDvGaHkU2fqVuN3ZTPSPXx0tf7AuHyilTKbNnS5oaqFJ3JQ9s5LYLiMpWUZRwtigWkoEv0TTwsCVXXc9TJBoeb79PwVZJfnlW0FOXRiop7b_uyeco4gO7qlCPIh_510Iik2GFJVSjbtM996EZiYR1CarvMluQjmoq30agyqCQUSZlksgUmQVuPwXfmOJJcEKj8ZYxyEMcCu0XPSig7uzur508Q7xNcth202DM351tQhXC3HZbsenhnqcve4Jb5VUBqgJWf9f1JKQCRwzS4jAX97rBe2qJIxmZ7eajeROXTTgAvIeRqhiEac3BgCkrWvzVr4a3oSIGFlQ2wYEeqIag-jeBYOwkOUm-pxIDNKBQ6aWcYQF169l10BF-60cupWh8KfKOu-BRHdIL15B2hWv6ANms_vLHiwy3CzuYC2wZtAuWcaJs9fL0gV0eofAOLCnkYa1lHbblddk4pOT-Fx7cehFF8aAEuLxwKcZCiud79OzxV89Br7-VUlBHLHqfol2i4qg2qrEg1HHoyO7vUZv0UX32GLfRsp8jv3QLP1A8-HDGnDKXNyNKW1WCqwv-Rl51lBueSJAS-akxMtqzVXT6lXlQPZo3arvtc3N8kJhG3rj4j7rm8suWLAZrV74tDT2vvd5ZT0TWAWzOBXj40eaF9qh1EjK6V0qIR0zPwHLlrHUexgPAzIo-qIqySMZvqJ7rRep6U6JDObKJzJVDsPV_V5WR14kbzJFhOLxd2K80Ag62PgSJFCfUac7rirRlzpfUbrHnlhEGZ3SAi_M_7F6hfpEEqVgf2SaSD7jERRfKSs7hY7dLLvcvkviFQJuuuZNc7Dj7QWU2uLG0_G--Jr96-l5V4p9PywlEpUujxoraWkn1QJNK2WwxAA0OoOY8NhNHeL6ltbxckB7mLwplPN2EYuELRDZqev-fUDuaKF-l0bKrWkW4nvTZKmcvuK0yRrpsoxu7Vqp2wAcT2_eMijuroYz4h7sZLXuKEj_m0XbPs4qIJQ6mDihWOy4IoUH9Li4V8ZLQhrMrol4BOAaMTOWYhe8Tow1dQYg-eDz1QVoBjB5r91aCBfHtcBcCy3A2A5V4bvjHJIQjDTrFHVE1cFcu4ncQPX1I9l5TmIfz3uIoJPNQrpgC_4HqagLh0a9zylAz6toQr_WtD5yN2Q1duGl8AsNQDfywVT0js9hWhwFBi56di3TmakTLdwRrFh3EGMPHMv_OyCCI0DCMb8Bci-C0itFpzRsoZoqw5t54Z-JeXy2XTaEyXMI0sSN6Uhf7OYjT6vlroWsifyTljk7Mb-hHbhzY8HBIPH1fb4kFawy7FV-_HY3-v8M-Frn-ReGVqu-YfzuI4QUc8SRS3gurpIG4UcsUk4cXdRLkouUmyGq2vlF7ES8O7u3RsOaljkO8FI-iDvk0cfmXjc-hA9PdeZdhxfmjwr7_9vxEVENDHWRDRlRiJCS7_nPHy_7geAUeK5RkGnkRTN0EtNOlI9jcJKhGz-82zMUxVbm2PW5BZ5G24jSbLpaf9FmVeLYGGD-NwkS7JVYrziWtzjKBsLlha4ALmP8NZNjaPNXEKXjqFXPnjTpfUi9HVirbUzctZwoT00Oym79wZ36fo8hr-NYDuuEyJzMEVjDOgknyKoQoBUaUhvGTRFOlRwY5_dUYpGpJ9zy1v2G1IZLwnTMsUTXfcT_LKSxOHixbQJl7HXRHcA3gouYoMDWDfyfnDxqdKITDSfuMcZpyYKqw_lYjAfPLbXcdHPSYja2fGY8KhI_rx3Trs_pxXfItxBvzYXMzHmCQhRmoPE00HtF-qsdpoHAq7XxDT-GvSOCdaLu-fotLTM-Ftakn4ierJyUyR6CJm4oMIX12RX7WxygEesN7WZqkzmqEIMw7f8VOy-F2Iu59NDmuF_AoeChpmATArMWo5pLtJ78Quhbuaz71gVr0SymU50phNWnc7RYB8VnFY-y-9SuWZr8VoppxeWNSy9RHXSXOYYH0RYvk8sNXBfx5ByAEP79tINY1FgT9aBjwWduUoHghl6v90YhVT6KkT1-GWM4qlTEpx-Vs6XU-dUBv4PQSr9DChON0KOnJa8amihlMGM7j3ZaS9sUBOXu7g_LmjD1oVT6EMw33flgRhXgbufOmzbyZ84gBcKd2_cCJnRDrko78FWsGDUwDp9ypOvaEk7J8LZ8wwetF3pGVDFGt1cX_LTieNp0RxuDW5Oxdf_dF3Jij9ox4QoBNd8VRm0UydnlHpY7HJ1vSvPHJb7C4utFKGVQ7FYLnasFPqxai6-CFh-0gkGCR8HwWNVyUjAZI4l6HkYznY47YWB_zE0rjDAHnd5ikMiZQ9Wig0NqdQQhRGF-68TVTkVCopnjReuvwnf5w77gKuQQzJw8G0WhMUYAbGZVWI3JAw_unHxVM1CZ4C04WPMHoG2rqfpKiB6VT4GwZ5CTcvQlrHISM8p_FALY4oz27kvuF-HxALqWHzvh_3IKKgA=),
 scroll down, click Import, and navigate through it. When you see something you
 want to verify for yourself, change it to 3 - debatable. Investigate everything,
 put in your rating for that statement, then walk back up the tree, reassessing
-based on all the evidence. At the top, you'll have a clear picture as to whether
-this submission is a winner.
+based on all the evidence. At the top, you might have a clear picture as to
+whether this submission is a winner.
+
+Or you might not have a clear picture. I deliberately left the last part of the
+judging criteria debatable because I felt it would be presumptuous to rate that
+with my own opinion. That is one of
+[Claude's many criticisms](claude-assessment.md) of me underselling this
+submission. Judge for yourself.
+
+## Future work
+
+As I mentioned in an earlier section, I think it's important to let people drive
+the AI parts of the process from their own choice of agent, using skills that
+they can inspect and modify themselves. For this reason I don't have grand plans
+to make AI part of everybody's UI. But there are still useful things I can do.
+
+The skills in this repo were hastily thrown together, with no hesitation to rely
+on context that AGENTS.md provides. Skills are supposed to work when copied into
+other places, so I need to clean up where the context lives. There are also
+decisions to make about how many skills HowTruthful-LLM integration should
+comprise.
+
+There's a premium option on HowTruthful where opinions are stored in a cloud
+database and can be shared with everyone. An MCP server would be a helpful
+addition to premium, letting people use their own choice of agent to help them
+construct complex arguments to assess.
+
+The premium option needs a lot of work. It's weak in the import/export area. And
+it needs to be much more social. I have ideas for making it such that one can
+find contrasting opinions from any opinion page. I imagine people of diverse
+opinions coming together to find common ground and understand each other better.
+It might not be as hard as commonly thought. I'm going to try.
+
+## Closing thoughts
+
+I watched Twitter succeed when its main distinguishing characteristic was that
+it limited posts to 140 characters. This totally non-novel, small design
+decision had surprise effects by creating a platform where everything was
+concise. I copied Twitter in this respect, but of course, as a child of the
+8-bit computing area, I used the one true length limit of 255.
+
+HowTruthful also has its own small design decisions that aren't particularly
+novel technologically, but have nice surprise effects. The default value of
+"debatable" as you enter new statements starts to feel really nice when you're
+brainstorming, for example.
+
+But perhaps the most surprising was when I compromised on the "make everything
+as clean and minimialistic as possible" principle I mostly follow, and removed
+the code that hid the "Con" section header when it was empty. Actually it was
+both "Pro" and "Con", but the nice surprise effect was all about "Con".
+
+Leaving the "Con" header floating there over empty space turned out to be a
+reminder to always consider contrasting opinions. So I'll close doing that.
+
+My opinion is that there's tremendous value in the dispassionate reasoning
+facilitated by structuring arguments the way HowTruthful does. A contrasting
+opinion is that there's value in passionate prose. It's always entertaining when
+passionate prose emerges unexpectedly from an LLM. Of course, the LLM itself has
+no passion. It doesn't even have an underlying meaning to its words. Any
+"meaning" in its model is just relative to other opaque words. But the prose
+that pops out is a statistical prediction based on everyone whose thoughts went
+into its training data.
+
+So when I was doing my due diligence and having Claude review the argument map
+I'd made about whether this submission was a winner, all those people whose
+thoughts went into the training data took me to task severely for underselling
+it. I didn't want to translate their points into a graph of dispassionate
+context-independent statements. I can't believe I'm saying this, but please read
+this AI-generated text: [claude-assessment.md](claude-assessment.md)

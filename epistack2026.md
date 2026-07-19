@@ -184,5 +184,11 @@ As promised, you can go to
 scroll down, click Import, and navigate through it. When you see something you
 want to verify for yourself, change it to 3 - debatable. Investigate everything,
 put in your rating for that statement, then walk back up the tree, reassessing
-based on all the evidence. At the top, you'll have a clear picture as to whether
-this submission is a winner.
+based on all the evidence. At the top, you might have a clear picture as to
+whether this submission is a winner.
+
+Or you might not have a clear picture. I deliberately left the last part of the
+judging criteria debatable because I felt it would be presumptuous to rate that
+with my own opinion. That is one of
+[Claude's many criticisms](claude-assessment.md) of me underselling this
+submission. Judge for yourself.

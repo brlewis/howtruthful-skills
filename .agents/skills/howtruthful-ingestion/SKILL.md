@@ -36,9 +36,11 @@ guess wearing a citation's clothes, and the discrepancy is invisible to a
 reader until they click it and land in the wrong place.
 
 If a claim's key wording spans more than one output line, cite the line
-where the claim's core assertion is completed, not where it starts — a
-reader clicking the link should immediately hear the statement being made,
-not have to wait through a run-up.
+where the claim's core assertion starts, not where it completes — a
+reader clicking the link should hear the assertion in full, from its own
+start, even at the cost of a few seconds of irrelevant lead-in. Landing
+partway through the assertion and missing part of it is worse than a
+moment of run-up.
 
 ## Conversion Workflow
 

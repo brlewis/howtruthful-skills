@@ -2,7 +2,7 @@
   - +3 The earliest confirmed COVID-19 cases were centered on the Wuhan wet market rather than the Wuhan Institute of Virology.
     - +3 The first officially confirmed COVID-19 case, the next four cases, and half of the next 40 cases were connected to the Wuhan wet market.
     - -3 A specific patient, referred to as Mr. Chen, who had no wet-market connection, reportedly fell sick on December 8, before the first officially recognized wet-market case.
-      - +5 https://www.youtube.com/watch?v=KdORmvU8MLI&t=3680s
+      - +5 https://www.youtube.com/watch?v=KdORmvU8MLI&t=3679s
       - -3 Mr. Chen said in an interview that he was hospitalized for dental issues on December 8 and caught COVID in the hospital on December 16, after the first wet-market case, and had been erroneously reported as hospitalized for COVID on December 8.
         - -3 The claim that Mr. Chen was infected in the hospital on December 16, rather than earlier, rests on a single anonymous interview.
         - -3 No wet-market connection has been found for whoever infected Mr. Chen in the hospital, suggesting an unconnected transmission chain predating the officially recognized first wet-market case.
@@ -10,10 +10,10 @@
       - -3 The World Health Organization investigated these 92 unusual pneumonias and, after testing available samples with improved tests, found that none of them were actually COVID.
     - -3 Authorities screened and diagnosed COVID cases mainly among people with a wet-market connection, because they expected a zoonotic origin similar to SARS, biasing the observed cases toward the market.
       - +3 One of the few non-market-connected COVID cases detected in the early weeks of the outbreak was found only because a hospital worker recognized the symptoms in a relative and insisted on testing despite no wet-market connection.
-        - +5 https://www.youtube.com/watch?v=KdORmvU8MLI&t=3680s
+        - +5 https://www.youtube.com/watch?v=KdORmvU8MLI&t=3695s
       - -3 Authorities did not begin deliberately looking for wet-market connections until December 30, after the first 40 cases had already been identified, so that particular detection bias did not affect the earliest case count.
     - +3 A geographic heat map of early COVID-19 cases in Wuhan is centered on the wet market, not on the Wuhan Institute of Virology, roughly 6 miles away.
-      - +5 https://www.youtube.com/watch?v=Y1vaooTKHCM&t=2931s
+      - +5 https://www.youtube.com/watch?v=Y1vaooTKHCM&t=2944s
       - +3 A map of positive COVID samples within the wet market itself is centered on the southwest corner, where most wildlife was sold.
         - +3 A stall selling raccoon-dogs — an animal commonly carrying coronaviruses and considered a plausible intermediate host between bats and humans — existed in that section of the market.
           - +3 The existence of the raccoon-dog stall, initially denied by Chinese authorities who refused to release information, was confirmed via a photograph a virologist had taken during a 2014 visit documenting unsanitary conditions there.
@@ -25,17 +25,17 @@
                   - -3 Based on the location stated in the Chinese sample dataset, the negative mahjong-table sample does correspond to the mahjong room that was the geographic center of positive samples, not a different location.
             - -3 A formal statistical analysis suggests the raccoon-dog correlation with COVID-positive samples reflects contamination rather than a genuine animal reservoir signal.
               - +3 https://academic.oup.com/ve/article/9/2/vead050/7249794
-              - +5 https://www.youtube.com/watch?v=KdORmvU8MLI&t=3874s
+              - +5 https://www.youtube.com/watch?v=KdORmvU8MLI&t=3893s
               - +3 The statistical analysis of animal DNA found alongside COVID-positive samples ranked raccoon-dogs near the bottom, with wide-mouth bass — which cannot contract COVID — at the top.
               - -3 The raccoon-dog stall and its drain had among the highest COVID-positive sample rates in the market, which is more informative than the aggregate DNA ranking.
                 - +3 Raccoon-dogs were sold in separate caged stalls with air gaps large enough to make transmission between them difficult, so negative samples from other raccoon-dogs are unsurprising and don't rule out one infected raccoon-dog starting the outbreak.
                 - +3 Even proponents of the aggregate DNA ranking agree it must be flawed, since it implicates wide-mouth bass, a species that cannot contract COVID.
     - +3 It would be a surprising coincidence if a lab-leak pandemic first appeared at a wet market containing a plausible zoonotic reservoir animal, rather than near the laboratory it leaked from.
-      - +5 https://www.youtube.com/watch?v=Y1vaooTKHCM&t=3257s
+      - +5 https://www.youtube.com/watch?v=Y1vaooTKHCM&t=3251s
     - -3 The true origin of COVID-19 could be the Wuhan Institute of Virology, with officially observed cases clustering at the wet market only because of a later super-spreader event there.
       - +3 A worker at the Wuhan Institute of Virology could have been infected by a lab-created coronavirus and spread it quietly among human contacts for weeks to months before infecting someone who then caused a super-spreader event at the wet market.
       - -3 COVID's case count doubles roughly every 3.5 days; if the first infection had occurred as early as mid-November, case counts by January would have been roughly 256 times higher than what was actually observed, which is inconsistent with the observed data.
-        - +5 https://www.youtube.com/watch?v=d1dbfoK8nSE&t=1036s
+        - +5 https://www.youtube.com/watch?v=d1dbfoK8nSE&t=1037s
         - -3 The infection could have circulated for longer than the doubling-rate argument assumes.
           - +3 Pre-discovery COVID may have had a slower doubling time than the rate observed later, or post-lockdown serology may have indicated more actual infections than officially reported at the time.
       - -3 There was no discrete super-spreader event at the wet market, which is hard to reconcile with a single infected worker triggering one large spike.
@@ -66,12 +66,11 @@
       - -3 There was no discrete super-spreader event at the wet market, which is hard to reconcile with a single infected worker triggering one large spike.
     - -3 Scattered cases exist with mutation patterns intermediate between Lineage A and Lineage B, and others that appear even more ancestral than either lineage, which is hard to reconcile with two separate raccoon-dogs independently infecting humans.
       - -3 The scattered "intermediate" sequences were all partial genomes processed by one particular software tool that autofills unsequenced positions with its most plausible guess, already biased toward the more common Lineage B.
-        - +5 https://www.youtube.com/watch?v=jX-jdW5AwsE&t=3338s
         - +3 https://www.science.org/doi/10.1126/science.abp8337
         - +3 This software-artifact explanation is confirmed by there being too many "intermediate" sequences: at positions where Lineage A and B differ, the software produced both possible combinations, though only one could be a real biological intermediate.
       - -3 The scattered "progenitor" cases, appearing closer to the ancestral bat virus than either lineage, were all found in different locations months after the pandemic began, rather than spreading widely as a true ancestral lineage would.
         - +3 Given the total number of mutations COVID accumulated over the pandemic, the observed number of ancestral-looking "progenitor" sequences closely matches the number expected by chance as reversions toward the ancestral sequence.
-          - +5 https://www.youtube.com/watch?v=FLnXVflOjMo&t=4369s
+          - +5 https://www.youtube.com/watch?v=FLnXVflOjMo&t=4389s
   - +3 Both independent judges in the Rootclaim COVID origins debate concluded that a zoonotic spillover at the Wuhan wet market was the most likely origin of COVID-19.
   - -3 COVID-19's furin cleavage site was inserted through gain-of-function research at the Wuhan Institute of Virology, which then leaked into the human population.
     - +3 Two years before COVID emerged, scientists at the Wuhan Institute of Virology and the University of North Carolina submitted a grant proposal, DEFUSE, to collect bat coronaviruses and insert furin cleavage sites into them to make them more infectious.

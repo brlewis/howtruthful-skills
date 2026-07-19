@@ -14,7 +14,7 @@ genuinely sophisticated answer — it distinguishes _identical_ / _contradictory
 / _candidate-equivalent_ / _contrary_ / _no-match_, with a formal test for
 contrary-vs-contradictory (does a third possibility exist?) before ever flipping
 a sign. In the tree this shows up as one thin, uncited bullet:
-[examples/epistack-howtruthful-winner.md:58](examples/epistack-howtruthful-winner.md:58)
+[examples/epistack-howtruthful-winner.md#L58](examples/epistack-howtruthful-winner.md#L58)
 ("adversarial scrutiny leads to incremental sources that can be merged...").
 That's a $50k-tier capability reduced to a throwaway line.
 
@@ -27,21 +27,21 @@ information environments" and political contamination of evidence. It's not
 mentioned anywhere in the winner tree.
 
 **The bare-URL reliability-rating mechanic is uncited.**
-[AGENTS.md:106-138](AGENTS.md:106) defines a specific, mechanical
+[AGENTS.md#L106-138](AGENTS.md#L106) defines a specific, mechanical
 confidence-calibration scheme (5 if fetched successfully, 1 on clean 404, 3 if
 ambiguously blocked, 2 if "responds but doesn't inspire confidence") that's
 explicitly separate from whether the citation supports its claim. This is a real
 answer to "calibrating confidence accounting for out-of-model error" from the
 followup post, and it's simply not in the tree — only the content-fidelity half
 (`howtruthful-improvement`'s citation audit) gets a bullet, at
-[examples/epistack-howtruthful-winner.md:14](examples/epistack-howtruthful-winner.md:14).
+[examples/epistack-howtruthful-winner.md#L14](examples/epistack-howtruthful-winner.md#L14).
 
 **No self-demonstration is cited anywhere.** Nearly every meta-claim about the
 submission — "handled the three case studies fine"
-([:38](examples/epistack-howtruthful-winner.md:38)), "produces an artefact
+([#L38](examples/epistack-howtruthful-winner.md#L38)), "produces an artefact
 another team could pick up and extend"
-([:44](examples/epistack-howtruthful-winner.md:44)), "surfaces sub-problems...
-organizers had missed" ([:75](examples/epistack-howtruthful-winner.md:75)) — is
+([#L44](examples/epistack-howtruthful-winner.md#L44)), "surfaces sub-problems...
+organizers had missed" ([#L75](examples/epistack-howtruthful-winner.md#L75)) — is
 a bare assertion with no citation into this repo's own artifacts. That's a
 missed opportunity, not just a stylistic gap: this very repo just went through a
 live example of exactly what "faithful to evidence" and "failure modes named and
@@ -55,7 +55,7 @@ cited.
 
 **The root's weakest-rated branch may be its best argument.** "Shifts how
 contest organizers think about the problem itself"
-([:74](examples/epistack-howtruthful-winner.md:74)) is rated +3 — the lowest
+([#L74](examples/epistack-howtruthful-winner.md#L74)) is rated +3 — the lowest
 top-level score in the tree — with all three children also flat +3 and zero
 citations. But `epistack2026.md`'s hypertext-vs-circles-and-arrows argument
 (calling out Scott Alexander by name for missing it) is genuinely the most novel
@@ -73,7 +73,7 @@ low-cost node to add.
 ## Weaknesses needing shoring up
 
 **No source-quality filtering, unrebutted.**
-[examples/epistack-howtruthful-winner.md:15](examples/epistack-howtruthful-winner.md:15)
+[examples/epistack-howtruthful-winner.md#L15](examples/epistack-howtruthful-winner.md#L15)
 — "will ingest evidence from any source and present it in similar or identical
 wording to the original" — sits directly under "faithful to evidence" with no
 child addressing it at all. Given the organizers' explicit worry about
@@ -82,29 +82,29 @@ concession under your headline evidentiary-integrity claim is a real exposed
 flank.
 
 **Three separate "doesn't compute X" cons, and the rebuttal that exists is
-stranded elsewhere.** Lines [:18](examples/epistack-howtruthful-winner.md:18),
-[:23](examples/epistack-howtruthful-winner.md:23), and
-[:34](examples/epistack-howtruthful-winner.md:34) all hit the same gap (nothing
+stranded elsewhere.** Lines [#L18](examples/epistack-howtruthful-winner.md#L18),
+[#L23](examples/epistack-howtruthful-winner.md#L23), and
+[#L34](examples/epistack-howtruthful-winner.md#L34) all hit the same gap (nothing
 is computed, only made spottable) under "surfaces what matters" — each
 unrebutted at that location. Yet a real rebuttal already exists three branches
-away, at [:52-54](examples/epistack-howtruthful-winner.md:52) ("human scrutiny
+away, at [#L52-54](examples/epistack-howtruthful-winner.md#L52) ("human scrutiny
 is the end purpose... wrong to call the end purpose a bottleneck"). AGENTS.md's
 own reuse mechanism (identical statement text = identical node) makes it trivial
 to graft that same rebuttal in as a child at all three locations — this is a
 structural fix, not new content.
 
 **The Bayesian-incompatibility con has a ready-made rebuttal sitting in the same
-submission, unused.** [:48](examples/epistack-howtruthful-winner.md:48) says the
+submission, unused.** [#L48](examples/epistack-howtruthful-winner.md#L48) says the
 discrete 5-point scale is "likely incompatible" with tools that model truth as
 Bayesian probabilities. But the bundled COVID case study is _itself_ a live
 demonstration of naive Bayesian point-estimates going badly wrong — Rootclaim's
 model and five independent analysts' Bayesian re-estimates span 23 orders of
 magnitude on the same evidence (see
-[debate-covid-judges.md:49](debate-covid-judges.md:49)). A discrete,
+[debate-covid-judges.md#L49](debate-covid-judges.md#L49)). A discrete,
 human-judged scale sidesteps exactly that false-precision failure mode. This is
 a two-for-one fix sitting unused two files away.
 
-**The "surfaces" self-own.** [:35](examples/epistack-howtruthful-winner.md:35) —
+**The "surfaces" self-own.** [#L35](examples/epistack-howtruthful-winner.md#L35) —
 "'surface' means point out explicitly, not merely make easy to spot" — is a
 sharp semantic objection to the parent's own wording, left standing. Given the
 whole submission is built on catching exactly this kind of overclaiming word
@@ -114,7 +114,7 @@ kind of thing an adversarial judge notices first. Cheapest fix: revise
 distinguishing the two senses.
 
 **The youtube-only citation limitation gets no mitigation.**
-[:41](examples/epistack-howtruthful-winner.md:41) sits under "not narrowly
+[#L41](examples/epistack-howtruthful-winner.md#L41) sits under "not narrowly
 overfit" with no discussion of whether the same transcript-timestamp approach
 could extend to podcasts, PDFs with page numbers, etc. — leaving a real question
 about generalization unanswered right where "generalizes" is the organizers' own

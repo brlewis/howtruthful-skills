@@ -1,37 +1,57 @@
-# Solve Debate
+# HowTruthful Skills
 
-This is a response to
-[FLF's Epistemic Case Study Competition](https://flf.org/epistack-competition/).
-If you are judging this competition, your entry point is
-[epistack2026.md](epistack2026.md).
+Agent skills for turning a complex, debatable issue into an argument map you
+can actually scrutinize. Hand your AI agent a transcript, an article, a YouTube
+video, or just a topic, and it produces a map for
+[HowTruthful](https://www.howtruthful.com/), where every statement gets its own
+page with its own Pro and Con arguments. You then refine the map and decide for
+yourself which statements are true.
 
-This is a repository of tooling and techniques to help people navigate complex
-debatable statements. External to this repository,
-[HowTruthful](https://www.howtruthful.com/) lets one navigate through an
-argument map via hypertext, in a simpler and more information-dense format than
-the usual lines and circles. You may want to go there and construct arguments
-manually before using this repo so that later you know how to quickly and easily
-edit AI-generated arguments.
+HowTruthful lets one navigate an argument map via hypertext, in a simpler and
+more information-dense format than the usual lines and circles. You may want to
+go there and construct arguments manually first, so that later you know how to
+quickly edit AI-generated ones.
 
-Within this repository, tooling supports the techniques below.
+The skills:
+
+- **howtruthful-ingestion** converts source material into HowTruthful markdown
+  and, if asked, opens it in HowTruthful's import page.
+- **howtruthful-improvement** adds well-cited statements an existing map is
+  missing, and audits whether its citations really support their statements.
+- **howtruthful-merge** merges one map into another, so overlapping and
+  contradictory claims from different sources compound instead of duplicating.
+- **howtruthful-background** holds the shared rules the others depend on. You
+  don't invoke it directly.
+
+These skills won a prize in FLF's
+[Epistemic Case Study Competition](https://flf.org/epistack-competition/). The
+[`flf-epistack-2026`](https://github.com/brlewis/howtruthful-skills/tree/flf-epistack-2026)
+tag preserves the repo as it was submitted, including the contest writeup and
+example maps.
+
+## Installation
+
+1. [Install deno](https://docs.deno.com/runtime/getting_started/installation/).
+   The skills' scripts run on it, and it installs the skills themselves.
+2. Create the `dx` alias for running npm packages:
+
+   ```
+   deno x --install-alias
+   ```
+
+3. From your project directory, install the skills:
+
+   ```
+   dx skills add brlewis/howtruthful-skills
+   ```
+
+   Add `-g` to make them available in every project instead.
+
+You will also need python3, which the ingestion skill uses to open
+HowTruthful's import page in your browser. To use YouTube videos as source
+material, also [install yt-dlp](https://github.com/yt-dlp/yt-dlp#installation).
 
 ## Ingestion
-
-### Prerequisite
-
-If you don't
-[install deno](https://docs.deno.com/runtime/getting_started/installation/),
-then for the examples below, you will need to select all the markdown in the
-generated file, visit the import page linked below the examples, paste the
-markdown in, then scroll down and click the "Import" button.
-
-But if you _do_
-[install deno](https://docs.deno.com/runtime/getting_started/installation/) and
-python3, you can append "Then import" to the examples below, and your agent will
-open the import page for you, prefilled. You only need to scroll down and click
-Import.
-
-### Examples
 
 Suppose you have a `whatever.md` file that's any freeform text. For example:
 
@@ -41,34 +61,32 @@ Joe: The sky is blue because it looks blue.
 Carl: The sky is gray because it's cloudy.
 ```
 
-This repository includes an agent skill at
-`.agents/skills/howtruthful-ingestion/SKILL.md`. With most command-line AI
-agents, you should be able to do something like this:
+With most command-line AI agents, you should be able to do something like this:
 
 ```
 Use the howtruthful-ingestion skill to convert whatever.md into howtruthful.md.
+Then import.
 ```
 
-You can also ask the agent to create a new debate from a short topic description
-and write it directly to a markdown file:
+Your agent writes the map to `howtruthful.md`, then opens HowTruthful's import
+page prefilled with it. Scroll down and click Import.
+
+You can also ask the agent to create a new debate from a short topic
+description:
 
 ```
 Use the howtruthful-ingestion skill to discuss why AI should and shouldn't be
-used to assess what's true, then put the result into ht4-test.md.
+used to assess what's true, then put the result into ht4-test.md. Then import.
 ```
 
-The source material can also be a YouTube video. If you
-[install yt-dlp](https://github.com/yt-dlp/yt-dlp#installation), the skill can
-fetch and cite the video's own transcript directly, with timestamped citation
-links pulled from the transcript itself rather than guessed:
+The source material can also be a YouTube video. The skill fetches and cites the
+video's own transcript, with timestamped citation links pulled from the
+transcript itself rather than guessed:
 
 ```
 Use the howtruthful-ingestion skill to convert
-https://www.youtube.com/watch?v=VIDEO_ID into video-debate.md.
+https://www.youtube.com/watch?v=VIDEO_ID into video-debate.md. Then import.
 ```
-
-Then [import](https://www.howtruthful.com/private/import) the howtruthful
-markdown.
 
 You are not done! Your AI agent has fleshed out an initial map of the argument.
 You should explore and refine this map.
@@ -91,14 +109,13 @@ You should explore and refine this map.
 ### Attribution
 
 Notice that the example above drops "Joe" and "Carl" entirely: the generated
-statements are unattributed. This is deliberate. FLF's own call for submissions
-asks tools to capture "who said what, when, in what context," but we've chosen
-to default to the opposite, for the same reason HowTruthful asks you to
-scrutinize each statement in isolation (see "More argument map refinement"
-below): once a reader knows _who_ said something, they tend to judge the claim
-by the speaker's politics, personality, or track record instead of on its own
-merits. Stripping attribution by default is that same anti-motivated-reasoning
-principle applied to statements before they even reach the map.
+statements are unattributed. This is deliberate, for the same reason HowTruthful
+asks you to scrutinize each statement in isolation (see "More argument map
+refinement" below): once a reader knows _who_ said something, they tend to judge
+the claim by the speaker's politics, personality, or track record instead of on
+its own merits. Stripping attribution by default is that same
+anti-motivated-reasoning principle applied to statements before they even reach
+the map.
 
 Attribution isn't discarded from the tool, only from the default. Ask for it
 ("with attribution" in the initial request, or "add attribution" later) and the
@@ -107,6 +124,33 @@ blue," underneath the claim it supports. Framed this way, attribution becomes an
 ordinary, independently-assessable argument (a citation or an appeal to
 authority) that a reader can weigh, downgrade, or ignore, rather than context
 that silently colors the parent statement for every reader who sees it.
+
+## Improvement
+
+Ingestion only structures what's already in your source. To bring in outside
+information, ask for improvement explicitly:
+
+```
+Use the howtruthful-improvement skill to improve howtruthful.md.
+```
+
+The agent looks for gaps, such as vague quantifiers, missing methodological
+objections, or well-known claims the source left out, and adds a cited statement
+for each. You can also ask it to audit the citations already in the file. It
+reports any citation that doesn't support its statement and waits for you to
+choose a fix.
+
+## Merge
+
+When two sources cover the same debate, map each one, then merge them:
+
+```
+Use the howtruthful-merge skill to merge y.md into x.md.
+```
+
+Statements that mean the same thing become the same page, contradictory ones are
+folded in with their arguments flipped, and everything else is grafted in. The
+agent reports which merges involved judgment calls, so you know where to look.
 
 ## Assessment
 

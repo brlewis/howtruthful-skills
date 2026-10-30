@@ -9,12 +9,20 @@ Convert freeform debate text into HowTruthful-compatible recursive markdown. Use
 this skill when the user asks to transform source material into an argument map
 or HowTruthful markdown.
 
+Before anything else, read the howtruthful-background skill, which defines the
+statement graph, Pro/Con semantics, and markdown format this skill
+relies on. If it isn't installed, stop and tell the user to install it
+with `dx skills add brlewis/howtruthful-skills`.
+
+Script paths below (`scripts/...`) are relative to this skill's own directory,
+the one containing this SKILL.md, not to the current working directory.
+
 ## YouTube Sources
 
 If the source material is a YouTube URL rather than text, first run:
 
 ```bash
-.agents/skills/howtruthful-ingestion/scripts/fetch_youtube_transcript.ts <url>
+scripts/fetch_youtube_transcript.ts <url>
 ```
 
 This prints one line per caption fragment: a ready-to-use citation URL, a tab,
@@ -24,9 +32,9 @@ statement built from a line in this output gets a citation child whose entire
 content is that line's URL, copied verbatim.
 
 The script's own successful fetch of the transcript is the trigger for
-AGENTS.md's bare-URL rating exception — rate each of these citation
-children 5 rather than the default 3, since the video was already
-confirmed reachable in the course of producing this output.
+the howtruthful-background skill's bare-URL rating exception — rate each of
+these citation children 5 rather than the default 3, since the video was
+already confirmed reachable in the course of producing this output.
 
 Never construct a `&t=` value by hand, adjust one to "round it out," or
 estimate a timestamp from context (e.g. "this was said a few minutes in").
@@ -69,8 +77,9 @@ moment of run-up.
    - For "Y, so X" or "Since Y, X": X is the parent, Y is the child.
 1. Split a statement that bundles multiple examples into one sentence (e.g.
    "X, Y, and Z have all shown this") into separate sibling example children
-   per AGENTS.md's Examples rule, one per item, each independently citable —
-   not a single statement naming all of them under one shared citation. This
+   per the howtruthful-background skill's Examples rule, one per item, each
+   independently citable — not a single statement naming all of them under
+   one shared citation. This
    applies even when a single citation happens to cover every example; the
    point is letting each example be checked and rated on its own, not just
    avoiding a citation mismatch.
@@ -98,10 +107,11 @@ moment of run-up.
 - For `-3`, ask: if the child were true, would it be a reason to disbelieve the
   parent?
 - When nesting a child under a `-3` parent, imagine you've navigated to that
-  parent's own page (see AGENTS.md's page model) — nothing there shows the
-  top-level claim or your overall stance on it. Test the child only against
-  what's on that page. A rebuttal that restores confidence in the top-level
-  claim is still `-3` relative to the `-3` concern it rebuts.
+  parent's own page (see the howtruthful-background skill's page model) —
+  nothing there shows the top-level claim or your overall stance on it. Test
+  the child only against what's on that page. A rebuttal that restores
+  confidence in the top-level claim is still `-3` relative to the `-3` concern
+  it rebuts.
 - Judge support or opposition against the exact wording of the parent. If a
   child supports only a narrower, qualified, or reworded version of the parent,
   do not mark it as `+3` for the broader parent. Either revise the parent to
@@ -196,7 +206,8 @@ Before returning final output, silently check each child item:
 - Has anything been invented beyond what is present in or strongly implied by
   the input?
 - Is every statement (excluding bare-URL citations) 255 characters or fewer?
-  Split an overlong one per AGENTS.md's guidance rather than trimming content.
+  Split an overlong one per the howtruthful-background skill's guidance
+  rather than trimming content.
 
 Revise the markdown until these checks pass.
 
@@ -207,13 +218,19 @@ imported, use the following command, substituting the markdown file written for
 `file.md`.
 
 ```bash
-.agents/skills/howtruthful-ingestion/scripts/howtruthful_import.ts < file.md
+scripts/howtruthful_import.ts < file.md
 ```
 
 The script outputs the import URL to stdout. The agent must then open this URL
 in the user's browser by running `python3 -m webbrowser URL`. If browser
 launching fails, the agent must print the URL to the user in a non-wrapped code
 block.
+
+In environments running with terminal sandboxing (such as Antigravity), the
+browser-open command must be run outside the terminal sandbox (using
+"unsandboxed" execution privileges). Note: `xdg-open` and bare `firefox URL`
+silently fail when Firefox is already running on Linux; `python3 -m webbrowser`
+works reliably across platforms and browsers.
 
 ## Example
 

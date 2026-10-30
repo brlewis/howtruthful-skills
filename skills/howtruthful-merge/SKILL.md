@@ -6,14 +6,20 @@ description: "Use when asked to merge one HowTruthful markdown file's statements
 # HowTruthful Merge
 
 Merge `y.md` into `x.md`: statements in `y.md` that mean the same thing as a
-statement already in `x.md` become that same statement (per AGENTS.md, exact
-text match is what makes two nodes the same page); statements that
-contradict one already in `x.md` — in the strict sense below, not just
-disagree with it — get folded in with their support flipped; everything
-else is grafted in as new, untouched material. See AGENTS.md for the
-markdown format and the page model this relies on, and the
-howtruthful-ingestion skill's SKILL.md for the `+3`/`-3` relevance test this
-skill reuses rather than redefining.
+statement already in `x.md` become that same statement (exact text match is
+what makes two nodes the same page); statements that contradict one already
+in `x.md` — in the strict sense below, not just disagree with it — get
+folded in with their support flipped; everything else is grafted in as new,
+untouched material.
+
+Before anything else, read the howtruthful-background and
+howtruthful-ingestion skills: the first defines the statement graph, Pro/Con
+semantics, and markdown format, and this skill reuses rules from the second
+rather than redefining them. If either isn't installed, stop and tell the
+user to install them with `dx skills add brlewis/howtruthful-skills`.
+
+This skill relies on the background skill's page model and reuses the
+ingestion skill's `+3`/`-3` relevance test and identical-meaning test.
 
 Only run this skill when explicitly asked to merge one file into another.
 
@@ -29,9 +35,8 @@ some third option is still on the table.
 from a lab leak" are contrary, not contradictory: they can't both be true,
 but a third origin theory could make both false. Evidence against the
 lab-leak claim isn't automatically evidence for the spillover claim — it
-could instead be evidence for that third theory — so
-[debate-covid-furin.md](../../../debate-covid-furin.md) correctly keeps the
-lab-leak claim as its own intact page, attached as a plain `-3` child of
+could instead be evidence for that third theory — so a correct tree keeps
+the lab-leak claim as its own intact page, attached as a plain `-3` child of
 the spillover statement, rather than dissolving it and redistributing its
 arguments. That's exactly how this skill treats any contrary match (see
 Contrary below): the statement stays intact.
@@ -77,8 +82,7 @@ statement counts as evidence against the match.
       likely candidates that step 1 couldn't have known about in advance.
    2. Classify the statement against its shortlist as exactly one of:
       - **Identical**: same meaning as an `x.md` statement, per the
-        identical-meaning test in the howtruthful-ingestion skill's
-        SKILL.md.
+        identical-meaning test in the howtruthful-ingestion skill.
       - **Contradictory**: exactly one of this statement and an `x.md`
         statement can be true — see Contrary vs. contradictory above. Use
         this only when confident no third possibility exists.
@@ -161,4 +165,4 @@ Before returning, check:
 - Is every statement from `y.md` accounted for somewhere in the merged
   output?
 - Do any reworded statements still respect the 255-character limit (per
-  AGENTS.md)?
+  the howtruthful-background skill)?

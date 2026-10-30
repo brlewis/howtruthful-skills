@@ -10,8 +10,13 @@ well-supported statements that weren't in the material it was ingested
 from, and audit its existing bare-URL citations to check they actually
 support the statement each is attached to. Only run this skill when
 explicitly asked to improve, strengthen, or audit a file — never
-automatically after ingestion. See AGENTS.md for the markdown format,
-`+3`/`-3` semantics, and bare-URL citation convention.
+automatically after ingestion.
+
+Before anything else, read the howtruthful-background and
+howtruthful-ingestion skills: the first defines the statement graph, Pro/Con
+semantics, and markdown format, and this skill reuses rules from the second
+rather than redefining them. If either isn't installed, stop and tell the
+user to install them with `dx skills add brlewis/howtruthful-skills`.
 
 Unlike ingestion, which only structures what's already in the source and
 never invents facts, adding statements is this skill's job of bringing in
@@ -26,7 +31,7 @@ reader for.
    - A vague quantifier ("moderate," "regularly," "excessive," "safe
      levels") that a specific researched threshold could replace. Nest the
      quantified claim as an intermediate claim under the vague one, per the
-     disambiguation rule in the howtruthful-ingestion skill's SKILL.md —
+     disambiguation rule in the howtruthful-ingestion skill —
      don't just reword the vague parent. That rule also requires re-checking
      the vague parent's *existing* children against the new, narrower
      wording: a child that supported the broader parent may not support the
@@ -45,7 +50,7 @@ reader for.
      missing true one.
 2. Research each gap and write one context-independent, unambiguous
    statement per gap, worded per the claim-wording rule in the
-   howtruthful-ingestion skill's SKILL.md: state the claim directly, as
+   howtruthful-ingestion skill: state the claim directly, as
    someone asserting it would, even when it's false — never wrap it in a
    reporting frame like "X argues that" or "a popular belief holds that."
    The `+3`/`-3` sign already marks it as contested; put attribution, if it
@@ -57,8 +62,8 @@ reader for.
    skill adds without a citation is a defect, not an oversight to fix later.
    If the citation backs a specific interpretive or quantitative claim about
    what the source found (a study's percentage, a paper's conclusion), use
-   the intermediate-statement pattern in the howtruthful-ingestion skill's
-   SKILL.md ("<Source> found/says <finding>") instead of citing directly —
+   the intermediate-statement pattern in the howtruthful-ingestion skill
+   ("<Source> found/says <finding>") instead of citing directly —
    this skill's whole job is bringing in outside claims, so misreading what
    a source actually says is a real risk, and the intermediate is what makes
    that risk visible and disputable rather than silently baked in.
@@ -81,13 +86,13 @@ statement contains.
    just confounding in general — a plausible-sounding example bundled into
    an otherwise-supported sentence is easy to miss without checking each
    piece separately.
-   - This fetch is also the trigger for AGENTS.md's bare-URL rating
-     exception: since the fetch was attempted, set the citation's own
-     rating (the number after its `+`/`-`) from 3 to whatever the fetch
-     outcome warrants, independently of whatever the content-fidelity
-     check below finds. A citation can be a verified, reachable page (5)
-     that still doesn't support its parent statement — those are separate
-     questions.
+   - This fetch is also the trigger for the howtruthful-background skill's
+     bare-URL rating exception: since the fetch was attempted, set the
+     citation's own rating (the number after its `+`/`-`) from 3 to whatever
+     the fetch outcome warrants, independently of whatever the
+     content-fidelity check below finds. A citation can be a verified,
+     reachable page (5) that still doesn't support its parent statement —
+     those are separate questions.
 2. Watch especially for these mismatch patterns, since they read as
    support at a glance:
    - The source supports the statement's general claim but not a specific
@@ -111,12 +116,12 @@ statement contains.
    to the user with the specific source text that reveals the gap, and
    propose a fix matched to which mismatch pattern it is:
    - For a statement bundling multiple examples where the citation only
-     covers some of them, the fix is splitting per AGENTS.md's Examples
-     rule — one sibling statement per example, each with its own citation
-     — not adding a second citation to the same combined statement. Two
-     citations under one statement still leaves a reader to work out which
-     one backs which example; splitting is what actually removes the
-     tedium, not just papers over the mismatch.
+     covers some of them, the fix is splitting per the howtruthful-background
+     skill's Examples rule — one sibling statement per example, each with its
+     own citation — not adding a second citation to the same combined
+     statement. Two citations under one statement still leaves a reader to
+     work out which one backs which example; splitting is what actually
+     removes the tedium, not just papers over the mismatch.
    - For a source arguing the opposite of the statement, or covering a
      different specific case than the one named, the fix is narrowing the
      statement to what the citation actually supports or replacing the
@@ -144,7 +149,7 @@ it's nested under, does it have a citation, and is it still rated 3? If a
 parent's wording was narrowed, also recheck its pre-existing children against
 the new wording, not just the statement you added. Is the new statement
 (excluding any bare-URL citation) 255 characters or fewer — if not, split it
-per AGENTS.md's guidance rather than trimming content.
+per the howtruthful-background skill's guidance rather than trimming content.
 
 For every citation audited, was every named clause or example in its
 statement — not just the general topic — actually checked against the

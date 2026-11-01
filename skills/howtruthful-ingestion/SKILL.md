@@ -221,16 +221,18 @@ imported, use the following command, substituting the markdown file written for
 scripts/howtruthful_import.ts < file.md
 ```
 
-The script outputs the import URL to stdout. The agent must then open this URL
-in the user's browser by running `python3 -m webbrowser URL`. If browser
-launching fails, the agent must print the URL to the user in a non-wrapped code
-block.
+The script prints the import URL to stdout. Open that URL in the user's
+browser, by whatever means your environment offers: a browser tool you
+control, or by adding `--open` to the command above, which also opens the
+URL in the user's default browser. The first run downloads an npm package,
+and opening a browser launches a desktop program, so if your shell is
+sandboxed, run the command outside the sandbox. If the browser can't be
+opened, give the user the URL in a non-wrapped code block, along with the
+path to the markdown file.
 
-In environments running with terminal sandboxing (such as Antigravity), the
-browser-open command must be run outside the terminal sandbox (using
-"unsandboxed" execution privileges). Note: `xdg-open` and bare `firefox URL`
-silently fail when Firefox is already running on Linux; `python3 -m webbrowser`
-works reliably across platforms and browsers.
+Never click Import, or otherwise submit the import page, yourself — leave
+that to the user. They may already have private opinions in HowTruthful
+that an import could touch, and only they can judge that.
 
 ## Example
 

@@ -47,9 +47,8 @@ example maps.
 
    Add `-g` to make them available in every project instead.
 
-You will also need python3, which the ingestion skill uses to open
-HowTruthful's import page in your browser. To use YouTube videos as source
-material, also [install yt-dlp](https://github.com/yt-dlp/yt-dlp#installation).
+To use YouTube videos as source material, also
+[install yt-dlp](https://github.com/yt-dlp/yt-dlp#installation).
 
 ## Ingestion
 

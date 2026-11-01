@@ -1,17 +1,19 @@
 ---
 name: "howtruthful-ingestion"
-description: "Use when converting freeform debate text into HowTruthful-compatible recursive markdown."
+description: "Use when making a HowTruthful argument map (recursive markdown) from debate text, a transcript, an article, a YouTube video, or just a topic, and optionally opening it in HowTruthful's import page."
 ---
 
 # HowTruthful Ingestion
 
-Convert freeform debate text into HowTruthful-compatible recursive markdown. Use
-this skill when the user asks to transform source material into an argument map
-or HowTruthful markdown.
+Convert source material into HowTruthful-compatible recursive markdown: an
+argument map. The source can be freeform debate text, a transcript, an
+article, a YouTube URL, or just a topic. For a topic alone, lay out the
+arguments people actually make on each side, and treat that as the
+freeform text below.
 
 Before anything else, read the howtruthful-background skill, which defines the
-statement graph, Pro/Con semantics, and markdown format this skill
-relies on. If it isn't installed, stop and tell the user to install it
+statement graph, Pro/Con semantics, statement placement and wording rules,
+and markdown format this skill relies on. If it isn't installed, stop and tell the user to install it
 with `dx skills add brlewis/howtruthful-skills`.
 
 Script paths below (`scripts/...`) are relative to this skill's own directory,
@@ -63,8 +65,8 @@ moment of run-up.
    'add attribution' in a subsequent request. See Example below.
 1. Preserve meaningful metaphors, quoted phrases, and terms of art when they
    carry argumentative meaning.
-1. If any of these statements have identical meaning, keep the most clearly
-   worded one. If they are worded equally well, keep the shorter one.
+1. Merge statements with identical meaning per the howtruthful-background
+   skill's identical-meaning rule.
 1. Look for statements that have strictly opposite meaning from each other, i.e.
    if one is true then the other must be false, and vice versa, and an argument
    for one is an argument against the other. Keep the most clearly worded or
@@ -96,85 +98,9 @@ moment of run-up.
 - Prefix each top-level claim with `3`.
 - Prefix supporting child evidence with `+3`.
 - Prefix opposing child evidence with `-3`.
-- Each child must directly argue for or against its immediate parent.
-- Judge child placement by argumentative relevance, not by whether the child is
-  true, decisive, or strong evidence.
-- A weak, dubious, or false claim may still be included if the input presents or
-  implies it as an argument and, if true, it would count for or against the
-  parent.
-- For `+3`, ask: if the child were true, would it be a reason to believe the
-  parent?
-- For `-3`, ask: if the child were true, would it be a reason to disbelieve the
-  parent?
-- When nesting a child under a `-3` parent, imagine you've navigated to that
-  parent's own page (see the howtruthful-background skill's page model) —
-  nothing there shows the top-level claim or your overall stance on it. Test
-  the child only against what's on that page. A rebuttal that restores
-  confidence in the top-level claim is still `-3` relative to the `-3` concern
-  it rebuts.
-- Judge support or opposition against the exact wording of the parent. If a
-  child supports only a narrower, qualified, or reworded version of the parent,
-  do not mark it as `+3` for the broader parent. Either revise the parent to
-  match the qualified claim, make the child a `-3` objection to the broader
-  claim, or introduce a narrower intermediate claim that the child supports.
-  - Disambiguation: if the parent is genuinely ambiguous (has more than one
-    plausible meaning) and the child is stating one specific meaning, always
-    use the intermediate-claim option, not the other two. Revising the parent
-    would silently discard its other readings; marking the child `-3` makes no
-    sense when it isn't opposing anything. The child's own wording, unchanged,
-    becomes the intermediate claim itself (no separate node needed above it),
-    nested directly under the ambiguous parent.
-  - Whenever a parent's wording is replaced or narrowed by an intermediate
-    claim, re-run this test on each of that parent's *existing* children
-    too, not just the new one — do not leave them in place by default. A
-    child that supported the old, broader wording may no longer support the
-    new, narrower one, and belongs back under the broader parent instead.
-- Do not nest a child merely because it is nearby, topically related, shares
-  vocabulary, or supports a sibling.
-- A child's content is normally a context-independent statement. The one
-  exception is a source-citation child (see attribution in Conversion
-  Workflow above): its entire content may instead be a bare URL, e.g.
-  `https://example.com/post/123`, with no surrounding prose. HowTruthful
-  renders a child that starts with `http` or `https` as a clickable link, so
-  do not wrap it in a sentence like "According to https://...".
-  - When a citation backs a specific interpretive, summarized, or
-    quantitative claim about what a source found (e.g. "over 90% odds,"
-    "found no correlation"), rather than a bare fact unlikely to be
-    mischaracterized, insert an intermediate statement between the claim
-    and the citation: "<Source> found/says <finding>," the same pattern as
-    attribution. This gives a reader a node to dispute whether the source
-    actually supports that specific characterization, independent of
-    whether the underlying claim is true — a mismatch between what's
-    claimed and what a source actually says is otherwise invisible in the
-    tree. Don't reach for this by reflex: a tree still needs actual leaf
-    nodes, so only add the intermediate where it gives a reader something
-    real to scrutinize, not for every citation.
-- State each claim directly, in the wording someone asserting it would use —
-  even when it is false or contested. Do not wrap it in a reporting frame
-  like "X argues that," "a popular belief holds that," or "critics claim
-  that." The `+3`/`-3` sign and the claim's position in the tree already mark
-  it as contested; a reporting frame turns the claim into a different, often
-  trivially true, statement about the belief's existence rather than the
-  belief itself. If who holds the claim matters, add it as a separate
-  attribution child (see attribution in Conversion Workflow above) instead of
-  folding it into the claim's own wording.
-  - An attribution child is still a statement and must independently pass
-    the context-independence check below — restate the claim (e.g., "Otto
-    Rössler argued that a micro black hole produced by the LHC would grow
-    and consume the Earth"), don't refer back to it as "this claim" or "this
-    argument."
-  - This applies just as much to a formal, first-person source — a written
-    decision, report, or expert opinion saying "I found that..." or "I
-    concluded..." — as it does to a casual dialogue. The formal register
-    makes the reporting frame read like substance rather than attribution to
-    strip, but the same collapse happens: a reader ends up rating whether
-    the person said it, not whether the underlying claim is true, and a
-    claim that would otherwise stand on its own gets an unearned pass from
-    the source's credentials. The exception is a claim that's genuinely
-    about the person's own reasoning process rather than a claim about the
-    world they happen to be reporting — "the judge weighted the location
-    evidence most heavily in reaching their decision" is irreducibly about
-    that judge and doesn't need de-attributing.
+- Place every child by the howtruthful-background skill's `+3`/`-3` test,
+  word every claim by its no-reporting-frames rule, and cite sources per
+  its bare-URL and "<Source> found/says <finding>" rules.
 
 ## Review Pass
 

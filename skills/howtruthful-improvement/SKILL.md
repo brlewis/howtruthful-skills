@@ -66,7 +66,9 @@ reader for.
    ("<Source> found/says <finding>") instead of citing directly —
    this skill's whole job is bringing in outside claims, so misreading what
    a source actually says is a real risk, and the intermediate is what makes
-   that risk visible and disputable rather than silently baked in.
+   that risk visible and disputable rather than silently baked in. Word the
+   finding from the source's raw text, with a verbatim quote backing it,
+   per Auditing Citations step 1 below.
 5. Keep every added statement, and any parent it's nested under, at rating
    3 — this skill adds structure, not truthfulness judgments.
 6. Write only markdown to the file itself; report what changed and why in
@@ -86,6 +88,16 @@ statement contains.
    just confounding in general — a plausible-sounding example bundled into
    an otherwise-supported sentence is easy to miss without checking each
    piece separately.
+   - Read the source's raw text. Some fetch tools (Claude Code's WebFetch,
+     for example) pass the page through a smaller model and return a
+     summary, which is exactly where "the source mentions X" gets
+     hallucinated. Fetch the page yourself — `curl -sL <url>` and read the
+     HTML text, or download a PDF and extract its text (e.g. `pdftotext`).
+   - For each clause, named example, or qualifier you check, record a
+     verbatim quote from the raw text that covers it. A clause you can't
+     quote is unsupported. If you can't get the raw text at all (a
+     JavaScript-rendered page, a blocked request), report the clauses as
+     unverified, not supported.
    - This fetch is also the trigger for the howtruthful-background skill's
      bare-URL rating exception: since the fetch was attempted, set the
      citation's own rating (the number after its `+`/`-`) from 3 to whatever
@@ -113,8 +125,8 @@ statement contains.
      enough to characterize it with confidence at all.
 3. When a citation only partly supports its statement, or supports a
    different statement than the one it's attached to, report the mismatch
-   to the user with the specific source text that reveals the gap, and
-   propose a fix matched to which mismatch pattern it is:
+   to the user with a verbatim quote of the source text that reveals the
+   gap, and propose a fix matched to which mismatch pattern it is:
    - For a statement bundling multiple examples where the citation only
      covers some of them, the fix is splitting per the howtruthful-background
      skill's Examples rule — one sibling statement per example, each with its
@@ -145,7 +157,9 @@ statement contains.
 
 Before returning, check each added statement: does it stand alone without
 needing its parent for context, does it directly bear on the specific node
-it's nested under, does it have a citation, and is it still rated 3? If a
+it's nested under, does it have a citation, and is it still rated 3? Is every
+"<Source> found <finding>" intermediate backed by a verbatim quote from the
+source's raw text? If a
 parent's wording was narrowed, also recheck its pre-existing children against
 the new wording, not just the statement you added. Is the new statement
 (excluding any bare-URL citation) 255 characters or fewer — if not, split it
@@ -153,6 +167,8 @@ per the howtruthful-background skill's guidance rather than trimming content.
 
 For every citation audited, was every named clause or example in its
 statement — not just the general topic — actually checked against the
-source's text? Was every mismatch reported with the specific source
-passage that reveals it, and left unfixed until the user chose an option,
-rather than silently rewritten?
+source's raw text, with a verbatim quote for each — not a fetch tool's
+summary? Was every clause you couldn't quote reported as unverified or
+unsupported? Was every mismatch reported with a verbatim quote of the
+source passage that reveals it, and left unfixed until the user chose an
+option, rather than silently rewritten?

@@ -12,14 +12,14 @@ in `x.md` — in the strict sense below, not just disagree with it — get
 folded in with their support flipped; everything else is grafted in as new,
 untouched material.
 
-Before anything else, read the howtruthful-background and
-howtruthful-ingestion skills: the first defines the statement graph, Pro/Con
-semantics, and markdown format, and this skill reuses rules from the second
-rather than redefining them. If either isn't installed, stop and tell the
-user to install them with `dx skills add brlewis/howtruthful-skills`.
+Before anything else, read the howtruthful-background skill, which defines
+the statement graph, Pro/Con semantics, statement placement and wording
+rules, and markdown format this skill relies on. If it isn't installed,
+stop and tell the user to install it with
+`dx skills add brlewis/howtruthful-skills`.
 
-This skill relies on the background skill's page model and reuses the
-ingestion skill's `+3`/`-3` relevance test and identical-meaning test.
+This skill relies on the background skill's page model, `+3`/`-3` test,
+and identical-meaning rule.
 
 Only run this skill when explicitly asked to merge one file into another.
 
@@ -82,7 +82,7 @@ statement counts as evidence against the match.
       likely candidates that step 1 couldn't have known about in advance.
    2. Classify the statement against its shortlist as exactly one of:
       - **Identical**: same meaning as an `x.md` statement, per the
-        identical-meaning test in the howtruthful-ingestion skill.
+        identical-meaning rule in the howtruthful-background skill.
       - **Contradictory**: exactly one of this statement and an `x.md`
         statement can be true — see Contrary vs. contradictory above. Use
         this only when confident no third possibility exists.
@@ -97,8 +97,7 @@ statement counts as evidence against the match.
       - **No match**.
    3. For a candidate-equivalent only, apply one more test before accepting
       it: if this statement were true, is it actually a reason to believe
-      the matched `x.md` statement (the same `+3` test from the ingestion
-      skill) — not merely a similar-sounding restatement of it, and not
+      the matched `x.md` statement (the background skill's `+3` test) — not merely a similar-sounding restatement of it, and not
       merely topically related. A candidate-equivalent that fails this test
       is not evidence for the matched statement; reclassify it as no match.
       Contrary needs no equivalent check: the classification itself already

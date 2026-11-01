@@ -12,11 +12,11 @@ support the statement each is attached to. Only run this skill when
 explicitly asked to improve, strengthen, or audit a file — never
 automatically after ingestion.
 
-Before anything else, read the howtruthful-background and
-howtruthful-ingestion skills: the first defines the statement graph, Pro/Con
-semantics, and markdown format, and this skill reuses rules from the second
-rather than redefining them. If either isn't installed, stop and tell the
-user to install them with `dx skills add brlewis/howtruthful-skills`.
+Before anything else, read the howtruthful-background skill, which defines
+the statement graph, Pro/Con semantics, statement placement and wording
+rules, and markdown format this skill relies on. If it isn't installed,
+stop and tell the user to install it with
+`dx skills add brlewis/howtruthful-skills`.
 
 Unlike ingestion, which only structures what's already in the source and
 never invents facts, adding statements is this skill's job of bringing in
@@ -31,7 +31,7 @@ reader for.
    - A vague quantifier ("moderate," "regularly," "excessive," "safe
      levels") that a specific researched threshold could replace. Nest the
      quantified claim as an intermediate claim under the vague one, per the
-     disambiguation rule in the howtruthful-ingestion skill —
+     disambiguation rule in the howtruthful-background skill —
      don't just reword the vague parent. That rule also requires re-checking
      the vague parent's *existing* children against the new, narrower
      wording: a child that supported the broader parent may not support the
@@ -49,8 +49,8 @@ reader for.
      assessing truth, so a well-known false claim is a gap just as much as a
      missing true one.
 2. Research each gap and write one context-independent, unambiguous
-   statement per gap, worded per the claim-wording rule in the
-   howtruthful-ingestion skill: state the claim directly, as
+   statement per gap, worded per the no-reporting-frames rule in the
+   howtruthful-background skill: state the claim directly, as
    someone asserting it would, even when it's false — never wrap it in a
    reporting frame like "X argues that" or "a popular belief holds that."
    The `+3`/`-3` sign already marks it as contested; put attribution, if it
@@ -62,7 +62,7 @@ reader for.
    skill adds without a citation is a defect, not an oversight to fix later.
    If the citation backs a specific interpretive or quantitative claim about
    what the source found (a study's percentage, a paper's conclusion), use
-   the intermediate-statement pattern in the howtruthful-ingestion skill
+   the intermediate-statement pattern in the howtruthful-background skill
    ("<Source> found/says <finding>") instead of citing directly —
    this skill's whole job is bringing in outside claims, so misreading what
    a source actually says is a real risk, and the intermediate is what makes

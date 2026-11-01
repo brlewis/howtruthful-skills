@@ -66,6 +66,76 @@ When a general claim is really several examples bundled into one sentence (e.g. 
 
 Citations lend truth to the main statement only in combination with statements about the reliability of the source.
 
+## Placing a child: the `+3`/`-3` test
+
+In the import format below, a `+3` child is in its parent's Pro section and
+a `-3` child is in its Con section.
+
+- Each child must directly argue for or against its immediate parent.
+- For `+3`, ask: if the child were true, would it be a reason to believe the
+  parent?
+- For `-3`, ask: if the child were true, would it be a reason to disbelieve
+  the parent?
+- Judge placement by argumentative relevance, not by whether the child is
+  true, decisive, or strong evidence. A weak, dubious, or false claim still
+  belongs if someone presents it as an argument and, if true, it would count
+  for or against the parent.
+- When nesting a child under a `-3` parent, apply the page model above:
+  nothing on that parent's page shows the top-level claim or your overall
+  stance on it. A rebuttal that restores confidence in the top-level claim
+  is still `-3` relative to the `-3` concern it rebuts.
+- Nest a child only for what it argues, never because it is nearby,
+  topically related, shares vocabulary, or supports a sibling.
+- Judge support or opposition against the exact wording of the parent. If a
+  child supports only a narrower, qualified, or reworded version of the
+  parent, do not mark it as `+3` for the broader parent. Either revise the
+  parent to match the qualified claim, make the child a `-3` objection to
+  the broader claim, or introduce a narrower intermediate claim that the
+  child supports.
+  - Disambiguation: if the parent is genuinely ambiguous (has more than one
+    plausible meaning) and the child is stating one specific meaning, always
+    use the intermediate-claim option, not the other two. Revising the parent
+    would silently discard its other readings; marking the child `-3` makes no
+    sense when it isn't opposing anything. The child's own wording, unchanged,
+    becomes the intermediate claim itself (no separate node needed above it),
+    nested directly under the ambiguous parent.
+  - Whenever a parent's wording is replaced or narrowed by an intermediate
+    claim, re-run this test on each of that parent's *existing* children
+    too, not just the new one — do not leave them in place by default. A
+    child that supported the old, broader wording may no longer support the
+    new, narrower one, and belongs back under the broader parent instead.
+
+## Wording a claim: no reporting frames
+
+State each claim directly, in the wording someone asserting it would use —
+even when it is false or contested. Do not wrap it in a reporting frame
+like "X argues that," "a popular belief holds that," or "critics claim
+that." The `+3`/`-3` sign and the claim's position in the tree already mark
+it as contested; a reporting frame turns the claim into a different, often
+trivially true, statement about the belief's existence rather than the
+belief itself.
+
+If who holds the claim matters, add an **attribution child**: a `+3` child
+of the claim saying who said it, e.g. "Joe said the sky looks blue," and
+optionally its own bare-URL citation child (see below).
+
+- An attribution child is still a statement and must be context-independent
+  on its own — restate the claim (e.g., "Otto Rössler argued that a micro
+  black hole produced by the LHC would grow and consume the Earth"), don't
+  refer back to it as "this claim" or "this argument."
+- This applies just as much to a formal, first-person source — a written
+  decision, report, or expert opinion saying "I found that..." or "I
+  concluded..." — as it does to a casual dialogue. The formal register
+  makes the reporting frame read like substance rather than attribution to
+  strip, but the same collapse happens: a reader ends up rating whether
+  the person said it, not whether the underlying claim is true, and a
+  claim that would otherwise stand on its own gets an unearned pass from
+  the source's credentials. The exception is a claim that's genuinely
+  about the person's own reasoning process rather than a claim about the
+  world they happen to be reporting — "the judge weighted the location
+  evidence most heavily in reaching their decision" is irreducibly about
+  that judge and doesn't need de-attributing.
+
 ## Graph statements first, assess truthfulness later.
 
 HowTruthful lets humans rate statements' truthfulness on a simple 5-point scale,
@@ -78,7 +148,7 @@ is all laid out.
 
 HowTruthful can import markdown files that represent a graph of statements.
 Top-level statements are prepended with their truthfulness rating. Pro children
-are prepended with a plus sign and thier truthfulness rating. Con children are
+are prepended with a plus sign and their truthfulness rating. Con children are
 prepended with a minus sign and their truthfulness rating. Here's an example:
 
 ```
@@ -93,11 +163,15 @@ node appears in markdown. Distinct nodes never have the exact same
 statement. This allows cycles in the graph without requiring cycles in
 the markdown.
 
+Because exact text is what makes two nodes the same page, two statements
+with identical meaning should be one statement: keep the most clearly
+worded one, or the shorter one if they are worded equally well.
+
 A statement's text is limited to 255 characters. A statement that runs
 long usually has a claim and a reason bundled into one sentence — split
-it the same way as any other causal statement (see Conversion Workflow):
-the conclusion becomes the parent (or stays where the combined statement
-was), and the supporting reason becomes a child.
+it the same way as any other causal statement: the conclusion becomes
+the parent (or stays where the combined statement was), and the
+supporting reason becomes a child.
 
 ## Citing a source with a bare URL
 
@@ -109,6 +183,18 @@ that starts with `http` or `https` as a clickable link to that URL. Wrapping
 it in a sentence loses that rendering and gains nothing: the parent statement
 already says who said what, so the URL child's only job is to let a reader
 verify the source in one click.
+
+When a citation backs a specific interpretive, summarized, or quantitative
+claim about what a source found (e.g. "over 90% odds," "found no
+correlation"), rather than a bare fact unlikely to be mischaracterized,
+insert an intermediate statement between the claim and the citation:
+"<Source> found/says <finding>," the same pattern as an attribution child.
+This gives a reader a node to dispute whether the source actually supports
+that specific characterization, independent of whether the underlying
+claim is true — a mismatch between what's claimed and what a source
+actually says is otherwise invisible in the tree. Add the intermediate only
+where it gives a reader something real to scrutinize, not for every
+citation: a tree still needs actual leaf nodes.
 
 ## Rating a bare-URL citation
 

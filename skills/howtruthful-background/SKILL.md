@@ -205,7 +205,12 @@ If the agent did not attempt to fetch the citation, leave it at the default
 3. If it did attempt the fetch, rate the citation according to the outcome:
 
 - Successfully fetched (the content behind the link actually loaded) → 5,
-  true.
+  true. A 5 means you saw the resource's real content. A fetch tool that
+  passes the page through a model and returns a summary can return a
+  plausible summary of an error page, paywall, or login redirect, so when
+  all you have is a summary, confirm with a raw fetch (e.g. `curl -sL`)
+  before rating 5, and otherwise rate by whichever outcome below the raw
+  fetch shows.
 - A clean 404, or other definitive confirmation the resource doesn't exist
   at that address → 1, false.
 - An access barrier that could well be temporary or specific to the

@@ -56,7 +56,7 @@ statement can have its own web page where it can be scrutinized in isolation.
 
 Evidence and counterevidence are the most obvious types of statement one might make when arguing. They affect the truthfulness of the main statement according to how true they are.
 
-The Con section contains only counterevidence statements. The Pro section may contain evidence, disambiguation, examples, or citations.
+The Con section may contain counterevidence, or any other statement one might make when arguing against the main statement, such as one saying it is ambiguous. The Pro section may contain evidence, disambiguation, examples, or citations.
 
 Disambiguation is when someone argues for an ambiguous statement by stating a possible meaning. For example, "A COVID lockdown would be a bad idea" might have a Pro statement of "A COVID lockdown's likely costs would outweigh its likely benefits." The ambiguous statement keeps its "3 - debatable" assessment regardless of the truthfulness of the disambiguation.
 
@@ -72,14 +72,8 @@ In the import format below, a `+3` child is in its parent's Pro section and
 a `-3` child is in its Con section.
 
 - Each child must directly argue for or against its immediate parent.
-- For `+3`, ask: if the child were true, would it be a reason to believe the
-  parent?
-- For `-3`, ask: if the child were true, would it be a reason to disbelieve
-  the parent?
-- Judge placement by argumentative relevance, not by whether the child is
-  true, decisive, or strong evidence. A weak, dubious, or false claim still
-  belongs if someone presents it as an argument and, if true, it would count
-  for or against the parent.
+- For `+3`, ask: would someone arguing for the parent say the child?
+- For `-3`, ask: would someone arguing against the parent say the child?
 - When nesting a child under a `-3` parent, apply the page model above:
   nothing on that parent's page shows the top-level claim or your overall
   stance on it. A rebuttal that restores confidence in the top-level claim

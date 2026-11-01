@@ -97,8 +97,11 @@ statement counts as evidence against the match.
       - **No match**.
    3. For a candidate-equivalent only, apply one more test before accepting
       it: if this statement were true, is it actually a reason to believe
-      the matched `x.md` statement (the background skill's `+3` test) — not merely a similar-sounding restatement of it, and not
-      merely topically related. A candidate-equivalent that fails this test
+      the matched `x.md` statement — not merely a similar-sounding
+      restatement of it, and not merely topically related. This is stricter
+      than the background skill's `+3` test on purpose: someone arguing for
+      a statement might well restate it, so that test alone would let a
+      restatement through. A candidate-equivalent that fails this test
       is not evidence for the matched statement; reclassify it as no match.
       Contrary needs no equivalent check: the classification itself already
       requires that the statement counts as evidence against its match, so
@@ -112,12 +115,21 @@ statement counts as evidence against the match.
         and are then merged into that `x.md` node's existing children,
         recursively repeating this whole workflow with that node's children
         as the new local shortlist source.
-      - **Contradictory**: do not create a node for this statement. Instead,
-        fold its immediate children directly into the matched `x.md`
-        statement: its `+3` children become `-3` children of the `x.md`
-        statement, and its `-3` children become `+3` children of it (an
-        argument against this statement is, by the contradictory relation,
-        necessarily an argument for the `x.md` statement, and vice versa).
+      - **Contradictory**: fold this statement's immediate children into
+        the matched `x.md` statement with their signs flipped, but only the
+        children that pass the background skill's `+3`/`-3` test against
+        the `x.md` statement once flipped: a `-3` child becomes a `+3`
+        child of the `x.md` statement if someone arguing for the `x.md`
+        statement would say it, and a `+3` child becomes a `-3` child if
+        someone arguing against the `x.md` statement would say it.
+        Counterevidence passes, since by the contradictory relation an
+        argument that this statement is false is an argument that the
+        `x.md` statement is true. A child that only casts doubt on this
+        statement, such as one saying it is ambiguous, does not pass: the
+        `x.md` statement, its contradiction, is ambiguous in the same way.
+        If every child moves, create no node for this statement. Otherwise,
+        attach it as a `-3` child of the `x.md` statement, with the children
+        that didn't move still under it, signs unchanged.
         Only the immediate children flip sign this way; each flipped
         child's own descendants keep their original signs unchanged, since
         those are still correctly signed relative to their own immediate
@@ -157,7 +169,9 @@ Before returning, check:
   out — not just "these two can't both be true"? If there's any doubt,
   reclassify as contrary instead, which needs no such guarantee.
 - For every contradictory fold-in that did proceed, did only the immediate
-  children flip sign — not their descendants too?
+  children flip sign — not their descendants too? Did each flipped child
+  pass the `+3`/`-3` test against the `x.md` statement, with the rest left
+  under the contradictory statement?
 - Does every statement attached as a candidate-equivalent Pro actually pass
   the "if true, is this a reason to believe the parent" test, rather than
   being attached on similarity alone?

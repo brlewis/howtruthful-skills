@@ -1,0 +1,9 @@
+{
+  "skill": "howtruthful-ingestion",
+  "tags": ["fast"],
+  "inputs": { "input.txt": "fixture:barrage.txt" },
+  "rules": ["context-independent", "no-reporting-frames", "attribution"],
+  "judgeContext": { "Source text": "fixture:barrage.txt" },
+  "must": ["Voss", "https://example.com/voss-severn-interview"],
+  "mustNot": ["this claim", "this argument", "this view"]
+}

@@ -1,0 +1,8 @@
+{
+  "skill": "howtruthful-merge",
+  "tags": ["slow"],
+  "inputs": { "x.md": "tag:debate-covid.md", "y.md": "tag:debate-covid-judges.md" },
+  "rules": ["signs", "merge-placement"],
+  "maxTurns": 30,
+  "timeoutSeconds": 900
+}

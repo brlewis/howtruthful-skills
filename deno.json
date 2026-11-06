@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "eval": "deno run --allow-all evals/run.ts",
+    "eval:full": "deno run --allow-all evals/run.ts --full",
+    "eval:noise": "deno run --allow-all evals/run.ts --noise",
+    "test": "deno test --allow-read evals/"
+  }
+}

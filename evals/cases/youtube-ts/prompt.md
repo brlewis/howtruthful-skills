@@ -1,0 +1,1 @@
+Make a HowTruthful argument map of the YouTube video https://www.youtube.com/watch?v=HTevalFixtr and write it to `output.md`. I already ran `fetch_youtube_transcript.ts` on it, and its output is in `transcript.tsv`.

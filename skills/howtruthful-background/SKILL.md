@@ -180,40 +180,21 @@ debatable. This is consistent with how courts decide complex cases. First sort
 out what everyone is saying, then assess what's true after both sides' reasoning
 is all laid out.
 
-The ratings are the human's. An agent sets a rating in only two cases:
-transcribing the user's stated views (below), and a bare-URL citation it
-fetched (see Rating a bare-URL citation). A statement an agent adds starts
-at 3. Every rating already in a file is the human's work: carry it through
-unchanged when editing, improving, or merging the file. A rating belongs to
-the wording it was given for, so a rated statement (anything but 3) also
-keeps its wording, even where the no-hedges rule would restate it. List
-such a statement for the user instead of rewording it.
+The ratings are the human's. An agent sets a rating in only two cases,
+each with its own procedure in this skill's directory:
 
-### Transcribing stated views
+- **Stated views**: the user says what they think is true while
+  discussing a tree. Read [stated-views.md](stated-views.md) before
+  offering or applying ratings.
+- **Fetched citations**: the agent attempted to fetch a bare-URL citation.
+  Read [citation-ratings.md](citation-ratings.md) before rating it.
 
-While discussing a tree, a user often says what they think is true: "the
-cost objections are fearmongering," "the point about the AG's certification
-is right." Offer to record such views as ratings, and apply them once the
-user accepts. If the user asks for this directly, apply them without
-offering.
-
-1. Map each view to the statements it covers. A sweeping view ("everything
-   about other states' laws is accurate") can cover many statements, and
-   deciding which ones it reaches is your judgment call. It's the only
-   judgment you make: the rating itself comes from the user's words, on the
-   scale 1 false, 2 dubious, 3 debatable, 4 plausible, 5 true, matching
-   the strength the user expressed.
-2. A view covers a statement's meaning, not its neighbors. A view on a
-   conclusion ("I'm voting yes on question 2") rates that conclusion alone:
-   each Pro and Con under it keeps its current rating, because the graph
-   exists to rate them separately. A statement no view reaches keeps its
-   current rating.
-3. Present each proposed rating with its statement and the user's words it
-   comes from, so the user can correct your mapping before accepting. When
-   applying a direct request, report the same list after writing.
-
-Done when every rating you changed traces to a quoted view, and every other
-rating is unchanged.
+A statement an agent adds starts at 3. Every rating already in a file is the
+human's work: carry it through unchanged when editing, improving, or merging
+the file. A rating belongs to the wording it was given for, so a rated
+statement (anything but 3) also keeps its wording, even where the no-hedges
+rule would restate it. List such a statement for the user instead of
+rewording it.
 
 ## The import format
 
@@ -266,41 +247,3 @@ claim is true — a mismatch between what's claimed and what a source
 actually says is otherwise invisible in the tree. Add the intermediate only
 where it gives a reader something real to scrutinize, not for every
 citation: a tree still needs actual leaf nodes.
-
-## Rating a bare-URL citation
-
-A bare-URL citation child is the one statement whose rating an agent
-judges for itself, as a narrow, mechanical exception to "the ratings are
-the human's" (above): an agent that actually attempted to fetch the URL has direct,
-first-hand evidence of one specific, non-debatable fact — whether the link
-resolves — and rating that fact isn't the same kind of judgment call the
-"assess truthfulness later" rule is protecting.
-
-If the agent did not attempt to fetch the citation, leave it at the default
-3. If it did attempt the fetch, rate the citation according to the outcome:
-
-- Successfully fetched (the content behind the link actually loaded) → 5,
-  true. A 5 means you saw the resource's real content. A fetch tool that
-  passes the page through a model and returns a summary can return a
-  plausible summary of an error page, paywall, or login redirect, so when
-  all you have is a summary, confirm with a raw fetch (e.g. `curl -sL`)
-  before rating 5, and otherwise rate by whichever outcome below the raw
-  fetch shows.
-- A clean 404, or other definitive confirmation the resource doesn't exist
-  at that address → 1, false.
-- An access barrier that could well be temporary or specific to the
-  fetching tool — a 403, a paywall, a login redirect, a timeout, a
-  rate limit — leave at 3, debatable. This doesn't mean the link is bad;
-  it means the agent couldn't tell either way, and 3 says exactly that.
-- 2, dubious, is for a citation that responds but not in a way that
-  inspires confidence it's the real resource — a redirect to an
-  unrelated page, a "soft 404" that returns success but has no real
-  content, a domain that's been repurposed. Use judgment; this is the one
-  rating in this rule that isn't mechanical.
-
-This rates the link itself, not the claim it's attached to, and not
-whether its content actually supports that claim — a citation can be a
-verified, reachable, perfectly real page (5) that still doesn't say what
-the statement above it claims. That's a separate question, covered by the
-howtruthful-improvement skill's citation audit.
-

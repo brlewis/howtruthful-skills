@@ -146,7 +146,9 @@ unopposed will take voters for granted and ignore important issues," which a
 reader can rate anywhere from false to true. Don't swap one hedge for
 another: "often," "sometimes," and "in some cases" are just as weak. If the
 source gives a real frequency or size, use that number. Otherwise use the
-definite form. This isn't inventing beyond the source. It states the
+definite form. Never add a hedge the source didn't use: if the source says
+a proposal "leaves voters with no one to vote for," don't write "could
+leave." This isn't inventing beyond the source. It states the
 strongest version of the argument the source is making, which readers then
 rate.
 
@@ -156,9 +158,12 @@ Keep the modal when:
 
 - It grants permission: "Public defenders may form a union" is what the
   law would do, not a guess about likelihood.
-- The possibility is itself disputed: "Under the proposal, both
-  general-election candidates could belong to the same party" is a claim
-  about what the rules allow, and someone can argue it's false.
+- It says what rules or law allow, and that is itself disputed: "Under the
+  proposal, both general-election candidates could belong to the same
+  party" is a claim about the rules, and someone can argue it's false.
+  This covers only what the rules allow, not outcomes. "Minority-party
+  voters will have no one to vote for" stays definite, even though it
+  follows from what the rules allow.
 - It states an ability or existence claim that is the point: "An open
   primary can elect an independent legislator" argues that it has happened
   or that nothing prevents it.

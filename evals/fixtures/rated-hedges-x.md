@@ -1,0 +1,4 @@
+- 3 Massachusetts should replace party primaries with an all-party primary.
+  - +4 An all-party primary may increase turnout among unenrolled Massachusetts voters.
+  - +3 Massachusetts party conventions could block popular candidates from the primary ballot.
+  - -2 A top-two primary might leave Massachusetts minority-party voters with no candidate of their party in the general election.

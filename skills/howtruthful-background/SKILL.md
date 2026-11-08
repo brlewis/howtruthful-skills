@@ -1,6 +1,6 @@
 ---
 name: "howtruthful-background"
-description: "Use before any other howtruthful-* skill, or when asked about HowTruthful's statement graph, Pro/Con semantics, statement wording rules, or markdown import format."
+description: "Use before any other howtruthful-* skill, when turning a user's stated views into ratings, or when asked about HowTruthful's statement graph, Pro/Con semantics, statement wording rules, or markdown import format."
 ---
 
 # HowTruthful Background
@@ -180,6 +180,41 @@ debatable. This is consistent with how courts decide complex cases. First sort
 out what everyone is saying, then assess what's true after both sides' reasoning
 is all laid out.
 
+The ratings are the human's. An agent sets a rating in only two cases:
+transcribing the user's stated views (below), and a bare-URL citation it
+fetched (see Rating a bare-URL citation). A statement an agent adds starts
+at 3. Every rating already in a file is the human's work: carry it through
+unchanged when editing, improving, or merging the file. A rating belongs to
+the wording it was given for, so a rated statement (anything but 3) also
+keeps its wording, even where the no-hedges rule would restate it. List
+such a statement for the user instead of rewording it.
+
+### Transcribing stated views
+
+While discussing a tree, a user often says what they think is true: "the
+cost objections are fearmongering," "the point about the AG's certification
+is right." Offer to record such views as ratings, and apply them once the
+user accepts. If the user asks for this directly, apply them without
+offering.
+
+1. Map each view to the statements it covers. A sweeping view ("everything
+   about other states' laws is accurate") can cover many statements, and
+   deciding which ones it reaches is your judgment call. It's the only
+   judgment you make: the rating itself comes from the user's words, on the
+   scale 1 false, 2 dubious, 3 debatable, 4 plausible, 5 true, matching
+   the strength the user expressed.
+2. A view covers a statement's meaning, not its neighbors. A view on a
+   conclusion ("I'm voting yes on question 2") rates that conclusion alone:
+   each Pro and Con under it keeps its current rating, because the graph
+   exists to rate them separately. A statement no view reaches keeps its
+   current rating.
+3. Present each proposed rating with its statement and the user's words it
+   comes from, so the user can correct your mapping before accepting. When
+   applying a direct request, report the same list after writing.
+
+Done when every rating you changed traces to a quoted view, and every other
+rating is unchanged.
+
 ## The import format
 
 HowTruthful can import markdown files that represent a graph of statements.
@@ -234,11 +269,9 @@ citation: a tree still needs actual leaf nodes.
 
 ## Rating a bare-URL citation
 
-"Graph statements first, assess truthfulness later" (above) means an agent
-should never assign truthfulness ratings to ordinary statements — that
-judgment is a human's to make, and defaulting every statement to 3 is what
-keeps the map neutral. A bare-URL citation child is a narrow, mechanical
-exception: an agent that actually attempted to fetch the URL has direct,
+A bare-URL citation child is the one statement whose rating an agent
+judges for itself, as a narrow, mechanical exception to "the ratings are
+the human's" (above): an agent that actually attempted to fetch the URL has direct,
 first-hand evidence of one specific, non-debatable fact — whether the link
 resolves — and rating that fact isn't the same kind of judgment call the
 "assess truthfulness later" rule is protecting.

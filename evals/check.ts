@@ -10,6 +10,8 @@ export interface CheckSpec {
   mustNot?: string[];
   /** Transcript fixture that every `&t=` URL must be copied from. */
   transcript?: string;
+  /** Allow any 1-5 top-level rating, for cases that record the user's views. */
+  ratedRoots?: boolean;
 }
 
 export interface CheckResult {
@@ -40,6 +42,7 @@ function fail(result: CheckResult, rule: string, message: string) {
 export function parseStatements(
   markdown: string,
   result: CheckResult,
+  ratedRoots = false,
 ): Statement[] {
   const statements: Statement[] = [];
   let previousDepth = -1;
@@ -56,8 +59,11 @@ export function parseStatements(
     if (!Number.isInteger(depth) || depth > previousDepth + 1) {
       fail(result, "format", `line ${line} has bad indentation: ${raw}`);
     }
-    if (depth === 0 ? prefix !== "3" : !/^[+-][1-5]$/.test(prefix)) {
-      const wanted = depth === 0 ? "3" : "a sign and a number";
+    const root = ratedRoots ? /^[1-5]$/ : /^3$/;
+    if (!(depth === 0 ? root : /^[+-][1-5]$/).test(prefix)) {
+      const wanted = depth === 0
+        ? (ratedRoots ? "a number" : "3")
+        : "a sign and a number";
       fail(result, "format", `line ${line} should start with ${wanted}: ${raw}`);
     }
     statements.push({ line, depth, prefix, text: text.trim() });
@@ -73,7 +79,7 @@ export function checkOutput(
   transcriptText = "",
 ): CheckResult {
   const result: CheckResult = { failures: {}, warnings: {}, statements: 0 };
-  const statements = parseStatements(markdown, result);
+  const statements = parseStatements(markdown, result, spec.ratedRoots);
   result.statements = statements.length;
 
   for (const { line, text } of statements) {

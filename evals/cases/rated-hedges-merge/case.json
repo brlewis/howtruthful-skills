@@ -1,0 +1,16 @@
+{
+  "skill": "howtruthful-merge",
+  "tags": ["fast"],
+  "inputs": { "x.md": "fixture:rated-hedges-x.md", "y.md": "fixture:rated-hedges-y.md" },
+  "rules": ["signs"],
+  "judgeContext": {
+    "x.md": "fixture:rated-hedges-x.md",
+    "y.md": "fixture:rated-hedges-y.md"
+  },
+  "must": [
+    "+4 An all-party primary may increase turnout among unenrolled Massachusetts voters.",
+    "-2 A top-two primary might leave Massachusetts minority-party voters with no candidate of their party in the general election.",
+    "+5 Massachusetts party conventions keep candidates"
+  ],
+  "mustNot": ["could block", "may confuse"]
+}

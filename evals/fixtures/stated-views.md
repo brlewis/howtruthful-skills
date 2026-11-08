@@ -1,0 +1,9 @@
+- 3 One should vote yes on Massachusetts 2026 ballot question 1.
+  - +3 Massachusetts is one of only two states where both the Governor's office and the Legislature claim a blanket exemption from the public records law.
+  - +3 The Massachusetts Legislature exempted itself from the Massachusetts Public Records Law.
+  - +4 Massachusetts taxpayers have a right to see what their state government is doing with their tax dollars.
+  - +3 Massachusetts deserves open government.
+  - -3 Massachusetts 2026 ballot question 1 raises significant constitutional concerns.
+  - -3 Massachusetts 2026 ballot question 1 will impose substantial administrative burdens on the state.
+    - +3 Massachusetts state entities will need to reallocate staff and modify records management systems to comply with Massachusetts 2026 ballot question 1.
+    - +3 Compliance with Massachusetts 2026 ballot question 1 will divert resources from other core governmental functions.

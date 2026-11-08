@@ -30,6 +30,15 @@ Deno.test("format: empty output fails", () => {
   assertEquals(Object.keys(checkOutput("\n").failures), ["format"]);
 });
 
+Deno.test("format: ratedRoots allows a rated top level, still unsigned", () => {
+  const spec = { ratedRoots: true };
+  assertEquals(checkOutput("- 5 Top-level rated 5.", spec).failures, {});
+  assertEquals(
+    Object.keys(checkOutput("- +5 Top-level with a sign.", spec).failures),
+    ["format"],
+  );
+});
+
 Deno.test("format: wrong prefixes and indentation fail", () => {
   for (
     const bad of [

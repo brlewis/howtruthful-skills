@@ -117,6 +117,8 @@ statement counts as evidence against the match.
         and are then merged into that `x.md` node's existing children,
         recursively repeating this whole workflow with that node's children
         as the new local shortlist source.
+        The merged node keeps the `x.md` statement's rating. If the `y.md`
+        statement had a different one, list both in the report.
       - **Contradictory**: fold this statement's immediate children into
         the matched `x.md` statement with their signs flipped, but only the
         children that pass the background skill's `+3`/`-3` test against
@@ -150,22 +152,28 @@ statement counts as evidence against the match.
       became attached to (a merged `x.md` node, a flipped-in position, a new
       Pro/Con leaf, or its unmatched `y.md` parent) as their attachment
       point.
-3. Restate every hedged statement in the merged tree, whether it came from
-   `x.md` or `y.md`, in definite form per the howtruthful-background
+3. Restate every hedged statement rated 3 in the merged tree, whether it
+   came from `x.md` or `y.md`, in definite form per the howtruthful-background
    skill's no-hedges rule: "Coffee can disrupt sleep" becomes "Coffee
    disrupts sleep." Keep the modals that rule exempts. This is the one
    rewording this skill applies to `x.md`'s own statements, and it
    overrides the "unchanged" and "nothing reworded" wording in step 2.
+   A hedged statement with any other rating keeps its wording, per the
+   howtruthful-background skill's "the ratings are the human's" rule.
 4. Write the merged result to `x.md`. Every statement originally in `y.md`
-   must end up somewhere in the output — none silently dropped.
+   must end up somewhere in the output — none silently dropped. Every
+   statement keeps the rating it had in its source file (per the
+   howtruthful-background skill's "the ratings are the human's" rule),
+   including a statement whose sign flipped.
 5. Report a tally to the user, not the file: how many statements were merged
    as identical, folded in as contradictory, attached as candidate-Pro, and
    attached as Contrary-Con, plus how many were left as no-match/new
-   material. List the candidate-equivalent and contradictory attachments
-   specifically, since those carry the most inferential weight and are the
-   ones most worth a quick human look; plain Contrary attachments need no
-   such flag, since nothing about them was inferred beyond "this argues
-   against that."
+   material. List any rating conflicts from identical merges, and
+   every rated statement left hedged in step 3. List the
+   candidate-equivalent and contradictory attachments specifically, since
+   those carry the most inferential weight and are the ones most worth a
+   quick human look; plain Contrary attachments need no such flag, since
+   nothing about them was inferred beyond "this argues against that."
 
 ## Review Pass
 
@@ -185,8 +193,9 @@ Before returning, check:
   being attached on similarity alone?
 - Is every statement from `y.md` accounted for somewhere in the merged
   output?
-- Is any statement in the output, including one that was already in
-  `x.md`, still hedged ("can," "may," "could," "might") in a way the
+- Is any statement rated 3 in the output, including one that was already
+  in `x.md`, still hedged ("can," "may," "could," "might") in a way the
   no-hedges rule doesn't exempt?
+- Does every statement carry the rating it had in its source file?
 - Do any reworded statements still respect the 255-character limit (per
   the howtruthful-background skill)?

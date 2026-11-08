@@ -12,10 +12,10 @@ any other agent.
 |---|---|---|---|---|
 | `deno task test` | none | none | free | after changing the harness |
 | `deno task eval:quick --case <name>` | 1 you pick | 1 per version | ~$0.30–1 | everyday edits on a usage-limited plan |
-| `deno task eval:quick` | 7 fast | 1 per version | ~$2–4 | a broader cheap check |
-| `deno task eval` | 7 fast | 3 per version | ~$6–15 | before merging a SKILL.md change, budget permitting |
-| `deno task eval:full` | 9 (fast + slow) | 3 per version | up to $40 | before merging a SKILL.md trim |
-| `deno task eval:noise` | 7 fast | 3 per version | ~$6–15 | after changing the model, a rubric, or a case |
+| `deno task eval:quick` | 9 fast | 1 per version | ~$2–4 | a broader cheap check |
+| `deno task eval` | 9 fast | 3 per version | ~$6–15 | before merging a SKILL.md change, budget permitting |
+| `deno task eval:full` | 11 (fast + slow) | 3 per version | up to $40 | before merging a SKILL.md trim |
+| `deno task eval:noise` | 9 fast | 3 per version | ~$6–15 | after changing the model, a rubric, or a case |
 
 Costs are API-equivalent; on a subscription they come out of your usage limit,
 and the 3-run tasks can exhaust a smaller plan's limit in one go.
@@ -28,7 +28,8 @@ skill you changed:
 | Skill | Cases |
 |---|---|
 | howtruthful-ingestion | `sky-attrib`, `lhc-attrib`, `judge`, `youtube-ts`, `hedges` (`sky` is a smoke test only) |
-| howtruthful-merge | `coffee-merge` |
+| howtruthful-merge | `coffee-merge`, `rated-hedges-merge` |
+| howtruthful-background (ratings) | `stated-views` |
 | howtruthful-improvement | none yet |
 
 `--case` takes a glob, so `--case '*-attrib'` runs both attribution cases.

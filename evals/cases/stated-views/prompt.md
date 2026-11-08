@@ -1,0 +1,1 @@
+`tree.md` is my HowTruthful argument map. Having read it: I'm voting yes on question 1. All the administrative burden stuff is fearmongering. And what it says about which governments are exempt from the public records law is accurate. Record my views as ratings, and write the updated map to `output.md`.

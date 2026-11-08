@@ -1,0 +1,20 @@
+{
+  "skill": "howtruthful-background",
+  "tags": ["fast"],
+  "inputs": { "tree.md": "fixture:stated-views.md" },
+  "rules": [],
+  "ratedRoots": true,
+  "must": [
+    "+4 Massachusetts taxpayers have a right",
+    "+3 Massachusetts deserves open government",
+    "-3 Massachusetts 2026 ballot question 1 raises significant constitutional concerns"
+  ],
+  "mustNot": [
+    "- 3 One should vote yes",
+    "+3 Massachusetts is one of only two states",
+    "+3 The Massachusetts Legislature exempted itself",
+    "-3 Massachusetts 2026 ballot question 1 will impose",
+    "+3 Massachusetts state entities will need",
+    "+3 Compliance with Massachusetts 2026"
+  ]
+}

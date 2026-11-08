@@ -1,0 +1,3 @@
+- 3 Massachusetts should replace party primaries with an all-party primary.
+  - -3 An all-party primary may confuse voters about which candidates belong to which party.
+  - +5 Massachusetts party conventions keep candidates who receive less than 15% of delegate votes off the primary ballot.

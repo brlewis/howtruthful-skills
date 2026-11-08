@@ -69,8 +69,10 @@ reader for.
    that risk visible and disputable rather than silently baked in. Word the
    finding from the source's raw text, with a verbatim quote backing it,
    per Auditing Citations step 1 below.
-5. Keep every added statement, and any parent it's nested under, at rating
-   3 — this skill adds structure, not truthfulness judgments.
+5. Rate every added statement 3, and leave every existing statement's
+   rating as it is, per the howtruthful-background skill's "the ratings are
+   the human's" rule. This skill adds structure, not truthfulness
+   judgments.
 6. Write only markdown to the file itself; report what changed and why in
    your response to the user, not in the file.
 

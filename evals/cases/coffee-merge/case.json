@@ -2,7 +2,7 @@
   "skill": "howtruthful-merge",
   "tags": ["fast"],
   "inputs": { "x.md": "tag:examples/coffee-x.md", "y.md": "tag:examples/coffee-y.md" },
-  "rules": ["signs", "merge-placement"],
+  "rules": ["signs", "merge-placement", "no-hedges"],
   "judgeContext": {
     "x.md": "tag:examples/coffee-x.md",
     "y.md": "tag:examples/coffee-y.md",

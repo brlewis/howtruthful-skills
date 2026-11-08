@@ -1,0 +1,9 @@
+{
+  "skill": "howtruthful-ingestion",
+  "tags": ["fast"],
+  "inputs": { "input.txt": "fixture:hedges.txt" },
+  "rules": ["context-independent", "signs", "no-reporting-frames", "no-hedges"],
+  "judgeContext": { "Source text": "fixture:hedges.txt" },
+  "must": ["same party", "union"],
+  "mustNot": ["can take voters for granted", "might force", "may also increase", "may increase", "could leave", "Priya", "Dev:"]
+}

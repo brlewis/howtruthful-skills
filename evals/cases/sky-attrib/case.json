@@ -2,7 +2,7 @@
   "skill": "howtruthful-ingestion",
   "tags": ["fast"],
   "inputs": { "input.txt": "fixture:buses.txt" },
-  "rules": ["context-independent", "signs", "no-reporting-frames", "split-examples", "attribution"],
+  "rules": ["context-independent", "signs", "no-reporting-frames", "split-examples", "attribution", "no-hedges"],
   "judgeContext": { "Source text": "fixture:buses.txt" },
   "must": ["Maya", "Theo", "Dunkirk", "Tallinn", "Kansas City"]
 }

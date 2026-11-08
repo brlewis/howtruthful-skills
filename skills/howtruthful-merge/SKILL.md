@@ -74,6 +74,12 @@ statement counts as evidence against the match.
    just falls through to No match below, which is already the safe default
    when a statement's status is uncertain — so an imperfect pre-filter costs
    accuracy only at the margin, never causes a wrong classification.
+
+   Read a hedged statement in either file ("X can cause Y," "X may lead to
+   Y") as its definite form ("X will cause Y") per the
+   howtruthful-background skill's no-hedges rule, both when classifying and
+   when writing it to the output. Two statements that differ only by such a
+   hedge are identical.
 2. Walk `y.md`'s tree top-down, one root statement at a time. For each
    statement not yet placed:
    1. Take this statement's shortlist from step 1, plus — if its `y.md`
@@ -87,7 +93,7 @@ statement counts as evidence against the match.
         statement can be true — see Contrary vs. contradictory above. Use
         this only when confident no third possibility exists.
       - **Candidate-equivalent**: plausibly the same meaning as an `x.md`
-        statement, but not confidently identical (a hedge, a narrower or
+        statement, but not confidently identical (a qualifier, a narrower or
         broader scope, or genuine ambiguity about whether it's the same
         claim).
       - **Contrary**: counts as evidence against an `x.md` statement —

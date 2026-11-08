@@ -1,0 +1,6 @@
+---
+type: llm
+focus: {source: file, path: output.md}
+---
+
+Pass only if claims about outcomes are stated in definite form, such as "X will cause Y" or plain present or past tense, so that someone arguing the other side would rate the wording below 3. Fail if a claim is hedged with "can", "may", "might", "could", "possibly", "potentially", "risks", or "has the potential to" in a way that makes it true whenever its outcome is merely possible, or if a hedge was swapped for a vague one like "often", "sometimes", or "in some cases" without a frequency from the source. Don't fail these modals, which carry the claim: permission ("staff may form a union"), a possibility that is itself disputed ("both candidates could belong to the same party"), an ability or existence claim that is the point ("an open primary can elect an independent"), or an attribution child quoting what someone said.

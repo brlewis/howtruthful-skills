@@ -130,6 +130,48 @@ optionally its own bare-URL citation child (see below).
   evidence most heavily in reaching their decision" is irreducibly about
   that judge and doesn't need de-attributing.
 
+## Wording a claim: no hedges
+
+Readers rate each statement from 1 (false) to 5 (true). A hedge such as
+"can," "may," "might," "could," "possibly," "potentially," "risks," or "has
+the potential to" makes a statement true whenever its outcome is merely
+possible, so nobody can usefully rate it below 3. Like a reporting frame, a
+hedge swaps the claim for a trivially true one. The `+3`/`-3` sign already
+marks a claim as contested, so the wording doesn't have to.
+
+State the claim in the definite form someone arguing it would use: "will,"
+or plain present or past tense. "Legislators who run unopposed can take
+voters for granted and ignore important issues" becomes "Legislators who run
+unopposed will take voters for granted and ignore important issues," which a
+reader can rate anywhere from false to true. Don't swap one hedge for
+another: "often," "sometimes," and "in some cases" are just as weak. If the
+source gives a real frequency or size, use that number. Otherwise use the
+definite form. Never add a hedge the source didn't use: if the source says
+a proposal "leaves voters with no one to vote for," don't write "could
+leave." This isn't inventing beyond the source. It states the
+strongest version of the argument the source is making, which readers then
+rate.
+
+To tell a hedge from a modal that carries the claim, ask: would anyone
+arguing the other side rate this wording below 3? If not, it's a hedge.
+Keep the modal when:
+
+- It grants permission: "Public defenders may form a union" is what the
+  law would do, not a guess about likelihood.
+- It says what rules or law allow, and that is itself disputed: "Under the
+  proposal, both general-election candidates could belong to the same
+  party" is a claim about the rules, and someone can argue it's false.
+  This covers only what the rules allow, not outcomes. "Minority-party
+  voters will have no one to vote for" stays definite, even though it
+  follows from what the rules allow.
+- It states an ability or existence claim that is the point: "An open
+  primary can elect an independent legislator" argues that it has happened
+  or that nothing prevents it.
+- It's in an attribution child quoting the speaker: "The justices wrote
+  that the question may raise constitutional concerns" is rated on whether
+  they wrote it. Its parent still states the claim definitely: "The
+  question violates the separation of powers."
+
 ## Graph statements first, assess truthfulness later.
 
 HowTruthful lets humans rate statements' truthfulness on a simple 5-point scale,

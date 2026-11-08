@@ -63,6 +63,9 @@ moment of run-up.
    attribution back in, as a child leaf of the statement it attaches to, if the
    user specifically asks for it: 'with attribution' in the initial request, or
    'add attribution' in a subsequent request. See Example below.
+1. Restate hedged claims ("X can cause Y," "X may lead to Y") in definite
+   form ("X will cause Y") per the howtruthful-background skill's no-hedges
+   rule, keeping the modals that rule exempts.
 1. Preserve meaningful metaphors, quoted phrases, and terms of art when they
    carry argumentative meaning.
 1. Merge statements with identical meaning per the howtruthful-background
@@ -99,7 +102,7 @@ moment of run-up.
 - Prefix supporting child evidence with `+3`.
 - Prefix opposing child evidence with `-3`.
 - Place every child by the howtruthful-background skill's `+3`/`-3` test,
-  word every claim by its no-reporting-frames rule, and cite sources per
+  word every claim by its no-reporting-frames and no-hedges rules, and cite sources per
   its bare-URL and "<Source> found/says <finding>" rules.
 
 ## Review Pass
@@ -122,6 +125,11 @@ Before returning final output, silently check each child item:
   formal first-person document (a decision, report, or expert opinion)
   rather than a casual dialogue, since the frame reads like part of the
   substance rather than attribution to strip.
+- Is any claim hedged ("can," "may," "could," "might," "potentially") so
+  that it's true whenever its outcome is merely possible? Restate it in
+  definite form, unless it's one of the no-hedges rule's exceptions:
+  permission, a disputed possibility, an ability or existence claim that is
+  the point, or an attribution child quoting the speaker.
 - Are there any unsplit causal, consequential, or reasoning clauses (e.g.
   phrases containing 'because', 'so', 'therefore', 'since', 'implying', 'meaning
   that')?
@@ -130,7 +138,7 @@ Before returning final output, silently check each child item:
 - Has any meaningful causal phrase, metaphor, or implied intermediate claim been
   flattened away?
 - Has anything been invented beyond what is present in or strongly implied by
-  the input?
+  the input? Stating a hedged claim in definite form doesn't count.
 - Is every statement (excluding bare-URL citations) 255 characters or fewer?
   Split an overlong one per the howtruthful-background skill's guidance
   rather than trimming content.

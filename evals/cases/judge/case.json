@@ -2,7 +2,7 @@
   "skill": "howtruthful-ingestion",
   "tags": ["fast"],
   "inputs": { "input.txt": "fixture:arbitrator.txt" },
-  "rules": ["context-independent", "signs", "no-reporting-frames", "attribution"],
+  "rules": ["context-independent", "signs", "no-reporting-frames", "attribution", "no-hedges"],
   "judgeContext": { "Source text": "fixture:arbitrator.txt" },
   "must": ["overstated the hours"],
   "mustNot": ["I found", "I concluded"]

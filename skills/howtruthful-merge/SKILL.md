@@ -74,12 +74,6 @@ statement counts as evidence against the match.
    just falls through to No match below, which is already the safe default
    when a statement's status is uncertain — so an imperfect pre-filter costs
    accuracy only at the margin, never causes a wrong classification.
-
-   Read a hedged statement in either file ("X can cause Y," "X may lead to
-   Y") as its definite form ("X will cause Y") per the
-   howtruthful-background skill's no-hedges rule, both when classifying and
-   when writing it to the output. Two statements that differ only by such a
-   hedge are identical.
 2. Walk `y.md`'s tree top-down, one root statement at a time. For each
    statement not yet placed:
    1. Take this statement's shortlist from step 1, plus — if its `y.md`
@@ -88,7 +82,9 @@ statement counts as evidence against the match.
       likely candidates that step 1 couldn't have known about in advance.
    2. Classify the statement against its shortlist as exactly one of:
       - **Identical**: same meaning as an `x.md` statement, per the
-        identical-meaning rule in the howtruthful-background skill.
+        identical-meaning rule in the howtruthful-background skill. Two
+        statements that differ only by a hedge ("can cause" vs. "will
+        cause") are identical.
       - **Contradictory**: exactly one of this statement and an `x.md`
         statement can be true — see Contrary vs. contradictory above. Use
         this only when confident no third possibility exists.
@@ -154,9 +150,15 @@ statement counts as evidence against the match.
       became attached to (a merged `x.md` node, a flipped-in position, a new
       Pro/Con leaf, or its unmatched `y.md` parent) as their attachment
       point.
-3. Write the merged result to `x.md`. Every statement originally in `y.md`
+3. Restate every hedged statement in the merged tree, whether it came from
+   `x.md` or `y.md`, in definite form per the howtruthful-background
+   skill's no-hedges rule: "Coffee can disrupt sleep" becomes "Coffee
+   disrupts sleep." Keep the modals that rule exempts. This is the one
+   rewording this skill applies to `x.md`'s own statements, and it
+   overrides the "unchanged" and "nothing reworded" wording in step 2.
+4. Write the merged result to `x.md`. Every statement originally in `y.md`
    must end up somewhere in the output — none silently dropped.
-4. Report a tally to the user, not the file: how many statements were merged
+5. Report a tally to the user, not the file: how many statements were merged
    as identical, folded in as contradictory, attached as candidate-Pro, and
    attached as Contrary-Con, plus how many were left as no-match/new
    material. List the candidate-equivalent and contradictory attachments
@@ -183,5 +185,8 @@ Before returning, check:
   being attached on similarity alone?
 - Is every statement from `y.md` accounted for somewhere in the merged
   output?
+- Is any statement in the output, including one that was already in
+  `x.md`, still hedged ("can," "may," "could," "might") in a way the
+  no-hedges rule doesn't exempt?
 - Do any reworded statements still respect the 255-character limit (per
   the howtruthful-background skill)?

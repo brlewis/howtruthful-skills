@@ -1,0 +1,8 @@
+{
+  "skill": "howtruthful-ingestion",
+  "tags": ["fast"],
+  "inputs": { "transcript.tsv": "fixture:youtube-transcript.tsv" },
+  "rules": ["context-independent", "signs", "timestamp-placement"],
+  "judgeContext": { "Transcript": "fixture:youtube-transcript.tsv" },
+  "transcript": "fixture:youtube-transcript.tsv"
+}

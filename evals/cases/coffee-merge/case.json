@@ -1,0 +1,18 @@
+{
+  "skill": "howtruthful-merge",
+  "tags": ["fast"],
+  "inputs": { "x.md": "tag:examples/coffee-x.md", "y.md": "tag:examples/coffee-y.md" },
+  "rules": ["signs", "merge-placement"],
+  "judgeContext": {
+    "x.md": "tag:examples/coffee-x.md",
+    "y.md": "tag:examples/coffee-y.md",
+    "One acceptable answer, not something to match word for word": "tag:examples/coffee-merged.md"
+  },
+  "must": [
+    "Drinking coffee in moderation is good for health.",
+    "Coffee contains antioxidants that reduce cellular oxidative stress.",
+    "Chlorogenic acid",
+    "due to its acidity",
+    "Fair-trade cooperatives"
+  ]
+}

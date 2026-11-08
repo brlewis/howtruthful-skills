@@ -1,0 +1,4 @@
+- 3 The sky is blue.
+  - +3 The sky looks blue.
+  - -3 The sky is gray.
+    - +3 The sky is cloudy.

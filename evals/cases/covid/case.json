@@ -1,0 +1,10 @@
+{
+  "skill": "howtruthful-ingestion",
+  "tags": ["slow"],
+  "inputs": { "input.txt": "tag:examples/covid.txt" },
+  "rules": ["context-independent", "signs", "no-reporting-frames", "split-examples"],
+  "must": ["wet market"],
+  "mustNot": ["Peter:", "Saar:", "Yuri:"],
+  "maxTurns": 30,
+  "timeoutSeconds": 900
+}

@@ -1,0 +1,12 @@
+{
+  "skill": "howtruthful-ingestion",
+  "tags": ["fast"],
+  "inputs": { "input.txt": "tag:examples/sky.md" },
+  "rules": ["context-independent", "signs", "no-reporting-frames"],
+  "judgeContext": {
+    "Source text": "tag:examples/sky.md",
+    "One acceptable answer, not something to match word for word": "fixture:sky-reference.md"
+  },
+  "must": ["The sky is blue"],
+  "mustNot": ["Joe", "Carl"]
+}

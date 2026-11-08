@@ -1,5 +1,6 @@
 {
   "tasks": {
+    "eval:quick": "deno run --allow-all evals/run.ts --runs 1 --budget 3",
     "eval": "deno run --allow-all evals/run.ts",
     "eval:full": "deno run --allow-all evals/run.ts --full",
     "eval:noise": "deno run --allow-all evals/run.ts --noise",

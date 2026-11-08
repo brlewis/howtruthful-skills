@@ -8,5 +8,7 @@ relies on.
 `.agents/skills` and `.claude/skills` are symlinks to `skills/`, so agents
 working in this repo load the skills as you edit them.
 
-Any PR that changes a SKILL.md must include the comparison summary from
-`deno task eval` (`deno task eval:full` for a trim). See `evals/README.md`.
+Any PR that changes a SKILL.md must include an eval comparison summary. At
+minimum, run `deno task eval:quick --case <name>` for the changed skill's
+cases. Don't run `deno task eval`, `eval:full`, or `eval:noise` unless the user
+asks: they can use up the user's plan limit. See `evals/README.md`.

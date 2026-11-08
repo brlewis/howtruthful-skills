@@ -8,12 +8,35 @@ any other agent.
 
 ## Running
 
-| Task | Cases | Runs per case | When |
-|---|---|---|---|
-| `deno task eval` | 6 fast | 3 per version | everyday edits |
-| `deno task eval:full` | 8 (fast + slow) | 3 per version | before merging a SKILL.md trim |
-| `deno task eval:noise` | 6 fast | 3 per version | after changing the model, a rubric, or a case |
-| `deno task test` | none | none | after changing the harness; free |
+| Task | Cases | Runs per case | Approx. cost | When |
+|---|---|---|---|---|
+| `deno task test` | none | none | free | after changing the harness |
+| `deno task eval:quick --case <name>` | 1 you pick | 1 per version | ~$0.30–1 | everyday edits on a usage-limited plan |
+| `deno task eval:quick` | 6 fast | 1 per version | ~$2–3 | a broader cheap check |
+| `deno task eval` | 6 fast | 3 per version | ~$6–15 | before merging a SKILL.md change, budget permitting |
+| `deno task eval:full` | 8 (fast + slow) | 3 per version | up to $40 | before merging a SKILL.md trim |
+| `deno task eval:noise` | 6 fast | 3 per version | ~$6–15 | after changing the model, a rubric, or a case |
+
+Costs are API-equivalent; on a subscription they come out of your usage limit,
+and the 3-run tasks can exhaust a smaller plan's limit in one go.
+
+### Quick evals
+
+`eval:quick` is `eval` with `--runs 1` and a $3 cap. Pick the case for the
+skill you changed:
+
+| Skill | Cases |
+|---|---|
+| howtruthful-ingestion | `sky-attrib`, `lhc-attrib`, `judge`, `youtube-ts` (`sky` is a smoke test only) |
+| howtruthful-merge | `coffee-merge` |
+| howtruthful-improvement | none yet |
+
+`--case` takes a glob, so `--case '*-attrib'` runs both attribution cases.
+
+A single run is noisier than the 3-run averages `noise.json` was measured on.
+A new script-check failure is still a real regression, but treat a rubric
+regression from a quick eval as a reason to read the two `output.md` files, not
+as a verdict.
 
 The eval tasks need `claude` signed in, and the `flf-epistack-2026` tag, which
 the cases read their inputs from. They spend real money, up to the cap in

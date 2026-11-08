@@ -101,10 +101,10 @@ statement contains.
      JavaScript-rendered page, a blocked request), report the clauses as
      unverified, not supported.
    - This fetch is also the trigger for the howtruthful-background skill's
-     bare-URL rating exception: since the fetch was attempted, set the
-     citation's own rating (the number after its `+`/`-`) from 3 to whatever
-     the fetch outcome warrants, independently of whatever the
-     content-fidelity check below finds. A citation can be a verified,
+     bare-URL rating exception (its citation-ratings.md): since the fetch was
+     attempted, set the citation's own rating (the number after its `+`/`-`)
+     from 3 to whatever the fetch outcome warrants, independently of whatever
+     the content-fidelity check below finds. A citation can be a verified,
      reachable page (5) that still doesn't support its parent statement —
      those are separate questions.
 2. Watch especially for these mismatch patterns, since they read as
